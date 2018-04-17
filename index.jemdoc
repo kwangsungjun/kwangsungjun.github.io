@@ -1,0 +1,142 @@
+# jemdoc: menu{MENU}{index.html}
+# jemdoc: analytics{UA-106338466-1}
+#= jemdoc -- light markup
+= Kwang-Sung Jun -- UW-Madison
+#[http://deltakam.github.io/ Kwang-Sung Jun] 
+
+~~~
+{}{img_left}{./imgs/kwang-sung_jun_pic_2.jpg}{profile_pic}{240px}{HEIGHTpx}
+
+I am a post-doc supervised by Professors [http://nowak.ece.wisc.edu Robert Nowak], [http://willett.ece.wisc.edu/ Rebecca Willett], and [http://pages.cs.wisc.edu/~swright/ Stephen Wright] at UW-Madison [https://discovery.wisc.edu/ Wisconsin Institute for Discovery] under optimization theme. 
+I received my PhD in 2015 at University of Wisconsin-Madison, advised by [http://pages.cs.wisc.edu/~jerryzhu/ Xiaojin (Jerry) Zhu]. 
+I obtained a B.S. in computer science with a minor in mathematics from School of Computing, Soongsil University, South Korea. 
+
+# My research interest is mainly /(i)/ learning with limited feedback (*multi-armed bandit*); I also work on /(ii)/ machine learning for understanding humans and /(iii)/ online learning under changing environments.
+
+My research focuses on sequential decision-making in feedback loops (i.e., the multi-aremd bandit problem).
+I also work on online optimization and machine learning applied to psychology.
+
+
+{{<font color="red">
+<b>I am on the job market targeting to start in Fall 2018. Contact me!</b>
+</font>}}
+- E-mail: (kjun å† discovery dø† wisc dø† edu), 
+- [./data/kjun-cv-v17_1216.pdf CV], [./data/kjun-rs-v2.pdf Research Statement], [./data/kjun-ts.pdf Teaching Statement]
+- [https://scholar.google.com/citations?user=VgvC7o8AAAAJ&hl=en Google Scholar], [http://linkedin.com/in/kwangsungjun/ LinkedIn]
+~~~
+
+== Multi-Armed Bandit
+
+Multi-armed bandit is a /state-less/ version of the reinforcement learning (RL).
+However, bandits usually enjoy stronger theoretical guarantees and have abundant real-world applications.
+Informally speaking, bandits learn to make better decisions over time in a feedback-loop.
+The decisions necessarily affect the feedback information, and the feedback data collected so far is no longer i.i.d.; most traditional learning guarantees do not apply.
+
+Bandits are actively being studied in both [https://arxiv.org/abs/1204.5721 theory] and [http://rob.schapire.net/papers/www10.pdf applications] including [https://mwtds.azurewebsites.net/ deployable web service]. 
+Also, the cartoon caption contest of New Yorker is currently using a multi-armed bandit algorithm to efficiently crowdsource caption evaluations (read this [http://nextml.org/2015/12/04/new-yorker.html article])!
+
+== Selected Publications
+
+. *Online Learning for Changing Environments using Coin Betting*.{{</br>
+  <font color=c36241>Kwang-Sung Jun</font>}}, Francesco Orabona, Stephen Wright, Rebecca Willett.{{</br>}}
+  In Electronic Journal of Statistics (*EJS*), 2017.
+  [https://projecteuclid.org/euclid.ejs/1513306874 \[official\]]
+. *Scalable Generalized Linear Bandits: Online Computation and Hashing*.{{</br>
+   <font color=c36241>Kwang-Sung Jun</font>}}, Aniruddha Bhargava, Robert Nowak, Rebecca Willett.{{</br>}}
+  In Neural Information Processing Systems (*NIPS*), 2017.
+  [http://papers.nips.cc/paper/6615-scalable-generalized-linear-bandits-online-computation-and-hashing \[official\]]
+  [https://arxiv.org/abs/1706.00136 \[arxiv\]]
+. *Improved Strongly Adaptive Online Learning using Coin Betting*.{{</br>
+  <font color=c36241>Kwang-Sung Jun</font>}}, Francesco Orabona, Stephen Wright, Rebecca Willett.{{</br>}}
+  In International Conference on Artificial Intelligence and Statistics (*AISTATS*), 2017.  {{<font color="red"><b>Oral presentation</b></font>}}.
+  [http://proceedings.mlr.press/v54/jun17a.html \[official\]]
+  [https://arxiv.org/abs/1610.04578 \[arxiv\]]
+. *Graph-Based Active Learning: A New Look at Expected Error Minimization*. {{</br>
+  <font color=c36241>Kwang-Sung Jun</font>}} and Robert Nowak.{{</br>}}
+  In IEEE GlobalSIP Symposium on Non-Commutative Theory and Applications, 2016. 
+  [http://ieeexplore.ieee.org/document/7906056/ \[ieee\]][https://arxiv.org/abs/1609.00845 \[arxiv\]]
+. *Anytime Exploration for Multi-armed Bandits using Confidence Information*.{{</br>
+  <font color=c36241>Kwang-Sung Jun</font>}} and Robert Nowak.{{</br>}}
+  In International Conference on Machine Learning (*ICML*), 2016. 
+  [http://jmlr.org/proceedings/papers/v48/jun16.pdf \[pdf\]]
+. *Top arm identification in multi-armed bandits with batch arm pulls*. {{</br>
+  <font color=c36241>Kwang-Sung Jun</font>}}, Kevin Jamieson, Robert Nowak, Xiaojin Zhu.{{</br>}}
+  In International Conference on Artificial Intelligence and Statistics (*AISTATS*), 2016.
+  [http://jmlr.org/proceedings/papers/v51/jun16-supp.pdf \[pdf\]]
+. *Human memory search as initial-visit emitting random walk*. {{</br>
+  <font color=c36241>Kwang-Sung Jun</font>}}, Xiaojin Zhu, Timothy Rogers, Zhuoran Yang, Ming Yuan. {{</br>}}
+  In Neural Information Processing Systems (*NIPS*), 2015.
+  [http://pages.cs.wisc.edu/~jerryzhu/pub/out-rw-flag.pdf \[pdf\]]
+. *Learning from Human-Generated Lists*. {{</br>
+  <font color=c36241>Kwang-Sung Jun</font>}}, Xiaojin Zhu, Burr Settles, Timothy Rogers.{{</br>}} 
+  In International Conference on Machine Learning (*ICML*), 2013. 
+  [http://pages.cs.wisc.edu/~jerryzhu/pub/SWIRL.pdf  \[pdf\]]
+  [./data/swirl_code_data_v2.zip \[code&data\]] # TODO: let's ensure the data is here
+  [http://www.youtube.com/watch?v=V4TDynR2gPQ \[video\]]
+
+== Talks
+
+- 10/17: At [http://silo.ece.wisc.edu/web/ SILO], "Scalable Generalized Linear Bandits: Online Computation and Hashing". [http://silo.ece.wisc.edu/web/content/seminar/id/243 \[abstract\]]
+- 04/17: At [http://www.aistats.org/aistats2017//schedule.html AISTATS], "Improved Strongly Adaptive Online Learning using Coin Betting".
+- 06/16: At [http://cpcp.wisc.edu/ CPCP] Annual Retreat, "Multi-Armed Bandit Algorithms and Applications to Experiment Selection". [http://cpcp.wisc.edu/resources/cpcp-retreat-2016-multi-armed-bandit-algorithms-and-applications-to-experiment-selection-kwang-sung-jun-6-30-2016 \[abstract & video\]]
+- 03/16: At [http://silo.ece.wisc.edu/web/ SILO], "Top Arm Identification in Multi-Armed Bandits with Batch Arm Pulls". [http://silo.ece.wisc.edu/web/content/seminar/id/198 \[abstract & video\]]
+- 03/16: At [http://eng.ssu.ac.kr/web/eng/edu_a_01_07_a Soongsil University], two talks on human memory search.
+- 06/16: At [http://icml.cc/2016/ ICML], "Anytime Exploration for Multi-armed Bandits using Confidence Information". [http://techtalks.tv/talks/anytime-exploration-for-multi-armed-bandits-using-confidence-information/62425/ \[video\]]
+- 11/15: At HAMLET (interdisciplinary seminar series at UW-Madison), "Measuring semantic structure from verbal fluency data with the initial-visit-emitting (INVITE) random walk".
+- 03/15: At [http://www.ttic.edu/ TTIC], "Learning from Human-Generated Lists".
+- 06/13: At [http://icml.cc/2013/?page_id=47 ICML], "Learning from Human-Generated Lists". [http://techtalks.tv/talks/learning-from-human-generated-lists/58261/ \[video\]]
+
+
+== Services
+- Program Committee / Reviewer: IEEE Transactions on Signal Processing, AISTATS'18, AAAI'18, NIPS'17, ICML'17, COLT'17 (subreviewer), AISTATS'17, ICML'16.
+
+
+# # jemdoc: menu{MENU}{index.html}, showsource
+# = jemdoc -- light markup
+# [https://jemnz.com/ Jacob Mattingley] ([www@jemnz.com])
+# 
+# jemdoc is a light text-based markup language designed for creating 
+# websites. It takes a text file written with [example.html jemdoc markup], an
+# optional configuration file and an optional menu file, and makes static websites
+# that look something like this one, [https://jemnz.com that one] or
+# [http://www.stanford.edu/class/ee364a/ another one].
+# 
+# jemdoc was inspired by [http://www.methods.co.nz/asciidoc/ AsciiDoc], which is a
+# text document format. AsciiDoc is great, and lots of the ideas from AsciiDoc are
+# copied in jemdoc. The main differences are that jemdoc is simpler (you could say
+# deliberately feature poor) and has more consistent syntax.
+# 
+# [download.html Download jemdoc.]
+# 
+# ~~~
+# Version +0.7.3+ was released on 2012-11-27 with some small bug fixes.
+# See the [revision.html release notes].
+# ~~~
+# 
+# [https://github.com/jem/jemdoc Contribute to jemdoc on github.]
+# 
+# == Goals
+# - Simple, consistent syntax.
+# - $\mbox{\LaTeX}$ [latex.html equation support].
+# - [tables.html Table support].
+# - Portability. The (single) jemdoc [http://www.python.org/ Python] file \+
+#   single css file \+ your input file {{&rarr;}} html.
+# - Based on [http://www.w3.org/Style/CSS/ CSS] so formatting specifics are
+#   independent of jemdoc.
+# - Production of clean,
+#   [http://validator.w3.org/check/referer
+#   standards-compliant] [http://www.w3.org/TR/xhtml11/ XHTML 1.1].
+# - Minimal bells and whistles, but simple fallback to raw html if required.
+# 
+# == License
+# Copyright \C 2007--2012 Jacob Mattingley.
+# 
+# jemdoc is free software; you can redistribute it and\/or modify it under the
+# terms of the [http://www.gnu.org/licenses/gpl-3.0.html GNU General Public
+# License] as published by the Free Software Foundation; either version 3 of the
+# License, or (at your option) any later version.
+# 
+# jemdoc is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the [http://www.gnu.org/licenses/gpl-3.0.html GNU
+# General Public License] for more details.
