@@ -18,8 +18,9 @@ table#tlayout {
 /*    font-family: 'Open Sans', sans-serif;*/
 /*    font-family: 'Open Sans'; */
 /*    font-family: 'Lato', sans-serif;*/
-    font-family: 'Lato', sans-serif;
-    font-size: 96%;
+    font-family: 'Verdana', sans-serif;
+    font-size: 88%;
+    text-align: justify;
     color: #303030;
 }
 
@@ -28,6 +29,7 @@ body {
 	font-family: Georgia, serif;
 	padding-bottom: 8px;
 	margin: 0; 
+  text-align: justify;
 }
 
 #layout-menu {
@@ -56,7 +58,7 @@ body {
     background: white;
     text-align: left;
     vertical-align: top;
-    max-width: 840px;
+    max-width: 740px;
 }
 
 #layout-menu a {
@@ -168,6 +170,7 @@ p {
 	margin-bottom: 0.8em;
 	padding: 0;
 	line-height: 1.3;
+  text-align: justify;
 }
 
 pre {
