@@ -2,11 +2,18 @@
 # jemdoc: analytics{UA-106338466-1}
 = Publications
 
+. *Adversarial Attacks on Stochastic Bandits*.{{</br>
+  <font color=c36241>Kwang-Sung Jun</font>}}, Lihong Li, Yuzhe Ma, Xiaojin Zhu.{{</br>}}
+  In Neural Information Processing Systems (*NIPS*), 2018.
+  [https://arxiv.org/abs/1810.12188 \[arxiv\]]
+. *Data Poisoning Attacks in Contextual Bandits*.{{</br>}}
+  Yuzhe Ma, {{<font color=c36241>Kwang-Sung Jun</font>}}, Lihong Li, Xiaojin Zhu.{{</br>}}
+  In Conference on Decision and Game Theory for Security (GameSec), 2018.
+  [https://arxiv.org/abs/1808.05760 \[arxiv\]]
 . *Bayesian Active Learning on Graphs*.{{</br>
   <font color=c36241>Kwang-Sung Jun</font>}}, Robert Nowak.{{</br>}} 
   In Cooperative and Graph Signal Processing, Petar Djuric and Cedric Richard, Eds., Elsevier, 2018.
   [https://www.elsevier.com/books/cooperative-and-graph-signal-processing/djuric/978-0-12-813677-5 \[official\]]
-# C. Eksin, B. Swenson, S. Kar, and A. Ribeiro, "Game theoretic learning," in Cooperative and Graph Signal Processing, Petar Djuric and Cedric Richard, Eds., Elsevier, 2018.-->
 . *Online Learning for Changing Environments using Coin Betting*.{{</br>
   <font color=c36241>Kwang-Sung Jun</font>}}, Francesco Orabona, Stephen Wright, Rebecca Willett.{{</br>}}
   Electronic Journal of Statistics (*EJS*), 2017.
