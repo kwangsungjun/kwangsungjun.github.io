@@ -2,6 +2,14 @@
 # jemdoc: analytics{UA-106338466-1}
 = Publications
 
+. *Parameter-free Online Convex Optimization with Sub-Exponential Noise*.{{</br>
+  <font color=c36241>Kwang-Sung Jun</font>}}, Francesco Orabona.{{</br>}}
+  2019.
+  [https://arxiv.org/abs/1902.01500 \[arxiv\]]
+. *Bilinear Bandits with Low-rank Structure*.{{</br>
+  <font color=c36241>Kwang-Sung Jun</font>}}, Rebecca Willett, Stephen Wright, Robert Nowak.{{</br>}}
+  2019.
+  [https://arxiv.org/abs/1901.02470 \[arxiv\]]
 . *Adversarial Attacks on Stochastic Bandits*.{{</br>
   <font color=c36241>Kwang-Sung Jun</font>}}, Lihong Li, Yuzhe Ma, Xiaojin Zhu.{{</br>}}
   In Neural Information Processing Systems (*NIPS*), 2018.
