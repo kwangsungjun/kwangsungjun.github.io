@@ -17,7 +17,7 @@
   [http://papers.nips.cc/paper/7622-adversarial-attacks-on-stochastic-bandits \[official\]]
 . *Data Poisoning Attacks in Contextual Bandits*.{{</br>}}
   Yuzhe Ma, {{<font color=c36241>Kwang-Sung Jun</font>}}, Lihong Li, Xiaojin Zhu.{{</br>}}
-  In Conference on Decision and Game Theory for Security (GameSec), 2018.
+  In Conference on Decision and Game Theory for Security (*GameSec*), 2018.
   [https://arxiv.org/abs/1808.05760 \[arxiv\]]
   [https://link.springer.com/chapter/10.1007/978-3-030-01554-1_11 \[official\]]
 . *Bayesian Active Learning on Graphs*.{{</br>
@@ -70,7 +70,7 @@
   <font color=c36241>Kwang-Sung Jun</font>}}, Xiaojin Zhu, Burr Settles, and Timothy Rogers.{{</br>}} 
   In International Conference on Machine Learning (*ICML*), 2013. 
   [http://pages.cs.wisc.edu/~jerryzhu/pub/SWIRL.pdf  \[pdf\]]
-  [./data/swirl_code_data_v2.zip \[code&data\]] # TODO: let's ensure the data is here
+  [./data/swirl_code_data_v2.zip \[code&data\]] 
   [http://www.youtube.com/watch?v=V4TDynR2gPQ \[video\]]
 . *An Image-To-Speech iPad App*. {{</br>}}
   Michael Maynord, Jitrapon Tiachunpun, Xiaojin Zhu, Charles R. Dyer, {{<font color=c36241>Kwang-Sung Jun</font>}}, and Jake Rosin. {{</br>}}
