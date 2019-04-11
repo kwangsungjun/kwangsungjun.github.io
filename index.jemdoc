@@ -1,9 +1,11 @@
 # jemdoc: menu{MENU}{index.html}
 # jemdoc: analytics{UA-106338466-1}
 #= jemdoc -- light markup
-= Kwang-Sung Jun -- UW-Madison
+=    
 #[http://kwangsungjun.github.io/ Kwang-Sung Jun] 
 
+# {{</br>}}
+# {{</br>}}
 ~~~
 {}{img_left}{./imgs/kwang-sung_jun_pic_2.jpg}{profile_pic}{240px}{HEIGHTpx}
 
