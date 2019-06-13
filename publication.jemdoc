@@ -9,6 +9,7 @@
 . *Bilinear Bandits with Low-rank Structure*.{{</br>
   <font color=c36241>Kwang-Sung Jun</font>}}, Rebecca Willett, Stephen Wright, Robert Nowak.{{</br>}}
   In International Conference on Machine Learning (*ICML*), 2019.
+  [http://proceedings.mlr.press/v97/jun19a.html \[official\]]
   [https://arxiv.org/abs/1901.02470 \[arxiv\]][https://github.com/kwangsungjun/lrbandit \[code\]]
 . *Adversarial Attacks on Stochastic Bandits*.{{</br>
   <font color=c36241>Kwang-Sung Jun</font>}}, Lihong Li, Yuzhe Ma, Xiaojin Zhu.{{</br>}}
