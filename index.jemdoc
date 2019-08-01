@@ -9,25 +9,16 @@
 ~~~
 {}{img_left}{./imgs/kwang-sung_jun_pic_2.jpg}{profile_pic}{240px}{HEIGHTpx}
 
-I am a postdoc with [http://francesco.orabona.com/ Francesco Orabona] at Boston University. 
-In Fall 2019, I will join Computer Science Department at the University of Arizona as an assistant professor.
+I am an assistant professor at Computer Science Department at the University of Arizona.
+My research focuses on sequential decision-making in feedback loops (i.e., the multi-armed bandit problem).
+I also work on online optimization and had some fun in the past with machine learning applied to psychology.  
 
-I was previously a postdoc with [http://nowak.ece.wisc.edu Robert Nowak], [http://willett.ece.wisc.edu/ Rebecca Willett], and [http://pages.cs.wisc.edu/~swright/ Stephen Wright] at UW-Madison [https://discovery.wisc.edu/ Wisconsin Institute for Discovery] under optimization theme. 
-I received my PhD in 2015 at University of Wisconsin-Madison, advised by [http://pages.cs.wisc.edu/~jerryzhu/ Xiaojin (Jerry) Zhu]. 
+I was previously a postdoc with [http://francesco.orabona.com/ Francesco Orabona] at Boston University as a "prebatical". 
+Before then, I spent 9 years at UW-Madison [https://discovery.wisc.edu/ Wisconsin Institute for Discovery] doing a postdoc with [http://nowak.ece.wisc.edu Robert Nowak], [http://willett.ece.wisc.edu/ Rebecca Willett], and [http://pages.cs.wisc.edu/~swright/ Stephen Wright], and a PhD degree with [http://pages.cs.wisc.edu/~jerryzhu/ Xiaojin (Jerry) Zhu]. 
 I obtained a B.S. in computer science with a minor in mathematics from School of Computing, Soongsil University, South Korea. 
 
-My research focuses on sequential decision-making in feedback loops (i.e., the multi-armed bandit problem).
-I also work on online optimization and machine learning applied to psychology.  
-
 - E-mail: (kjun å† cs ∂ø† arizona ∂ø† edu), 
-# - [./data/kjun-cv-v17_1216.pdf CV], [./data/kjun-rs-v2.pdf Research Statement], [./data/kjun-ts.pdf Teaching Statement]
 ~~~
-# - [https://scholar.google.com/citations?user=VgvC7o8AAAAJ&hl=en Google Scholar], [http://linkedin.com/in/kwangsungjun/ LinkedIn]
-
-# {{<font color="red">
-# <b>I am on the job market targeting to start in Fall 2018. Contact me!</b>
-# </font>}}
-
 == Multi-Armed Bandit
 
 Multi-armed bandit is a /state-less/ version of the reinforcement learning (RL).
@@ -36,46 +27,8 @@ Informally speaking, bandits learn to make better decisions over time in a feedb
 The decisions necessarily affect the feedback information, and the feedback data collected so far is no longer i.i.d.; most traditional learning guarantees do not apply.
 
 Bandits are actively being studied in both [https://arxiv.org/abs/1204.5721 theory] and [http://rob.schapire.net/papers/www10.pdf applications] including [https://mwtds.azurewebsites.net/ deployable web service]. 
-Also, the cartoon caption contest of New Yorker is currently using a multi-armed bandit algorithm to efficiently crowdsource caption evaluations (read this [http://nextml.org/2015/12/04/new-yorker.html article])!
+Also, the cartoon caption contest of New Yorker is currently using a multi-armed bandit algorithm to efficiently crowdsource caption evaluations ([http://nextml.org/2015/12/04/new-yorker.html this article])!
 
-# == Selected Publications
-# 
-# . *Online Learning for Changing Environments using Coin Betting*.{{</br>
-#   <font color=c36241>Kwang-Sung Jun</font>}}, Francesco Orabona, Stephen Wright, Rebecca Willett.{{</br>}}
-#   In Electronic Journal of Statistics (*EJS*), 2017.
-#   [https://projecteuclid.org/euclid.ejs/1513306874 \[official\]]
-# . *Scalable Generalized Linear Bandits: Online Computation and Hashing*.{{</br>
-#    <font color=c36241>Kwang-Sung Jun</font>}}, Aniruddha Bhargava, Robert Nowak, Rebecca Willett.{{</br>}}
-#   In Neural Information Processing Systems (*NIPS*), 2017.
-#   [http://papers.nips.cc/paper/6615-scalable-generalized-linear-bandits-online-computation-and-hashing \[official\]]
-#   [https://arxiv.org/abs/1706.00136 \[arxiv\]]
-# . *Improved Strongly Adaptive Online Learning using Coin Betting*.{{</br>
-#   <font color=c36241>Kwang-Sung Jun</font>}}, Francesco Orabona, Stephen Wright, Rebecca Willett.{{</br>}}
-#   In International Conference on Artificial Intelligence and Statistics (*AISTATS*), 2017.  {{<font color="red"><b>Oral presentation</b></font>}}.
-#   [http://proceedings.mlr.press/v54/jun17a.html \[official\]]
-#   [https://arxiv.org/abs/1610.04578 \[arxiv\]]
-# . *Graph-Based Active Learning: A New Look at Expected Error Minimization*. {{</br>
-#   <font color=c36241>Kwang-Sung Jun</font>}} and Robert Nowak.{{</br>}}
-#   In IEEE GlobalSIP Symposium on Non-Commutative Theory and Applications, 2016. 
-#   [http://ieeexplore.ieee.org/document/7906056/ \[ieee\]][https://arxiv.org/abs/1609.00845 \[arxiv\]]
-# . *Anytime Exploration for Multi-armed Bandits using Confidence Information*.{{</br>
-#   <font color=c36241>Kwang-Sung Jun</font>}} and Robert Nowak.{{</br>}}
-#   In International Conference on Machine Learning (*ICML*), 2016. 
-#   [http://jmlr.org/proceedings/papers/v48/jun16.pdf \[pdf\]]
-# . *Top arm identification in multi-armed bandits with batch arm pulls*. {{</br>
-#   <font color=c36241>Kwang-Sung Jun</font>}}, Kevin Jamieson, Robert Nowak, Xiaojin Zhu.{{</br>}}
-#   In International Conference on Artificial Intelligence and Statistics (*AISTATS*), 2016.
-#   [http://jmlr.org/proceedings/papers/v51/jun16-supp.pdf \[pdf\]]
-# . *Human memory search as initial-visit emitting random walk*. {{</br>
-#   <font color=c36241>Kwang-Sung Jun</font>}}, Xiaojin Zhu, Timothy Rogers, Zhuoran Yang, Ming Yuan. {{</br>}}
-#   In Neural Information Processing Systems (*NIPS*), 2015.
-#   [http://pages.cs.wisc.edu/~jerryzhu/pub/out-rw-flag.pdf \[pdf\]]
-# . *Learning from Human-Generated Lists*. {{</br>
-#   <font color=c36241>Kwang-Sung Jun</font>}}, Xiaojin Zhu, Burr Settles, Timothy Rogers.{{</br>}} 
-#   In International Conference on Machine Learning (*ICML*), 2013. 
-#   [http://pages.cs.wisc.edu/~jerryzhu/pub/SWIRL.pdf  \[pdf\]]
-#   [./data/swirl_code_data_v2.zip \[code&data\]] # TODO: let's ensure the data is here
-#   [http://www.youtube.com/watch?v=V4TDynR2gPQ \[video\]]
 
 == Talks
 
