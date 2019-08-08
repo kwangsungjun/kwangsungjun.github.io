@@ -19,7 +19,8 @@ I obtained a B.S. in computer science with a minor in mathematics from School of
 
 - E-mail: (kjun å† cs ∂ø† arizona ∂ø† edu), 
 ~~~
-== Multi-Armed Bandit
+
+== multi-armed bandit
 
 Multi-armed bandit is a /state-less/ version of the reinforcement learning (RL).
 However, bandits usually enjoy stronger theoretical guarantees and have abundant real-world applications.
@@ -30,7 +31,7 @@ Bandits are actively being studied in both [https://arxiv.org/abs/1204.5721 theo
 Also, the cartoon caption contest of New Yorker is currently using a multi-armed bandit algorithm to efficiently crowdsource caption evaluations ([http://nextml.org/2015/12/04/new-yorker.html this article])!
 
 
-== Talks
+== talks
 
 - 10/17: At [http://silo.ece.wisc.edu/web/ SILO], "Scalable Generalized Linear Bandits: Online Computation and Hashing". [http://silo.ece.wisc.edu/web/content/seminar/id/243 \[abstract\]]
 - 04/17: At [http://www.aistats.org/aistats2017//schedule.html AISTATS], "Improved Strongly Adaptive Online Learning using Coin Betting".
@@ -43,7 +44,7 @@ Also, the cartoon caption contest of New Yorker is currently using a multi-armed
 - 06/13: At [http://icml.cc/2013/?page_id=47 ICML], "Learning from Human-Generated Lists". [http://techtalks.tv/talks/learning-from-human-generated-lists/58261/ \[video\]]
 
 
-== Services
+== services
 - Program Committee / Reviewer: COLT'19 (subreviewer), IJCAI'19, NIPS'19, IEEE Transactions on Signal Processing, ICML'19, AISTATS'19 ,NIPS'18, AISTATS'18, AAAI'18, NIPS'17, ICML'17, COLT'17 (subreviewer), AISTATS'17, ICML'16.
 
 

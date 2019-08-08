@@ -9,6 +9,43 @@
 @import url('https://fonts.googleapis.com/css?family=Patua+One');
 @import url('https://fonts.googleapis.com/css?family=PT+Serif');
 @import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
+
+
+:root {
+  --base03-hic: #051721;
+  --base02-hic: #08212e;
+  --base00-hic: #688795;
+  --base0-hic: #9cb2b5;
+  --base1-hic: #b4c5c5;
+  --base3-hic: #FFFFFF;
+  --blue-hic: #0D8EE9;
+  --orange-hic: #E03C00;
+
+  /* thoughtful colors */
+  --tf-yellow: #ECD078;
+  --tf-yellow-light: #FCE088;
+  --tf-orange: #D95B43;
+  --tf-orange-dark: #A92B13;
+  --tf-red: #C02A41;
+  --tf-plum: #542436;
+  --tf-green: #52777A;
+  --tf-green-medium: #72979A;
+  --tf-green-light: #A2C7CA;
+
+  --global-background: var(--base3-hic);
+  --content-background: var(--base3-hic);
+  --menu-background: var(--tf-green-light);
+
+  --content-text: var(--base02-hic);
+  --menu-text: var(--tf-plum);
+
+  --menu-current-link: var(--tf-red);
+  --links: var(--blue-hic);
+  --heading: var(--tf-orange);
+
+  --link-underline: var(--base00-hic);
+}
+
 table#tlayout {
     border: none;
     border-collapse: separate;
@@ -169,7 +206,7 @@ p {
 	margin-top: 0.0em;
 	margin-bottom: 0.8em;
 	padding: 0;
-	line-height: 1.3;
+	line-height: 1.4;
   text-align: justify;
 }
 
@@ -386,4 +423,51 @@ img {
 table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
+}
+
+/***********************************************************************/
+/* custom */
+/***********************************************************************/
+
+::selection {
+  background: var(--tf-yellow-light); /* WebKit/Blink Browsers */
+}
+
+a:link, a:visited, a:hover, a:active{
+  color: var(--tf-green-medium);
+}
+
+#layout-menu a:link, #layout-menu a:visited, #layout-menu a:hover, #layout-menu a:active {
+  color: var(--tf-green-light);
+}
+
+/* visited link */
+
+#layout-menu a.current:link, #layout-menu a.current:visited {
+	color: var(--menu-current-link);
+	border-bottom: 0px var(--tf-orange) solid;
+}
+#layout-menu a:link, #layout-menu a:visited, #layout-menu a:hover {
+  color: var(--menu-text);
+/*	text-decoration: none;*/
+}
+
+h1, h2, h3 {
+	color: var(--heading);
+}
+
+#layout-menu {
+	background: var(--menu-background);
+	border: 0px solid #dddddd;
+}
+
+div.menu-category {
+	border-bottom: 0px solid gray;
+	margin-top: 0.8em;
+	padding-top: 0.2em;
+	padding-bottom: 0.1em;
+/*	font-weight: bold; */
+	font-size: 120%;
+	font-weight: plain;
+  color: var(--menu-current-link);
 }
