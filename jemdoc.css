@@ -31,12 +31,13 @@
   --tf-green: #52777A;
   --tf-green-medium: #72979A;
   --tf-green-light: #A2C7CA;
+  --tf-green-verylight: #cae6e8;
   --tf-green-verydark: #05120f;
 /*  --tf-green-dark: #AAAAAA; */
 
   --global-background: var(--base3-hic);
   --content-background: var(--base3-hic);
-  --menu-background: var(--tf-green-light);
+  --menu-background: var(--tf-green-verylight);
 
   --content-text: var(--tf-green-verydark);
   --menu-text: var(--tf-plum);
