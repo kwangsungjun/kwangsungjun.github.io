@@ -23,7 +23,7 @@
 
   /* thoughtful colors */
   --tf-yellow: #ECD078;
-  --tf-yellow-light: #FCE088;
+  --tf-yellow-light: #f7e6b0;
   --tf-orange: #D95B43;
   --tf-orange-dark: #A92B13;
   --tf-red: #C02A41;
@@ -31,12 +31,14 @@
   --tf-green: #52777A;
   --tf-green-medium: #72979A;
   --tf-green-light: #A2C7CA;
+  --tf-green-verydark: #05120f;
+/*  --tf-green-dark: #AAAAAA; */
 
   --global-background: var(--base3-hic);
   --content-background: var(--base3-hic);
   --menu-background: var(--tf-green-light);
 
-  --content-text: var(--base02-hic);
+  --content-text: var(--tf-green-verydark);
   --menu-text: var(--tf-plum);
 
   --menu-current-link: var(--tf-red);
@@ -67,6 +69,8 @@ body {
 	padding-bottom: 8px;
 	margin: 0; 
   text-align: justify;
+	line-height: 1.4;
+  color: var(--content-text);
 }
 
 #layout-menu {
@@ -175,7 +179,7 @@ strong {
 
 
 h1, h2, h3 {
-	color: #527bbd;
+	color: var(--tf-orange);
 	margin-top: 0.7em;
 	margin-bottom: 0.3em;
 	padding-bottom: 0.2em;
@@ -206,8 +210,8 @@ p {
 	margin-top: 0.0em;
 	margin-bottom: 0.8em;
 	padding: 0;
-	line-height: 1.4;
   text-align: justify;
+  color: var(--content-text);
 }
 
 pre {
