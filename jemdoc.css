@@ -32,6 +32,7 @@
   --tf-green-medium: #72979A;
   --tf-green-light: #A2C7CA;
   --tf-green-verylight: #cae6e8;
+  --tf-green-veryverylight: #f4fcff;
   --tf-green-verydark: #05120f;
 /*  --tf-green-dark: #AAAAAA; */
 
@@ -58,14 +59,16 @@ table#tlayout {
 /*    font-family: 'Open Sans', sans-serif;*/
 /*    font-family: 'Open Sans'; */
 /*    font-family: 'Lato', sans-serif;*/
-    font-family: 'Verdana', sans-serif;
+    font-family: 'Verdana', sans-serif; 
+/*    font-family: 'Open Sans', sans-serif; */
     font-size: 88%;
     text-align: justify;
     color: #303030;
 }
 
 body {
-	background: white;
+/*	background: white;*/
+	background: var(--tf-green-veryverylight);
 	font-family: Georgia, serif;
 	padding-bottom: 8px;
 	margin: 0; 
@@ -76,7 +79,8 @@ body {
 
 #layout-menu {
 	background: #f6f6f6;
-	border: 1px solid #dddddd;
+/*	border: 0px solid #dddddd;*/
+	border: none
 	padding-top: 0.5em;
 	padding-left: 8px;
 	padding-right: 8px;
