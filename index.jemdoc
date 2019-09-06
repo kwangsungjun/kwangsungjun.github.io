@@ -13,13 +13,17 @@ I am an assistant professor at Computer Science Department at the University of 
 My research focuses on sequential decision-making in feedback loops (i.e., the multi-armed bandit problem).
 I also work on online optimization and had some fun in the past with machine learning applied to psychology.  
 
-I was previously a postdoc with [http://francesco.orabona.com/ Francesco Orabona] at Boston University as a "prebatical". 
-Before then, I spent 9 years at UW-Madison [https://discovery.wisc.edu/ Wisconsin Institute for Discovery] doing a postdoc with [http://nowak.ece.wisc.edu Robert Nowak], [http://willett.ece.wisc.edu/ Rebecca Willett], and [http://pages.cs.wisc.edu/~swright/ Stephen Wright], and a PhD degree with [http://pages.cs.wisc.edu/~jerryzhu/ Xiaojin (Jerry) Zhu]. 
-I obtained a B.S. in computer science with a minor in mathematics from School of Computing, Soongsil University, South Korea. 
-
+- [https://scholar.google.com/citations?user=VgvC7o8AAAAJ&hl=en Google scholar], [./data/kjun-cv.pdf CV]
 - E-mail: (kjun å† cs ∂ø† arizona ∂ø† edu), 
 - Address: 746 Gould-Simpson, 1040 E. 4th St., Tucson, AZ 85721, USA.
+
+{{<font color=D95B43><b>I am actively recruiting PhD students. Email me! </b></font>}}
 ~~~
+
+I was previously a postdoc with [http://francesco.orabona.com/ Francesco Orabona] at Boston University as a "prebatical". 
+Before then, I spent 9 years at UW-Madison [https://discovery.wisc.edu/ Wisconsin Institute for Discovery] doing a postdoc with [http://nowak.ece.wisc.edu Robert Nowak], [http://willett.ece.wisc.edu/ Rebecca Willett], and [http://pages.cs.wisc.edu/~swright/ Stephen Wright], and a PhD degree with [http://pages.cs.wisc.edu/~jerryzhu/ Xiaojin (Jerry) Zhu]. 
+
+
 
 == multi-armed bandit
 
@@ -33,7 +37,9 @@ Also, the cartoon caption contest of New Yorker is currently using a multi-armed
 
 
 == talks
-
+- 07/19: At Microsoft New England, "Accelerating discovery rate in adaptive experiments via bandits with low-rank structure".
+- 04/19: At the U of Arizona, "Accelerating discovery rate in adaptive experiments via bandits with low-rank structure".
+- 10/18: At Open AIR: Industry Open House, Boston University, "Adapting to changing environments in online learning".
 - 10/17: At [http://silo.ece.wisc.edu/web/ SILO], "Scalable Generalized Linear Bandits: Online Computation and Hashing". [http://silo.ece.wisc.edu/web/content/seminar/id/243 \[abstract\]]
 - 04/17: At [http://www.aistats.org/aistats2017//schedule.html AISTATS], "Improved Strongly Adaptive Online Learning using Coin Betting".
 - 06/16: At [http://cpcp.wisc.edu/ CPCP] Annual Retreat, "Multi-Armed Bandit Algorithms and Applications to Experiment Selection". [http://cpcp.wisc.edu/resources/cpcp-retreat-2016-multi-armed-bandit-algorithms-and-applications-to-experiment-selection-kwang-sung-jun-6-30-2016 \[abstract & video\]]

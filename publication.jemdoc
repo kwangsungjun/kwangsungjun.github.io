@@ -2,6 +2,10 @@
 # jemdoc: analytics{UA-106338466-1}
 = publications
 
+. *Kernel Truncated Randomized Ridge Regression: Optimal Rates and Low Noise Acceleration*.{{</br>
+  <font color=A92B13>Kwang-Sung Jun</font>}}, Ashok Cutkosky, Francesco Orabona.{{</br>}}
+  In Neural Information Processing Systems (*NeurIPS*), 2019.
+  [https://arxiv.org/abs/1905.10680 \[arxiv\]]
 . *Parameter-Free Online Convex Optimization with Sub-Exponential Noise*.{{</br>
   <font color=A92B13>Kwang-Sung Jun</font>}}, Francesco Orabona.{{</br>}}
   In Conference on Learning Theory (*COLT*), 2019.
@@ -14,7 +18,7 @@
   [https://arxiv.org/abs/1901.02470 \[arxiv\]][https://github.com/kwangsungjun/lrbandit \[code\]]
 . *Adversarial Attacks on Stochastic Bandits*.{{</br>
   <font color=a92b13>Kwang-Sung Jun</font>}}, Lihong Li, Yuzhe Ma, Xiaojin Zhu.{{</br>}}
-  In Neural Information Processing Systems (*NIPS*), 2018.
+  In Neural Information Processing Systems (*NeurIPS*), 2018.
   [https://arxiv.org/abs/1810.12188 \[arxiv\]]
   [http://papers.nips.cc/paper/7622-adversarial-attacks-on-stochastic-bandits \[official\]]
 . *Data Poisoning Attacks in Contextual Bandits*.{{</br>}}
@@ -32,12 +36,12 @@
   [https://projecteuclid.org/euclid.ejs/1513306874 \[official\]]
 . *Scalable Generalized Linear Bandits: Online Computation and Hashing*.{{</br>
    <font color=a92b13>Kwang-Sung Jun</font>}}, Aniruddha Bhargava, Robert Nowak, and Rebecca Willett.{{</br>}}
-  In Neural Information Processing Systems (*NIPS*), 2017.
+  In Neural Information Processing Systems (*NeurIPS*), 2017.
   [http://papers.nips.cc/paper/6615-scalable-generalized-linear-bandits-online-computation-and-hashing \[official\]]
   [https://arxiv.org/abs/1706.00136 \[arxiv\]]
 . *Identifying Multiple Authors in a Binary Program*.{{</br>}}
   Xiaozhu Meng, Barton P. Miller, and {{<font color=a92b13>Kwang-Sung Jun</font>}}. {{</br>}}
-  In European Symposium on Research in Computer Security (ESORICS),  2017.
+  In European Symposium on Research in Computer Security (*ESORICS*),  2017.
 . *Improved Strongly Adaptive Online Learning using Coin Betting*.{{</br>
   <font color=a92b13>Kwang-Sung Jun</font>}}, Francesco Orabona, Stephen Wright, Rebecca Willett.{{</br>}}
   In International Conference on Artificial Intelligence and Statistics (*AISTATS*), 2017.  {{<font color=C02A41><b>Oral presentation</b></font>}}.
@@ -50,7 +54,7 @@
   [https://arxiv.org/abs/1609.00845 \[arxiv\]]
 . *U-INVITE: Estimating Individual Semantic Networks from Fluency Data*.{{</br>}}
   Jeffrey Zemla, Yoed Kenett, {{<font color=a92b13>Kwang-Sung Jun</font>}}, and Joseph Austerweil. {{</br>}}
-  In Proceedings of the Annual Meeting of the Cognitive Science Society, 2016.
+  In Proceedings of the Annual Meeting of the Cognitive Science Society (*CogSci*), 2016.
   [https://alab.psych.wisc.edu/papers/files/Zemlaetal2016.pdf \[pdf\]]
 . *Anytime Exploration for Multi-armed Bandits using Confidence Information*.{{</br>
   <font color=a92b13>Kwang-Sung Jun</font>}} and Robert Nowak.{{</br>}}
@@ -62,7 +66,7 @@
   [http://jmlr.org/proceedings/papers/v51/jun16-supp.pdf \[pdf\]]
 . *Human memory search as initial-visit emitting random walk*. {{</br>
   <font color=a92b13>Kwang-Sung Jun</font>}}, Xiaojin Zhu, Timothy Rogers, Zhuoran Yang, and Ming Yuan. {{</br>}}
-  In Neural Information Processing Systems (*NIPS*), 2015.
+  In Neural Information Processing Systems (*NeurIPS*), 2015.
   [http://pages.cs.wisc.edu/~jerryzhu/pub/out-rw-flag.pdf \[pdf\]]
 . *Smarter Crisis Crowdsourcing*. {{</br>}} 
   Kayla Jacobs, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Nathan Lieby, and Elena Eneva. {{</br>}}
@@ -83,7 +87,7 @@
   [http://pages.cs.wisc.edu/~jerryzhu/pub/naaclhlt2012.pdf \[pdf\]]
 . *With a little help from the computer: Hybrid human-machine systems on bandit problems*.{{</br>}} 
   Bryan Gibson, {{<font color=a92b13>Kwang-Sung Jun</font>}}, and Xiaojin Zhu. {{</br>}}
-  In NIPS Workshop on Computational Social Science and the Wisdom of Crowds, 2010. 
+  In NeurIPS Workshop on Computational Social Science and the Wisdom of Crowds, 2010. 
   [https://people.cs.umass.edu/~wallach/workshops/nips2010css/papers/gibson.pdf \[pdf\]]
 . *Cognitive models of test-item effects in human category learning*.{{</br>}} 
   Xiaojin Zhu, Bryan R. Gibson, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Timothy T. Rogers, Joseph Harrison, and Chuck Kalish. {{</br>}}
