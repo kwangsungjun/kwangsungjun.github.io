@@ -2,7 +2,6 @@
 # jemdoc: analytics{UA-106338466-1}
 #= jemdoc -- light markup
 =    
-#[http://kwangsungjun.github.io/ Kwang-Sung Jun] 
 
 # {{</br>}}
 # {{</br>}}
@@ -10,8 +9,8 @@
 {}{img_left}{./imgs/kwang-sung_jun_pic_2.jpg}{profile_pic}{240px}{HEIGHTpx}
 
 I am an assistant professor at Computer Science Department at the University of Arizona.
-My research focuses on sequential decision-making in feedback loops (i.e., the multi-armed bandit problem).
-I also work on online optimization and had some fun in the past with machine learning applied to psychology.  
+My research focuses on sequential decision-making in feedback loops (i.e., the multi-armed bandit problem) and online learning.
+I also had some fun in the past with machine learning applied to psychology.  
 
 - [https://scholar.google.com/citations?user=VgvC7o8AAAAJ&hl=en Google scholar], [./data/kjun-cv.pdf CV]
 - E-mail: (kjun å† cs ∂ø† arizona ∂ø† edu), 
@@ -23,7 +22,11 @@ I also work on online optimization and had some fun in the past with machine lea
 I was previously a postdoc with [http://francesco.orabona.com/ Francesco Orabona] at Boston University.
 Before then, I spent 9 years at UW-Madison [https://discovery.wisc.edu/ Wisconsin Institute for Discovery], which includes a postdoc position with [http://nowak.ece.wisc.edu Robert Nowak], [http://willett.ece.wisc.edu/ Rebecca Willett], and [http://pages.cs.wisc.edu/~swright/ Stephen Wright] and a PhD degree with [http://pages.cs.wisc.edu/~jerryzhu/ Xiaojin (Jerry) Zhu]. 
 
+== news
 
+- 10\/19: Chicheng Zhang, Jason Pacheco, and I are organizing a [https://sites.google.com/view/ua-mlrg/ machine learning reading group] at UA.
+- 10\/19: Our paper on kernel regression paper is accepted at NeurIPS'19.
+- 10\/19: Our paper on parameter-free SGD with local differential privacy is accepted to PriML'19 (worshop at NeurIPS).
 
 == multi-armed bandit
 
@@ -55,6 +58,7 @@ Also, the cartoon caption contest of New Yorker is currently using a multi-armed
 
 
 == services
+
 - Program Committee / Reviewer: AISTATS'20 reviewer, AAAI'20 Area Chair, ICML'19, COLT'19 (subreviewer), IJCAI'19, NeurIPS'19, IEEE Transactions on Signal Processing, ICML'19, AISTATS'19 ,NeurIPS'18, AISTATS'18, AAAI'18, NeurIPS'17, ICML'17, COLT'17 (subreviewer), AISTATS'17, ICML'16.
 
 
