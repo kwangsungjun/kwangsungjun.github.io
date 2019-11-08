@@ -5,22 +5,35 @@
 
 # {{</br>}}
 # {{</br>}}
+# I am an assistant professor at Computer Science Department at the University of Arizona.
+# My research focuses on sequential decision-making in feedback loops (i.e., the multi-armed bandit problem) and online learning.
+# I also had some fun in the past with machine learning applied to psychology.  
+# 
+# - [https://scholar.google.com/citations?user=VgvC7o8AAAAJ&hl=en Google scholar], [./data/kjun-cv.pdf CV]
+# - E-mail: (kjun å† cs ∂ø† arizona ∂ø† edu), 
+# - Address: 746 Gould-Simpson, 1040 E. 4th St., Tucson, AZ 85721, USA.
+# 
 ~~~
 {}{img_left}{./imgs/kwang-sung_jun_pic_2.jpg}{profile_pic}{240px}{HEIGHTpx}
 
-I am an assistant professor at Computer Science Department at the University of Arizona.
-My research focuses on sequential decision-making in feedback loops (i.e., the multi-armed bandit problem) and online learning.
-I also had some fun in the past with machine learning applied to psychology.  
+Assistant Professsor{{</br>}}
+Computer Science Department{{</br>}}
+University of Arizona{{</br>}}
 
-- [https://scholar.google.com/citations?user=VgvC7o8AAAAJ&hl=en Google scholar], [./data/kjun-cv.pdf CV]
-- E-mail: (kjun å† cs ∂ø† arizona ∂ø† edu), 
-- Address: 746 Gould-Simpson, 1040 E. 4th St., Tucson, AZ 85721, USA.
+kjun å† cs ∂ø† arizona ∂ø† edu{{</br>}}
+746 Gould-Simpson, 1040 E. 4th St., Tucson, AZ 85721, USA {{</br>}}
+[https://scholar.google.com/citations?user=VgvC7o8AAAAJ&hl=en Google scholar]{{</br>}}
+[./data/kjun-cv.pdf CV]
 
-{{<font color=D95B43><b>I am actively recruiting PhD students. Email me! </b></font>}}
 ~~~
 
+{{<font color=D95B43><b>I am actively recruiting PhD students. Email me! </b></font>}}
+
+My research is centered around sequential decision-making in feedback loops (i.e., the multi-armed bandit problem) and online learning.
+I also had some fun in the past with machine learning applied to psychology.  
 I was previously a postdoc with [http://francesco.orabona.com/ Francesco Orabona] at Boston University.
-Before then, I spent 9 years at UW-Madison [https://discovery.wisc.edu/ Wisconsin Institute for Discovery], which includes a postdoc position with [http://nowak.ece.wisc.edu Robert Nowak], [http://willett.ece.wisc.edu/ Rebecca Willett], and [http://pages.cs.wisc.edu/~swright/ Stephen Wright] and a PhD degree with [http://pages.cs.wisc.edu/~jerryzhu/ Xiaojin (Jerry) Zhu]. 
+Before then, I spent 9 years at UW-Madison for a PhD degree with [http://pages.cs.wisc.edu/~jerryzhu/ Xiaojin (Jerry) Zhu] and a postdoc position at [https://discovery.wisc.edu/ Wisconsin Institute for Discovery] with [http://nowak.ece.wisc.edu Robert Nowak], [http://willett.ece.wisc.edu/ Rebecca Willett], and [http://pages.cs.wisc.edu/~swright/ Stephen Wright].
+
 
 == news
 
