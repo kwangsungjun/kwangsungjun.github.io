@@ -104,7 +104,7 @@ body {
     background: white;
     text-align: left;
     vertical-align: top;
-    max-width: 740px;
+    width: 740px;
 }
 
 #layout-menu a {
