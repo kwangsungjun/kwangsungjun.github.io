@@ -1,0 +1,211 @@
+<!doctype html>
+<html >
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--[if lt IE 9]>
+                <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+        <![endif]-->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+
+  <link rel="stylesheet" type="text/css" href="/templates/pandoc-bootstrap-adaptive-template/tufte.css" />
+
+   <link href="https://vjs.zencdn.net/5.4.4/video-js.css" rel="stylesheet" />
+
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type='text/javascript' src='/templates/pandoc-bootstrap-adaptive-template/menu/js/jquery.cookie.js'></script>
+<script type='text/javascript' src='/templates/pandoc-bootstrap-adaptive-template/menu/js/jquery.hoverIntent.minified.js'></script>
+<script type='text/javascript' src='/templates/pandoc-bootstrap-adaptive-template/menu/js/jquery.dcjqaccordion.2.7.min.js'></script>
+
+<link href="/templates/pandoc-bootstrap-adaptive-template/menu/css/skins/blue.css" rel="stylesheet" type="text/css" />
+<link href="/templates/pandoc-bootstrap-adaptive-template/menu/css/skins/graphite.css" rel="stylesheet" type="text/css" />
+<link href="/templates/pandoc-bootstrap-adaptive-template/menu/css/skins/grey.css" rel="stylesheet" type="text/css" />
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+  <script src="/templates/pandoc-bootstrap-adaptive-template/script.js"></script>
+
+    <script src="/bower_components/sticky-kit/jquery.sticky-kit.js "></script>
+  <meta name="generator" content="pandoc" />
+  <title>CSC 665 Spring 2020: Project</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="bootstrap.css" />
+</head>
+<body>
+
+<!--
+    <div class="navbar navbar-static-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <span class="doc-title">CSC 665 Spring 2020: Project</span>
+        <ul class="nav pull-right doc-info">
+                            </ul>
+      </div>
+    </div>
+  </div>
+  -->
+  <div class="container">
+    <div class="row">
+            <div class="span12">
+            <nav class="navbar navbar-default">
+              <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="index.html">CSC 665</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                    <li><a href="schedule.html">Schedule</a></li>
+                    <li><a href="syllabus.html">Syllabus</a></li>
+                    <!--        <li><a href="project.html">Project</a></li>-->
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+            </nav>
+            <h3 id="csc-665-section-2-machine-learning-theory-project">CSC 665 Section 2: Machine Learning Theory: Project</h3>
+            <h4 id="general-information">General information</h4>
+            <p>(This is adapted from <a href="https://cseweb.ucsd.edu/classes/fa12/cse291-b/projectinfo.html">project guidelines of Kamalika Chaudhuri’s Machine Learning Theory course</a>)</p>
+            <p>You can choose to do one of the following types of projects:</p>
+            <ul>
+            <li><p><strong>Literature survey.</strong> You need to choose a topic (see below for some ideas) and read more than 6 papers on this topic. Be sure to select papers judiciously, so that you can capture both classical ideas and state-of-the-art approaches. Sometimes the <em>Introduction</em> and <em>Related Work</em> sections of recent papers will help you find most relevant papers. When you are in doubt whether a paper is worth reading, come to my office hour and we can figure this out. It is important to make sure you read the papers <em>critically</em>, and form your opinions on the papers you read: What are the pros and cons of existing approaches? (This is best summarized by a table, for example.) What are the major open problems in this area?</p></li>
+            <li><p><strong>Implementation.</strong> You are asked to conduct experiments on deploying theoretically principled learning algorithms onto synthetic or real data. If you choose to implement an algorithm from a paper that does not have theorem statements (or ‘trivial’ theorems with straightforward proofs), this may not be a good fit for this course. In addition, we ask that your experiment must be used to support theoretical results obtained in the paper. You are expected to conduct critical analyses on your experimental results, by answering questions such as: how well do the experimental results agree with the proposed theory? If the results do not agree well with the theory, which assumption in the theory are violated? You should also provide a list of dataset you are going to use.</p></li>
+            <li><p><strong>Research.</strong> Research project can have two styles: first, attack an existing open problem in the literature; second, formulate a new (theoretically interesting and practically relevant) problem and proposes a feasible solution. Completing a research project naturally requires a thorough literature survey in the first place - you need to ensure that your approach or model has never been proposed in prior works. <em>Note that a research project may require substantially larger amount of time compared to the first two project types, so I suggest you be careful with this choice if you already have a heavy workload this semester.</em> The upside of a research project is that your work may result in publications.</p></li>
+            </ul>
+            <h4 id="project-timelines">Project timelines</h4>
+            <ul>
+            <li><strong>Project Proposal.</strong> Due Oct 24.</li>
+            <li><strong>Midterm Progress Report.</strong> Due Nov 14.</li>
+            <li><strong>Final Presentation.</strong> On Dec 5 and Dec 10.</li>
+            <li><strong>Final Report.</strong> Due Dec 10.</li>
+            </ul>
+            <h4 id="suggested-topics">Suggested topics</h4>
+            <p>Below is a far-from-complete list of research topics in machine learning theory. Please also refer to <a href="http://proceedings.mlr.press/v97/">ICML</a>, <a href="http://proceedings.mlr.press/v99/">COLT</a>, <a href="https://papers.nips.cc/">NeurIPS</a> proceedings page for more ideas. There are similar courses that also offer relevant project ideas that may inspire you: * <a href="http://alekhagarwal.net/bandits_and_rl/#view3">Bandits and RL by Alekh Agarwal and Alex Slivkins</a> * <a href="http://www.cs.cmu.edu/~avrim/ML07/projects.html">Foundations of Machine Learning and Data Science by Nina Balcan and Avrim Blum</a> * <a href="https://nanjiang.cs.illinois.edu/cs598project/">Statistical Reinforcement Learning by Nan Jiang</a> * <a href="https://haipeng-luo.net/courses/CSCI699/project.html">Introduction to Online Learning by Haipeng Luo</a></p>
+            <h5 id="active-learning">Active learning</h5>
+            <ul>
+            <li>M.F. Balcan, A. Beygelzimer, J. Langford. Agnostic active learning. ICML 2006.</li>
+            <li>Sanjoy Dasgupta, Daniel J. Hsu, Claire Monteleoni. A general agnostic active learning algorithm. NIPS 2007.</li>
+            <li>S. Hanneke. Theory of Disagreement-Based Active Learning. Foundations and Trends in Machine Learning. 2014.</li>
+            <li>M.F. Balcan and P. Long. Active and Passive Learning of Linear Separators under Log-concave Distributions. COLT 2013.</li>
+            <li>Chicheng Zhang and Kamalika Chaudhuri. Beyond Disagreement-Based Agnostic Active Learning.</li>
+            <li>Tzu-Kuo Huang, Alekh Agarwal, Daniel J. Hsu, John Langford, Robert E. Schapire. Efficient and Parsimonious Agnostic Active Learning. NIPS 2015.</li>
+            <li>Akshay Krishnamurthy, Alekh Agarwal, Tzu-Kuo Huang, Hal Daume III, John Langford. Active Learning for Cost-Sensitive Classification. ICML 2017.</li>
+            <li>Mina Karzand, Robert D. Nowak. Active Learning in the Overparameterized and Interpolating Regime. 2019.</li>
+            </ul>
+            <h5 id="adversarial-robustness">Adversarial robustness</h5>
+            <ul>
+            <li>Robustness of classifiers: from adversarial to random noise. Alhussein Fawzi, Seyed-Mohsen Moosavi-Dezfooli, Pascal Frossard. NIPS 2016.</li>
+            <li>Aleksander Madry, Aleksandar Makelov, Ludwig Schmidt, Dimitris Tsipras, Adrian Vladu. Towards Deep Learning Models Resistant to Adversarial Attacks. ICLR 2018.</li>
+            <li>Aditi Raghunathan, Jacob Steinhardt, Percy Liang. Certified Defenses against Adversarial Examples. ICLR 2018.</li>
+            <li>Yizhen Wang, Somesh Jha, Kamalika Chaudhuri. Analyzing the Robustness of Nearest Neighbors to Adversarial Examples. ICML 2018.</li>
+            <li>Sébastien Bubeck, Eric Price, Ilya Razenshteyn. Adversarial examples from computational constraints. NeurIPS 2018.</li>
+            <li>Daniel Cullina, Arjun Nitin Bhagoji, Prateek Mittal. PAC-learning in the presence of evasion adversaries. NeurIPS 2018.</li>
+            <li>Saeed Mahloujifa and Mohammad Mahmoody. Can Adversarially Robust Learning Leverage Computational Hardness? ALT 2019.</li>
+            <li>Omar Montasser, Steve Hanneke, Nathan Srebro. VC Classes are Adversarially Robustly Learnable, but Only Improperly. COLT 2019.</li>
+            </ul>
+            <h5 id="apprenticeship-learning-and-inverse-reinforcement-learning">Apprenticeship Learning and Inverse Reinforcement Learning</h5>
+            <ul>
+            <li>Pieter Abbeel and Andrew Y. Ng. Apprenticeship Learning via Inverse Reinforcement Learning. ICML 2004.</li>
+            <li>Brian D. Ziebart, Andrew Maas, J.Andrew Bagnell, Anind K. Dey. Maximum Entropy Inverse Reinforcement Learning. AAAI 2008.</li>
+            <li>Brian D. Ziebart, J.Andrew Bagnell, Anind K. Dey. Modeling Interaction via the Principle of Maximum Causal Entropy. ICML 2010.</li>
+            <li>Umar Syed and Robert E. Schapire. A Game-Theoretic Approach to Apprenticeship Learning. NIPS 2007.</li>
+            <li>Alekh Agarwal, Ashwinkumar Badanidiyuru, Miroslav Dudik, Robert Schapire, Aleksandrs Slivkins, Miro Dudík. Robust Multi-objective Learning with Mentor Feedback. COLT 2014.</li>
+            <li>Jonathan Ho, Stefano Ermon. Generative Adversarial Imitation Learning. NIPS 2016.</li>
+            <li>Kareem Amin, Nan Jiang, Satinder Singh. Repeated Inverse Reinforcement Learning. NIPS 2017.</li>
+            </ul>
+            <h5 id="contextual-bandits">Contextual Bandits</h5>
+            <ul>
+            <li>John Langford and Tong Zhang The Epoch-Greedy Algorithm for Contextual Multi-armed Bandits. NIPS 2007.</li>
+            <li>Alekh Agarwal, Miroslav Dudik, Satyen Kale, and John Langford, Contextual Bandit Learning with Predictable Rewards, AISTATS 2012.</li>
+            <li>Miroslav Dudik, Daniel Hsu, Satyen Kale, Nikos Karampatziakis, John Langford, Lev Reyzin, and Tong Zhang, Efficient Optimal Learning for Contextual Bandits, UAI 2011.</li>
+            <li>Alekh Agarwal, Daniel Hsu, Satyen Kale, John Langford, Lihong Li, Robert E. Schapire. Taming the Monster: A Fast and Simple Algorithm for Contextual Bandits. ICML 2014.</li>
+            <li>Dylan J. Foster, Alekh Agarwal, Miroslav Dudík, Haipeng Luo, Robert E. Schapire. Practical Contextual Bandits with Regression Oracles. ICML 2018.</li>
+            <li>Dylan J. Foster, Akshay Krishnamurthy. Contextual bandits with surrogate losses: Margin bounds and efficient algorithms. NeurIPS 2018.</li>
+            <li>Akshay Krishnamurthy, John Langford, Aleksandrs Slivkins, Chicheng Zhang. Contextual Bandits with Continuous Actions: Smoothing, Zooming, and Adapting. COLT 2019.</li>
+            </ul>
+            <h5 id="continuum-armed-bandits">Continuum-armed Bandits</h5>
+            <ul>
+            <li>Robert Kleinberg. Nearly Tight Bounds for the Continuum-ArmedBandit Problem. NIPS 2004.</li>
+            <li>Robert Kleinberg, Aleksandrs Slivkins, Eli Upfal. Multi-Armed Bandits in Metric Spaces. STOC 2008.</li>
+            <li>Sébastien Bubeck, Rémi Munos, Gilles Stoltz, Csaba Szepesvari. X-armed Bandits. JMLR 2011.</li>
+            <li>Rémi Munos. From Bandits to Monte-Carlo Tree Search: The Optimistic Principle Applied to Optimization and Planning. Foundations and Trends in Machine Learning. 2014.</li>
+            <li>Andrea Locatelli, Alexandra Carpentier. Adaptivity to Smoothness in X-armed bandits. COLT 2018.</li>
+            <li>Hedi Hadiji. Polynomial Cost of Adaptation for X-Armed Bandits. NeurIPS 2019.</li>
+            </ul>
+            <h5 id="implicit-regularization">Implicit regularization</h5>
+            <ul>
+            <li>Daniel Soudry, Elad Hoffer, Mor Shpigel Nacson, Suriya Gunasekar, Nathan Srebro. The Implicit Bias of Gradient Descent on Separable Data. JMLR 2018.</li>
+            <li>Ziwei Ji, Matus Telgarsky. The implicit bias of gradient descent on nonseparable data. COLT 2019.</li>
+            <li>Yuanzhi Li, Tengyu Ma, and Hongyang Zhang. Algorithmic Regularization in Over-parameterized Matrix Sensingand Neural Networks with Quadratic Activations. COLT 2018.</li>
+            </ul>
+            <h5 id="interactive-imitation-learning">Interactive Imitation Learning</h5>
+            <ul>
+            <li>Hal Daumé III, John Langford, Daniel Marcu. Search-based Structured Prediction. Machine Learning Journal 2009.</li>
+            <li>Stephane Ross, Geoffrey J. Gordon, J. Andrew Bagnell. A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning. AISTATS 2011.</li>
+            <li>Stephane Ross, J. Andrew Bagnell. Reinforcement and Imitation Learning via Interactive No-Regret Learning. NIPS 2014.</li>
+            <li>Wen Sun, Arun Venkatraman, Geoffrey J. Gordon, Byron Boots, J. Andrew Bagnell. Deeply AggreVaTeD: differentiable imitation learning for sequential prediction. ICML 2017.</li>
+            <li>Convergence of Value Aggregation for Imitation Learning. Ching-An Cheng and Byron Boots. NIPS 2017.</li>
+            <li>Wen Sun, Anirudh Vemula, Byron Boots, J. Andrew Bagnell. Provably Efficient Imitation Learning from Observation Alone. ICML 2019.</li>
+            </ul>
+            <h5 id="learning-under-fairness-constraints">Learning under Fairness Constraints</h5>
+            <ul>
+            <li>Cynthia Dwork, Moritz Hardt, Toniann Pitassi, Omer Reingold and Richard Zemel. Fairness Through Awareness. ITCS 2012.</li>
+            <li>Moritz Hardt, Eric Price, Nathan Srebro. Equality of Opportunity in Supervised Learning. NIPS 2016.</li>
+            <li>Alekh Agarwal, Alina Beygelzimer, Miroslav Dudík, John Langford, Hanna Wallach. A Reductions Approach to Fair Classification. ICML 2018.</li>
+            <li>Michael Kearns, Seth Neel, Aaron Roth, Zhiwei Steven Wu. Preventing Fairness Gerrymandering: Auditing and Learning for Subgroup Fairness. ICML 2018.</li>
+            </ul>
+            <h5 id="machine-teaching-data-poisoning">Machine teaching / data poisoning</h5>
+            <ul>
+            <li>Jacob Steinhardt, Pang Wei Koh and Percy Liang. Certified Defenses for Data Poisoning Attacks. NIPS 2017.</li>
+            <li>Adversarial Attacks on Stochastic Bandits. Kwang-Sung Jun, Lihong Li, Yuzhe Ma, Xiaojin Zhu. NeurIPS 2018.</li>
+            <li>Sanjoy Dasgupta, Daniel Hsu, Stefanos Poulis, Xiaojin Zhu. Teaching a black-box learner. ICML 2019.</li>
+            <li>Xuezhou Zhang, Xiaojin Zhu, Laurent Lessard. Online Data Poisoning Attack. 2019.</li>
+            <li>Yizhen Wang, Kamalika Chaudhuri. An Investigation of Data Poisoning Defenses for Online Learning. 2019.</li>
+            </ul>
+            <h5 id="overparameterization-neural-network-learning">Overparameterization / neural network learning</h5>
+            <ul>
+            <li>Roi Livni, Shai Shalev-Shwartz, Ohad Shamir. On the Computational Efficiency of Training Neural Networks. NIPS 2014.</li>
+            <li>Shai Shalev-Shwartz, Ohad Shamir, Shaked Shammah. Failures of gradient-based deep learning. ICML 2017.</li>
+            <li>Mikhail Belkin, Daniel Hsu, Partha Mitra. Overfitting or perfect fitting? Risk bounds for classification and regression rules that interpolate. NeurIPS 2018.</li>
+            <li>Yuanzhi Li and Yingyu Liang. Learning Overparameterized Neural Networks via Stochastic Gradient Descent on Structured Data. NeurIPS 2018.</li>
+            <li>Zeyuan Allen-Zhu, Yuanzhi Li, Zhao Song. A Convergence Theory for Deep Learning via Over-Parameterization. ICML 2019.</li>
+            <li>Simon S. Du, Xiyu Zhai, Barnabas Poczos, Aarti Singh. Gradient Descent Provably Optimizes Over-parameterized Neural Networks. ICLR 2019.</li>
+            <li>Sanjeev Arora, Simon S. Du, Wei Hu, Zhiyuan Li, Ruosong Wang. Fine-Grained Analysis of Optimization and Generalization for Overparameterized Two-Layer Neural Networks. ICML 2019.</li>
+            </ul>
+            <h5 id="pac-reinforcement-learning">PAC Reinforcement Learning</h5>
+            <ul>
+            <li>Michael Kearns and Satinder Singh. Near-Optimal Reinforcement Learning in Polynomial Time. Machine Learning, 2002.</li>
+            <li>Ronen I. Brafman and Moshe Tennenholtz. R-max – A General Polynomial Time Algorithm forNear-Optimal Reinforcement Learning. JMLR 2002.</li>
+            <li>Sham Kakade. On the sample complexity of reinforcement learning. University of College London, 2003.</li>
+            <li>Lihong Li, Michael L. Littman, Thomas J. Walsh, Alexander L. Strehl. Knows what it knows: a framework for self-aware learning. Machine Learning, 2011.</li>
+            <li>Nan Jiang. <a href="http://nanjiang.cs.illinois.edu/files/cs598/note7.pdf">Notes on Rmax exploration.</a></li>
+            <li>Christoph Dann, Tor Lattimore, Emma Brunskill. Unifying PAC and Regret: Uniform PAC Bounds for Episodic Reinforcement Learning. NIPS 2017.</li>
+            <li>Chi Jin, Zeyuan Allen-Zhu, Sebastien Bubeck, Michael I. Jordan. Is Q-learning Provably Efficient? NeurIPS 2018.</li>
+            <li>Andrea Zanette, Emma Brunskill. Tighter Problem-Dependent Regret Bounds in Reinforcement Learning without Domain Knowledge using Value Function Bounds. ICML 2019.</li>
+            </ul>
+            <h5 id="theory-of-generative-modeling">Theory of generative modeling</h5>
+            <ul>
+            <li>Sanjeev Arora, Rong Ge, Yingyu Liang, Tengyu Ma, Yi Zhang. Generalization and Equilibrium in Generative Adversarial Nets (GANs). ICML 2017.</li>
+            <li>Approximation and Convergence Properties of Generative Adversarial Learning. Shuang Liu, Olivier Bousquet, Kamalika Chaudhuri. NIPS 2017.</li>
+            <li>Sanjeev Arora, Andrej Risteski, Yi Zhang. Do GANs learn the distribution? Some Theory and Empirics. ICLR 2018.</li>
+            </ul>
+            </div>
+    </div>
+  </div>
+
+
+  <script src="https://vjs.zencdn.net/5.4.4/video.js"></script>
+
+</body>
+</html>
