@@ -5,6 +5,13 @@ The students will learn, via the lens of mathematical foundations, how and when 
 Specifically, the course offers mathematical formulation of learning environments (e.g., stochastic and adversarial worlds with possibly limited feedback), fundamental limits of learning in these environments, various algorithms concerning sample efficiency, computational efficiency, and generality.
 Throughout, students will not only learn fundamental mathematical tools upholding the current understanding of sequential decision making in the research community but also develop skills of adapting these techniques to their own research needs such as developing new algorithms.
 
+Why online learning / multi-armed bandits?
+
+ * Backbone of stochastic gradient descent algorithms.
+ * How can 'learning' possible when when the data is arbitrarily manipulated.
+ * Learn how companies learn your preferences by interacting with you in recommendation systems and online advertisements.
+ * Besides, beautiful mathematical results and algorithms, and some practical algorithms.
+
 ### Logistics info
 
  * _time and location undecided_
