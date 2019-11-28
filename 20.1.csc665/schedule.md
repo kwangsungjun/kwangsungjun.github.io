@@ -17,13 +17,13 @@ Also, for student presentations, we are forced to review the previously-learned 
 |9 || Follow-The-Regularized-Leader 1                                     | [FO_10](https://parameterfree.com/2019/10/08/follow-the-regularized-leader-i-regret-equality/)  |   |   |
 |10|| Follow-The-Regularized-Leader 2                                     | [FO_11](https://parameterfree.com/2019/10/10/follow-the-regularized-leader-ii-applications/), [FO_12](https://parameterfree.com/2019/10/17/follow-the-regularized-leader-iii-more-logarithmic-bounds/)  |   |   |
 |11|| Adversarial multi-armed bandits (EXP3)                              | [FO_18](https://parameterfree.com/2019/11/12/multi-armed-bandit-i/)  |   |   |
-|12|| Stochastic multi-armed bandits 1 (ETC, elimination)                 | LS Sec. 6 |   |   |
-|13|| Stochastic multi-armed bandits 2 (UCB)                              | LS Sec. 7 |   |   |
-|14|| Stochastic multi-armed bandits 3 (asymptotically optimal UCB)       | LS Sec. 8 |   |   |
-|15|| Lower bound on multi-armed bandits                                  | LS Sec. 16|   |   |
-|16|| Contextual bandits                                                  | LS Sec. 18|   |   |
-|17|| Linear bandits                                                      | LS Sec. 19|   |   |
-|18|| Pure exploration                                                    | [Even-Dar+06](http://jmlr.csail.mit.edu/papers/volume7/evendar06a/evendar06a.pdf), LS Sec. 33.3  |   |   |
+|12|| Stochastic multi-armed bandits 1 (ETC, elimination)                 | [LS](https://tor-lattimore.com/downloads/book/book.pdf) Sec. 6 |   |   |
+|13|| Stochastic multi-armed bandits 2 (UCB)                              | [LS](https://tor-lattimore.com/downloads/book/book.pdf) Sec. 7 |   |   |
+|14|| Stochastic multi-armed bandits 3 (asymptotically optimal UCB)       | [LS](https://tor-lattimore.com/downloads/book/book.pdf) Sec. 8 |   |   |
+|15|| Lower bound on multi-armed bandits                                  | [LS](https://tor-lattimore.com/downloads/book/book.pdf) Sec. 16|   |   |
+|16|| Contextual bandits                                                  | [LS](https://tor-lattimore.com/downloads/book/book.pdf) Sec. 18|   |   |
+|17|| Linear bandits                                                      | [LS](https://tor-lattimore.com/downloads/book/book.pdf) Sec. 19|   |   |
+|18|| Pure exploration                                                    | [Even-Dar+06](http://jmlr.csail.mit.edu/papers/volume7/evendar06a/evendar06a.pdf), [LS](https://tor-lattimore.com/downloads/book/book.pdf) Sec. 33.3  |   |   |
 |19|| Off-policy evaluation                                               | [Dudick+11](https://arxiv.org/abs/1103.4601)  |   |   |
 |20|| (presentation) Adaptive stepsizes (AdaGrad algorithm)               | [Streeter+10](https://arxiv.org/abs/1002.4862)  |   |   |
 |21|| (presentation) Boosting (AdaBoost algorithm)                        | [Freund+97](https://www.sciencedirect.com/science/article/pii/S002200009791504X)  |   |   |
