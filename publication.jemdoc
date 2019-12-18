@@ -2,10 +2,16 @@
 # jemdoc: analytics{UA-106338466-1}
 = publications
 
+  *Parameter-Free Locally Differentially Private Stochastic Subgradient Descent*.{{</br>
+  <font color=A92B13>Kwang-Sung Jun</font>}}, Francesco Orabona.{{</br>}}
+  In NeurIPS Workshop on Privacy in Machine Learning (*PriML*), 2019.
+  [https://arxiv.org/abs/1911.09564 \[arxiv\]] [data/2019-priml-poster.pdf \[poster\]]
+
   *Kernel Truncated Randomized Ridge Regression: Optimal Rates and Low Noise Acceleration*.{{</br>
   <font color=A92B13>Kwang-Sung Jun</font>}}, Ashok Cutkosky, Francesco Orabona.{{</br>}}
   In Neural Information Processing Systems (*NeurIPS*), 2019.
-  [https://arxiv.org/abs/1905.10680 \[arxiv\]]
+  [https://papers.nips.cc/paper/9670-kernel-truncated-randomized-ridge-regression-optimal-rates-and-low-noise-acceleration \[official\]]
+  [https://arxiv.org/abs/1905.10680 \[arxiv\]] [data/2019-kernel-slides.pdf \[slides\]] [data/2019-kernel-poster.pdf \[poster\]]
 
   *Parameter-Free Online Convex Optimization with Sub-Exponential Noise*.{{</br>
   <font color=A92B13>Kwang-Sung Jun</font>}}, Francesco Orabona.{{</br>}}
