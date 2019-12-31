@@ -52,6 +52,7 @@ For example:
  * Doubly robust off-policy evaluation with shrinkage
  * The End of Optimism? An Asymptotic Analysis of Finite-Armed Linear Bandits
  * Smoothed Online Convex Optimization in High Dimensions via Online Balanced Descent
+ * Strongly Adaptive Online Learning
  * (more to be added)
 
 
