@@ -16,7 +16,7 @@ Why online learning / multi-armed bandits?
 
  * _time and location undecided_
  * [Piazza link](piazza.com/arizona/spring2020/csc665) access code: bandits
- * [Gradescope](xxx) (in preparation)
+ * [Gradescope](https://www.gradescope.com/courses/80986) entry code: M46EWY
 
 [//]: # ()
 
