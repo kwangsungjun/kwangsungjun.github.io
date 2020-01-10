@@ -14,7 +14,7 @@ Why online learning / multi-armed bandits?
 
 ### Logistics info
 
- * _time and location undecided_
+ * Monday and Wednesday, 12:30pm-1:45pm.
  * [Piazza link](piazza.com/arizona/spring2020/csc665) access code: bandits
  * [Gradescope](https://www.gradescope.com/courses/80986) entry code: M46EWY
 
