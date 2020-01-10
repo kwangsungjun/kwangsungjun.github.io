@@ -92,50 +92,38 @@
             <li>You will need to understand (conditional) expectation and (conditional) independence of random variables.</li>
             <li>You will need to have basic concepts on concentration of measures.</li>
             </ul>
-            <p>You will need a basic programming skills for math such as matlab, julia, or python with numpy/scipy.</p>
+            <!--You will need a basic programming skills for math such as matlab, julia, or python with numpy/scipy.-->
             <h3 id="instructor-and-contact-information">Instructor and Contact Information</h3>
             <ul>
             <li><a href="https://kwangsungjun.github.io/">Kwang-Sung Jun</a></li>
             <li>k[lastname]<span class="citation" data-cites="cs.arizona.edu">@cs.arizona.edu</span></li>
             <li>Gould-Simpson 746</li>
             <li>Office Hour: TBD; The instructor is also available by appointment.</li>
+            <li>Course homepage: https://kwangsungjun.github.io/20.1.csc665</li>
+            <li>Piazza link: piazza.com/arizona/spring2020/csc665 , access code: bandits</li>
             <li>D2L: (TO BE ADDED)</li>
             </ul>
             <h3 id="course-format-and-teaching-methods">Course Format and Teaching Methods</h3>
             <p>Lectures, individual assignments, written exams, projects, in-class discussions.</p>
             <h3 id="course-objectives">Course Objectives</h3>
-            <p><strong>IN PREPARATION</strong></p>
-            <!--
-            A successful student will be able to explain the key learning theory concepts and analyze the lower and upper bounds of various machine learning tasks:
-
-            * PAC learning model
-            * VC dimension, Rademacher complexity
-            * Sample complexity bounds for finite classes and linear functions
-            * Boosting
-            * Support vector machine
-            * PAC-Bayes bounds, stability bounds
-            * Online classification and mistake bounds
-            * Online convex optimization, follow the regularized leader, online mirror descent.
-            * Online-to-batch conversion
-            * Online learning with limited feedback (multi-armed bandits)
-
-            For a more granular description of the learning objectives, see the week-by-week schedule and the description of the assignments below.
-
-            This course is far from a complete survey of the concurrent topics on machine learning theory due to the sheer volume of recent developments and the fact that those topics require a deep understanding of concepts and fluency in mathematical techniques. That said, this course covers key topics that not only serve as building blocks of advanced machine learning theory but is also relevant in modern research so that the students can directly adapt learned topics to their own research. Students are expected to dedicate a significant amount of time on understanding mathematical concepts and skills outside the classroom.
-            -->
+            <p>A successful student will be able to explain the key concepts of online learning, convex optimization, and the bandit feedback, and analyze lower and upper bounds of the achievable performance of the various online learning tasks and algorithms. Main topics include:</p>
+            <ul>
+            <li>The online learning framework</li>
+            <li>Classes of loss functions: convexity, strong convexity, exp-concavity</li>
+            <li>Online-to-batch conversion</li>
+            <li>Online linear optimization</li>
+            <li>Prediction with expert advice</li>
+            <li>Online mirror descent</li>
+            <li>Follow the regularized leader</li>
+            <li>Adversarial/stochastic multi-armed bandits</li>
+            <li>Contextual bandits</li>
+            <li>Linear bandits</li>
+            <li>Pure exploration</li>
+            <li>Off-policy evaluation</li>
+            </ul>
+            <p>This course is far from a complete survey of the concurrent topics on online learning and multi-armed bandits due to the sheer volume of recent developments and the fact that those topics require a deep understanding of concepts and fluency in mathematical techniques. That said, this course covers key topics that not only serve as building blocks of online learning but is also relevant in modern research so that the students can directly adapt learned topics to their own research. Students are expected to dedicate a significant amount of time on understanding mathematical concepts and skills outside the classroom.</p>
             <h3 id="expected-learning-outcomes">Expected Learning Outcomes</h3>
-            <p><strong>IN PREPARATION</strong></p>
-            <!--
-            The expected learning outcomes of the course is:
-            * To be able to identify the factors that affect the performance of learning algorithms, including label noise, approximation error, optimization error, generalization error
-            * To be able to establish concentration between training and test losses by uniform convergence theory
-            * To be able to explain how the complexity/size of the hypothesis class can affect an algorithm’s generalization performance.
-            * To be able to explain overfitting/underfitting in mathematical language, and use the theory of structural risk minimization to perform model selection
-            * To be able to explain the role of margins in learning theory
-            * To be able to explain the difference between follow the regularized leader and online mirror descent, and derive basic regret guarantees of the two types of algorithms
-            * To be able to derive generalization bounds from online learning
-            * To be able to analyze optimization errors of learning algorithms, such as boosting and SVM
-            -->
+            <p>The expected learning outcomes of the course is: * To be able to understand the concept of the key performance measure called ‘regret’, and how online learning is able to deal with adversarial data (i.e., non-stochastic). * To be able to list the common loss classes and their achievable regret bounds and explain why accelerated rates are available for some classes. * To be able to explain how online mirror descent and follow the regularized leader is different, and when one is better than the other. * To be able to identify the key problem parameters that govern the regret rates for each problem. * To be able to explain the key challenge in the bandit feedback. * To be able to articulate how various bandit problems pose different challenges and what the achievable regret rates are. * To be able to explain how the pure exploration is different from the regret minimization in multi-armed bandits. * To be able to describe the landscape of online learning and list a few open problems researchers are currently working on.</p>
             <h3 id="absence-and-class-participation-policy">Absence and Class Participation Policy</h3>
             <p>The UA’s policy concerning Class Attendance, Participation, and Administrative Drops is available at <a href="http://catalog.arizona.edu/policy/class-attendance-participation-and-administrative-drop" class="uri">http://catalog.arizona.edu/policy/class-attendance-participation-and-administrative-drop</a>. The UA policy regarding absences for any sincerely held religious belief, observance or practice(<a href="http://policy.arizona.edu/human-resources/religious-accommodation-policy" class="uri">http://policy.arizona.edu/human-resources/religious-accommodation-policy</a>) will be accommodated where reasonable. Absences pre approved by the UA Dean of Students (or dean’s designee) will be honored. See the dean of students’s website(<a href="https://deanofstudents.arizona.edu/absences" class="uri">https://deanofstudents.arizona.edu/absences</a>) for details.</p>
             <h3 id="makeup-policy-for-students-who-register-late">Makeup Policy for Students Who Register Late</h3>
@@ -150,7 +138,12 @@
             <li><a href="https://tor-lattimore.com/downloads/book/book.pdf">Bandit algorithms</a> by Tor Lattimore and Csaba Szepesvari (LS)</li>
             </ul>
             <h3 id="assignments-and-examinations-scheduledue-dates">Assignments and Examinations: Schedule/Due Dates</h3>
-            <p><strong>IN PREPARATION</strong></p>
+            <p>This course will have a weekly review quiz (1-2 questions) that is relatively easy but requires reviewing the learned material.</p>
+            <p>There will be two written homework assignments:</p>
+            <ul>
+            <li>A1: Online learning: assigned 2/19, due on 3/2</li>
+            <li>A2: Multi-armed bandits: assigned 3/30, due on 4/8</li>
+            </ul>
             <!--
 
             **TODO**
@@ -184,23 +177,60 @@
             * A12:     Stochastic linear bandits
             -->
             <h3 id="final-examination-or-project">Final Examination or Project</h3>
-            <p><strong>IN PREPARATION</strong></p>
-            <p>This course will have a comprehensive written open-book final examination.</p>
-            <p>For the U. Arizona final exam regulations see: https://www.registrar.arizona.edu/courses/final-examination-regulations-and-information</p>
-            <p>For the U. Arizona final exam schedule see: http://www.registrar.arizona.edu/schedules/finals.htm</p>
-            <!--Students shall submit a critical summary for each assigned reading. To receive full credit, summaries must demonstrate that the student has adequately read and critiqued the material. Each student will additionally select among assigned papers and prepare a 1hr presentation to the class in which they explain key technical details of the reading. To receive full credit for class participation, students must attend and participate in the discussion of all classes. Students should contact the instructor regarding absences for make-up. Finally, term project grading will be assessed based on how well the idea is conceived, planned, executed, and presented.
+            <p>This course will not have a final examination.</p>
+            <p>Each student will select a paper among the provided list of papers and present it for an hour. The presentation must include a clear exposition of the problem being addressed, the solution the paper proposes, a comparison of the solution with similar studies, key technical details and proofs, and possible extensions and open problems. To receive full credit for class participation, students must attend and participate in the discussion of all classes. Students should contact the instructor regarding absences for make-up.</p>
+            <!--
+            For the U. Arizona final exam regulations see: https://www.registrar.arizona.edu/courses/final-examination-regulations-and-information
+
+            For the U. Arizona final exam schedule see: http://www.registrar.arizona.edu/schedules/finals.htm
+
+            Students shall submit a critical summary for each assigned reading. To receive full credit, summaries must demonstrate that the student has adequately read and critiqued the material. Each student will additionally select among assigned papers and prepare a 1hr presentation to the class in which they explain key technical details of the reading. To receive full credit for class participation, students must attend and participate in the discussion of all classes. Students should contact the instructor regarding absences for make-up. Finally, term project grading will be assessed based on how well the idea is conceived, planned, executed, and presented.
             -->
             <h3 id="grading-scale-and-policies">Grading Scale and Policies</h3>
-            <p>The instructing staff will grade your assignments, project, and the final exam on a scale from 0 to 100, with the following weights: * Attendance/participation: 10% * Paper presentation: 30% * Assignments: 30% * Final exam: 30% <!--
+            <p>The instructing staff will grade your assignments, project, and the final exam on a scale from 0 to 100, with the following weights:</p>
+            <ul>
+            <li>Attendance/participation: 10%</li>
+            <li>Quiz: 10%</li>
+            <li>Paper critique: 10%</li>
+            <li>Assignments: 30%</li>
+            <li>Paper presentation: 40% <!--
              * Term project proposal: 10%
              * Term project (presentation and writeup): 40%
-             --></p>
-            <p>The final grade in the course of the best of a per-class grading curve and overall performance: * 90% or better: A; * 80% or better: B; * 70% or better: C; * 60% or better: D; * below 60%: F.</p>
+             --></li>
+            </ul>
+            <p>The final grade in the course of the best of a per-class grading curve and overall performance:</p>
+            <ul>
+            <li>90% or better: A;</li>
+            <li>80% or better: B;</li>
+            <li>70% or better: C;</li>
+            <li>60% or better: D;</li>
+            <li>below 60%: F.</li>
+            </ul>
             <p>Graded homework will be returned before the next homework is due. The homework is due in 10 days, and will be returned to students before the next homework is due. Exams will be returned within two weeks. Grading delays beyond promised return-by dates will be announced as soon as possible with an explanation for the delay.</p>
             <p>As a rule, homework will not be accepted late except in case of documented emergency or illness. You may petition the professor in writing for an exception if you feel you have a compelling reason for turning work in late.</p>
             <p>Requests for incomplete (I) or withdrawal (W) must be made in accordance with University policies, which are available at <a href="http://catalog.arizona.edu/policy/grades-and-grading-system#incomplete" class="uri">http://catalog.arizona.edu/policy/grades-and-grading-system#incomplete</a> and <a href="http://catalog.arizona.edu/policy/grades-and-grading-system#Withdrawal" class="uri">http://catalog.arizona.edu/policy/grades-and-grading-system#Withdrawal</a>, respectively. Dispute of Grade Policy: If you wish to dispute your grade for an assignment, midterm or project, you have two weeks after the grade has been turned in. In addition, even if only you dispute one portion of the grading for that unit, I reserve the right to revisit the entire unit (assignment, midterm, or project).</p>
             <h3 id="scheduled-topicsactivities">Scheduled Topics/Activities</h3>
             <p>See <a href="schedule.html">Schedule</a> page for details.</p>
+            <ul>
+            <li>Week 1: Introduction to online learning and multi-armed bandits.</li>
+            <li>Week 2: Online gradient descent and online-to-batch conversion</li>
+            <li>Week 3: Strong convexity and lower bounds for online linear optimization</li>
+            <li>Week 4: Online mirror descent</li>
+            <li>Week 5: Follow-the-regularized-leader
+            <ul>
+            <li>Homework 1 out</li>
+            </ul></li>
+            <li>Week 6: Adversarial multi-armed bandits</li>
+            <li>Week 7: Stochastic multi-armed bandits</li>
+            <li>Week 8: Lower bounds on multi-armed bandits / contextual bandits</li>
+            <li>Week 9: Linear bandits / pure exploration</li>
+            <li>Week 10: Off-policy evaluation
+            <ul>
+            <li>Homework 2 out</li>
+            </ul></li>
+            <li>Week 11-15: Student presentations</li>
+            <li>Week 16: Final exam</li>
+            </ul>
             <h3 id="department-of-computer-science-code-of-conduct">Department of Computer Science Code of Conduct</h3>
             <p>The Department of Computer Science is committed to providing and maintaining a supportive educational environment for all. We strive to be welcoming and inclusive, respect privacy and confidentiality, behave respectfully and courteously, and practice intellectual honesty. Disruptive behaviors (such as physical or emotional harassment, dismissive attitudes, and abuse of department resources) will not be tolerated. The complete Code of Conduct is available on our department web site. We expect that you will adhere to this code, as well as the UA Student Code of Conduct, while you are a member of this class.</p>
             <h3 id="classroom-behavior-policy">Classroom Behavior Policy</h3>
