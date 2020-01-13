@@ -34,7 +34,8 @@ Basic probability theory and statistics:
  * Office Hour: TBD; The instructor is also available by appointment. 
  * Course homepage: https://kwangsungjun.github.io/20.1.csc665
  * Piazza link: piazza.com/arizona/spring2020/csc665 , access code: bandits
- * D2L: (TO BE ADDED)
+ * D2L: https://d2l.arizona.edu/d2l/home/877787
+ 
 
 ### Course Format and Teaching Methods
 Lectures, individual assignments, written exams, projects, in-class discussions.
