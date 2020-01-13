@@ -19,7 +19,7 @@ Why online learning / multi-armed bandits?
  * [Piazza link](piazza.com/arizona/spring2020/csc665) access code: bandits
  * [Gradescope](https://www.gradescope.com/courses/80986) entry code: M46EWY
  * [D2L](https://d2l.arizona.edu/d2l/home/877787)
-  
+     
 [//]: # ()
 
 ### Instructor
