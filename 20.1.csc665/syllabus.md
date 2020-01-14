@@ -153,10 +153,10 @@ Students shall submit a critical summary for each assigned reading. To receive f
 The instructing staff will grade your assignments, project, and the final exam on a scale from 0 to 100, with the following weights:
 
  * Attendance/participation: 10%
- * Quiz: 10%
- * Paper critique: 10%
+ * Quiz: 15%
+ * Paper critique: 15%
  * Assignments: 30%
- * Paper presentation: 40%
+ * Paper presentation: 30%
 <!--
  * Term project proposal: 10%
  * Term project (presentation and writeup): 40%
@@ -179,7 +179,7 @@ Dispute of Grade Policy: If you wish to dispute your grade for an assignment, mi
 
 
 ### Scheduled Topics/Activities
-See [Schedule](schedule.html) page for details.
+See [Schedule](https://kwangsungjun.github.io/20.1.csc665/schedule.html) page for details.
 
 * Week 1: Introduction to online learning and multi-armed bandits.
 * Week 2: Online gradient descent and online-to-batch conversion
