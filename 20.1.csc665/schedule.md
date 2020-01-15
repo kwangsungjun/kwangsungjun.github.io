@@ -6,7 +6,7 @@ Also, for student presentations, we are forced to review the previously-learned 
 
 |#  | | &nbsp;&nbsp;Topics | Readings |  | Homework |
 |---:|-|:-------------|:---:|:---:|:---:|
-|1: 01/15 || Introduction to online learning and multi-armed bandits 1           |    |   |   | 
+|1: 01/15 || Introduction to online learning and multi-armed bandits 1           | [slides](data/lec01-intro-to-ol-and-bandits.pdf)   |   |   | 
 |2: 01/22 || Introduction to online learning and multi-armed bandits 2           | [FO_01](https://parameterfree.com/2019/09/02/introduction-to-online-learning/)  |   |   |
 |3: 01/27 || Online gradient descent                                             | [FO_02](https://parameterfree.wordpress.com/2019/09/11/online-gradient-descent/)  |   |   |
 |4: 01/29 || Subgradients and online-to-batch conversion                         | [FO_03](https://parameterfree.wordpress.com/2019/09/13/subgradients-and-online-to-batch-conversion/)  |   |   |
