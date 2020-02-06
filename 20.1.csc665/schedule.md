@@ -34,7 +34,7 @@ Also, for student presentations, we are forced to review the previously-learned 
 |26: 04/22|| (presentation) Almost optimal pure exploration                      | [Karnin+13](http://proceedings.mlr.press/v28/karnin13.pdf)  |   |   |
 |27: 04/27|| (presentation) Linear pure exploration                              | [Soare+14](https://arxiv.org/abs/1409.6110)  |   |   |
 |28: 04/29|| (presentation) More contextual bandits                              | [Langford+08](https://papers.nips.cc/paper/3178-the-epoch-greedy-algorithm-for-multi-armed-bandits-with-side-information.pdf)  |   |   |
-|29: 05/04|| (presentation) Bayesian multi-armed bandits                         | [Russo+14](https://papers.nips.cc/paper/5463-learning-to-optimize-via-information-directed-sampling)  |   |   |
+|29: 05/04|| (Yanjun Pan) Bayesian multi-armed bandits                         | [Russo+14](https://papers.nips.cc/paper/5463-learning-to-optimize-via-information-directed-sampling)  |   |   |
 |30: 05/06|| (presentation) Off-policy optimization                              | [Swaminathan+15](https://www.cs.cornell.edu/people/tj/publications/swaminathan_joachims_15c.pdf)  |   |   |
 |<img width=50/>|<img width=10/>| <img width=500/>                        | <img width=200/> |<img width=100/> | <img width=100/>  |
 
