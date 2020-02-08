@@ -27,7 +27,7 @@ Why online learning / multi-armed bandits?
  * [Kwang-Sung Jun](https://kwangsungjun.github.io/)
  * k\[lastname\]@cs.arizona.edu
  * Gould-Simpson 746
- * Office Hour: Mondays 2-3pm or by email appointment
+ * Office Hour: Tuesdays 4-5pm or by email appointment
 
 ### Textbook
 
