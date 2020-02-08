@@ -15,7 +15,7 @@ Why online learning / multi-armed bandits?
 ### Logistics info
 
  * **Monday and Wednesday, 12:30pm-1:45pm**
- * **Gould-Simpson 856**
+ * **Saguaro Room 223**
  * [Piazza link](http://piazza.com/arizona/spring2020/csc665) access code: bandits
  * [Gradescope](https://www.gradescope.com/courses/80986) entry code: M46EWY
  * [D2L](https://d2l.arizona.edu/d2l/home/877787)
