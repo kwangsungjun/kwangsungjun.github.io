@@ -31,7 +31,7 @@ Also, for student presentations, we are forced to review the previously-learned 
 |23: 04/13|| (presentation) Combinatorial bandits                                | [Kveton+14](https://arxiv.org/abs/1410.0949)  |   |   |
 |24: 04/15|| (Tianchi Zhao) Thompson sampling                                    | [Agrawal+13](http://proceedings.mlr.press/v31/agrawal13a.pdf)  |   |   |
 |25: 04/20|| (presentation) Gaussian process UCB (GP-UCB)                        | [Srinivas+10](https://arxiv.org/abs/0912.3995)  |   |   |
-|26: 04/22|| (presentation) Almost optimal pure exploration                      | [Karnin+13](http://proceedings.mlr.press/v28/karnin13.pdf)  |   |   |
+|26: 04/22|| (Dharma KC) Monte-Carlo Tree Search by Best Arm Identification      | [Kaufmann+17](http://papers.nips.cc/paper/7075-monte-carlo-tree-search-by-best-arm-identification)  |   |   |
 |27: 04/27|| (presentation) Linear pure exploration                              | [Soare+14](https://arxiv.org/abs/1409.6110)  |   |   |
 |28: 04/29|| (presentation) More contextual bandits                              | [Langford+08](https://papers.nips.cc/paper/3178-the-epoch-greedy-algorithm-for-multi-armed-bandits-with-side-information.pdf)  |   |   |
 |29: 05/04|| (Yanjun Pan) Bayesian multi-armed bandits                         | [Russo+14](https://papers.nips.cc/paper/5463-learning-to-optimize-via-information-directed-sampling)  |   |   |
@@ -46,6 +46,7 @@ Also, for student presentations, we are forced to review the previously-learned 
 Student presentations can be replace with some other papers to accommodate the student's interest.
 For example:
 
+ * Almost optimal pure exploration [Karnin+13](http://proceedings.mlr.press/v28/karnin13.pdf)
  * Coin-betting and parameter-free online convex optimization.
  * Design of experiments via regret minimization.
  * Pure exploration in adversarial worlds.
