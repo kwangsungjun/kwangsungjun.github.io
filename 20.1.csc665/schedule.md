@@ -28,7 +28,7 @@ Also, for student presentations, we are forced to review the previously-learned 
 |20: 04/01|| (presentation) Boosting (AdaBoost algorithm)                        | [Freund+97](https://www.sciencedirect.com/science/article/pii/S002200009791504X)  |   |   |
 |21: 04/06|| (presentation) Tracking the best expert (Fixed Share algorithm)     | [Herbster+98](https://users.soe.ucsc.edu/~manfred/pubs/J39.pdf)  |   |   |
 |22: 04/08|| (Xiaolan Gu) Optimistic Follow-The-Regularized-Leader             | [Chiang+12](http://proceedings.mlr.press/v23/chiang12/chiang12.pdf)  |   |   |
-|23: 04/13|| (presentation) Combinatorial bandits                                | [Kveton+14](https://arxiv.org/abs/1410.0949)  |   |   |
+|23: 04/13|| (Zhiwu Guo) Combinatorial bandits                                | [Kveton+14](https://arxiv.org/abs/1410.0949)  |   |   |
 |24: 04/15|| (Tianchi Zhao) Thompson sampling                                    | [Agrawal+13](http://proceedings.mlr.press/v31/agrawal13a.pdf)  |   |   |
 |25: 04/20|| (presentation) Gaussian process UCB (GP-UCB)                        | [Srinivas+10](https://arxiv.org/abs/0912.3995)  |   |   |
 |26: 04/22|| (Dharma KC) Monte-Carlo Tree Search by Best Arm Identification      | [Kaufmann+17](http://papers.nips.cc/paper/7075-monte-carlo-tree-search-by-best-arm-identification)  |   |   |
