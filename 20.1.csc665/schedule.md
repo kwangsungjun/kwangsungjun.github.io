@@ -47,10 +47,12 @@ Student presentations can be replace with some other papers to accommodate the s
 For example:
 
  * Almost optimal pure exploration [Karnin+13](http://proceedings.mlr.press/v28/karnin13.pdf)
- * Coin-betting and parameter-free online convex optimization.
+ * (2 people) Coin-betting and parameter-free online convex optimization. [Francesco+16(main paper)](https://arxiv.org/abs/1602.04128), [Francesco+17(implementation)](https://arxiv.org/pdf/1705.07795.pdf) 
+    * => for two people
  * Design of experiments via regret minimization.
  * Pure exploration in adversarial worlds.
- * Pure exploration for hyperparameter optimization (HyperBand)
+ * (2 people) Pure exploration for hyperparameter optimization (HyperBand) [Li+17](http://jmlr.org/papers/volume18/16-558/16-558.pdf)
+ * Algorithms for Portfolio Management based on the Newton Method [Agarwal+06](https://www.satyenkale.com/pubs/algorithms-for-portfolio-management-based-on-the-newton-method/)
  * Online transductive classification with relaxation framework.
  * On Equivalence of Martingale Tail Bounds and Deterministic Regret Inequalities
  * Online Control with Adversarial Disturbances
