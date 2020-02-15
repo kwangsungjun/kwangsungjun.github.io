@@ -46,6 +46,7 @@ Also, for student presentations, we are forced to review the previously-learned 
 Student presentations can be replace with some other papers to accommodate the student's interest.
 For example:
 
+ * Online Optimization : Competing with Dynamic Comparators [Jadbabie+15](http://proceedings.mlr.press/v38/jadbabaie15.html)
  * Boosting (AdaBoost algorithm) [Freund+97](https://www.sciencedirect.com/science/article/pii/S002200009791504X)
  * Almost optimal pure exploration [Karnin+13](http://proceedings.mlr.press/v28/karnin13.pdf)
  * (2 people) Coin-betting and parameter-free online convex optimization. [Francesco+16(main paper)](https://arxiv.org/abs/1602.04128), [Francesco+17(implementation)](https://arxiv.org/pdf/1705.07795.pdf) 
