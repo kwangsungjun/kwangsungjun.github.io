@@ -30,7 +30,7 @@ Also, for student presentations, we are forced to review the previously-learned 
 |22: 04/08|| (Tianchi Zhao) Thompson sampling                                    | [Agrawal+13](http://proceedings.mlr.press/v31/agrawal13a.pdf)                                                                  |   |   |
 |23: 04/13|| (Dharma KC) Monte-Carlo Tree Search by Best Arm Identification      | [Kaufmann+17](http://papers.nips.cc/paper/7075-monte-carlo-tree-search-by-best-arm-identification)                             |   |   |
 |24: 04/15|| (Zhiwu Guo) Combinatorial bandits                                   | [Kveton+14](https://arxiv.org/abs/1410.0949)                                                                                   |   |   |
-|25: 04/20|| (presentation) Gaussian process UCB (GP-UCB)                        | [Srinivas+10](https://arxiv.org/abs/0912.3995)                                                                                 |   |   |
+|25: 04/20|| (Reyan Ahmed) Gaussian process UCB (GP-UCB)                        | [Srinivas+10](https://arxiv.org/abs/0912.3995)                                                                                 |   |   |
 |26: 04/22|| (Paulo da Silva Soares) Randomized Exploration in Generalized Linear Bandits        | [Kveton+19](https://arxiv.org/pdf/1906.08947.pdf)                                                                              |   |   |
 |27: 04/27|| (presentation) Linear pure exploration                              | [Soare+14](https://arxiv.org/abs/1409.6110)                                                                                    |   |   |
 |28: 04/29|| (presentation) More contextual bandits                              | [Langford+08](https://papers.nips.cc/paper/3178-the-epoch-greedy-algorithm-for-multi-armed-bandits-with-side-information.pdf)  |   |   |
@@ -52,6 +52,7 @@ For example:
  * (2 people) Coin-betting and parameter-free online convex optimization. [Francesco+16(main paper)](https://arxiv.org/abs/1602.04128), [Francesco+17(implementation)](https://arxiv.org/pdf/1705.07795.pdf) 
     * => for two people
  * Design of experiments via regret minimization.
+ * Online Control with Adversarial Disturbances
  * Pure exploration in adversarial worlds.
  * (2 people) Pure exploration for hyperparameter optimization (HyperBand) [Li+17](http://jmlr.org/papers/volume18/16-558/16-558.pdf)
  * Algorithms for Portfolio Management based on the Newton Method [Agarwal+06](https://www.satyenkale.com/pubs/algorithms-for-portfolio-management-based-on-the-newton-method/)
