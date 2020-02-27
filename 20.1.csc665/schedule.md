@@ -27,15 +27,15 @@ Also, for student presentations, we are forced to review the previously-learned 
 |19: 03/30|| Off-policy evaluation                                                             | [Dudick+11](https://arxiv.org/abs/1103.4601)  |   | HW2  |
 |20: 04/01|| (Xiaolan Gu) Optimistic Follow-The-Regularized-Leader                             | [Chiang+12](http://proceedings.mlr.press/v23/chiang12/chiang12.pdf)                                                            |   |   |
 |21: 04/06|| (Pratik Bhandari) Algorithms for Portfolio Management based on the Newton Method  | [Agarwal+06](https://www.satyenkale.com/pubs/algorithms-for-portfolio-management-based-on-the-newton-method/)    |   |   |              
-|22: 04/08|| (Tianchi Zhao) Thompson sampling                                                  | [Agrawal+13](http://proceedings.mlr.press/v31/agrawal13a.pdf)                                                                  |   |   |
-|23: 04/13|| (Zhiwu Guo) Combinatorial bandits                                                 | [Kveton+14](https://arxiv.org/abs/1410.0949)                                                                                   |   |   |
-|24: 04/15|| (Paulo da Silva Soares) Randomized Exploration in Generalized Linear Bandits      | [Kveton+19](https://arxiv.org/pdf/1906.08947.pdf)                                                                              |   |   |
-|25: 04/20|| (Reyan Ahmed) Gaussian process UCB (GP-UCB)                                       | [Srinivas+10](https://arxiv.org/abs/0912.3995)                                                                                 |   |   |
-|26: 04/22|| (Dharma KC) Monte-Carlo Tree Search by Best Arm Identification                    | [Kaufmann+17](http://papers.nips.cc/paper/7075-monte-carlo-tree-search-by-best-arm-identification)                             |   |   |
-|27: 04/27|| (Guoxin Huang) Linear pure exploration                                            | [Soare+14](https://arxiv.org/abs/1409.6110)                                                                                    |   |   |
-|28: 04/29|| (Chenghao Xiong) More contextual bandits                                            | [Langford+08](https://papers.nips.cc/paper/3178-the-epoch-greedy-algorithm-for-multi-armed-bandits-with-side-information.pdf)  |   |   |
-|29: 05/04|| (Yanjun Pan) Bayesian multi-armed bandits                                         | [Russo+14](https://papers.nips.cc/paper/5463-learning-to-optimize-via-information-directed-sampling)                           |   |   |
-|30: 05/06|| (____________) Off-policy optimization                                            | [Swaminathan+15](https://www.cs.cornell.edu/people/tj/publications/swaminathan_joachims_15c.pdf)                               |   |   |
+|22: 04/08|| (Liyun Zeng) Imitation Learning                                                   |                                |   |   | 
+|23: 04/13|| (Tianchi Zhao) Thompson sampling                                                  | [Agrawal+13](http://proceedings.mlr.press/v31/agrawal13a.pdf)                                                                  |   |   | 
+|24: 04/15|| (Zhiwu Guo) Combinatorial bandits                                                 | [Kveton+14](https://arxiv.org/abs/1410.0949)                                                                                   |   |   | 
+|25: 04/20|| (Paulo da Silva Soares) Randomized Exploration in Generalized Linear Bandits      | [Kveton+19](https://arxiv.org/pdf/1906.08947.pdf)                                                                              |   |   | 
+|26: 04/22|| (Reyan Ahmed) Gaussian process UCB (GP-UCB)                                       | [Srinivas+10](https://arxiv.org/abs/0912.3995)                                                                                 |   |   | 
+|27: 04/27|| (Dharma KC) Monte-Carlo Tree Search by Best Arm Identification                    | [Kaufmann+17](http://papers.nips.cc/paper/7075-monte-carlo-tree-search-by-best-arm-identification)                             |   |   | 
+|28: 04/29|| (Guoxin Huang) Linear pure exploration                                            | [Soare+14](https://arxiv.org/abs/1409.6110)                                                                                    |   |   | 
+|29: 05/04|| (Chenghao Xiong) More contextual bandits                                          | [Langford+08](https://papers.nips.cc/paper/3178-the-epoch-greedy-algorithm-for-multi-armed-bandits-with-side-information.pdf)  |   |   | 
+|30: 05/06|| (Yanjun Pan) Bayesian multi-armed bandits                                         | [Russo+14](https://papers.nips.cc/paper/5463-learning-to-optimize-via-information-directed-sampling)                           |   |   | 
 |<img width=50/>|<img width=10/>| <img width=500/>                                             | <img width=200/> |<img width=100/> | <img width=100/>  |
 
 <!--
@@ -46,6 +46,7 @@ Also, for student presentations, we are forced to review the previously-learned 
 Student presentations can be replace with some other papers to accommodate the student's interest.
 For example:
 
+ * Off-policy optimization [Swaminathan+15](https://www.cs.cornell.edu/people/tj/publications/swaminathan_joachims_15c.pdf)                               |   |   |
  * Tracking the best expert (Fixed Share algorithm)  [Herbster+98](https://users.soe.ucsc.edu/~manfred/pubs/J39.pdf)
 
  * (2 people) Coin-betting and parameter-free online convex optimization. [Francesco+16(main paper)](https://arxiv.org/abs/1602.04128), [Francesco+17(implementation)](https://arxiv.org/pdf/1705.07795.pdf) 
