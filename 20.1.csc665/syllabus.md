@@ -188,13 +188,12 @@ See [Schedule](https://kwangsungjun.github.io/20.1.csc665/schedule.html) page fo
 * Week 5: Follow-the-regularized-leader
    * Homework 1 out
 * Week 6: Adversarial multi-armed bandits
-* Week 7: Stochastic multi-armed bandits 
-* Week 8: Lower bounds on multi-armed bandits / contextual bandits
-* Week 9: Linear bandits / pure exploration
-* Week 10: Off-policy evaluation
+*	Week 7: Stochastic multi-armed bandits (1)
+*	Week 8: Stochastic multi-armed bandits (2)
+*	Week 9: Lower bounds on multi-armed bandits / contextual bandits
+*	Week 10; Linear bandits / pure exploration
    * Homework 2 out
 * Week 11-15: Student presentations
-* Week 16: Final exam
 
 ### Department of Computer Science Code of Conduct
 The Department of Computer Science is committed to providing and maintaining a supportive educational environment for all.  We strive to be welcoming and inclusive, respect privacy and confidentiality, behave respectfully and courteously, and practice intellectual honesty.  Disruptive behaviors (such as physical or emotional harassment, dismissive attitudes, and abuse of department resources) will not be tolerated.  The complete Code of Conduct is available on our department web site.  We expect that you will adhere to this code, as well as the UA Student Code of Conduct, while you are a member of this class.
