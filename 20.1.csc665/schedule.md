@@ -24,7 +24,7 @@ Also, for student presentations, we are forced to review the previously-learned 
 |16: 03/18|| Contextual bandits                                                                | [LS](https://tor-lattimore.com/downloads/book/book.pdf) Sec. 18|   |   |
 |17: 03/23|| Linear bandits                                                                    | [LS](https://tor-lattimore.com/downloads/book/book.pdf) Sec. 19|   |   |
 |18: 03/25|| Pure exploration                                                                  | [Even-Dar+06](http://jmlr.csail.mit.edu/papers/volume7/evendar06a/evendar06a.pdf), [LS](https://tor-lattimore.com/downloads/book/book.pdf) Sec. 33.3  |   |   |
-|19: 03/30|| Off-policy evaluation                                                             | [Dudick+11](https://arxiv.org/abs/1103.4601)  |   | HW2  |
+|19: 03/30|| Off-policy evaluation                                                             | [Dudick+11](https://arxiv.org/abs/1103.4601)  |   | [HW2](data/665-HW2.pdf)  |
 |20: 04/01|| (Xiaolan Gu) Optimistic Follow-The-Regularized-Leader                             | [Chiang+12](http://proceedings.mlr.press/v23/chiang12/chiang12.pdf)                                                            |   |   |
 |21: 04/06|| (Pratik Bhandari) Algorithms for Portfolio Management based on the Newton Method  | [Agarwal+06](https://www.satyenkale.com/pubs/algorithms-for-portfolio-management-based-on-the-newton-method/)    |   |   |              
 |22: 04/08|| (Liyun Zeng) Imitation Learning                                                   |                                |   |   | 
