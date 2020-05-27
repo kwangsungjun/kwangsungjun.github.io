@@ -46,7 +46,10 @@ Before then, I spent 9 years at UW-Madison for a PhD degree with [http://pages.c
 == multi-armed bandit
 
 Multi-armed bandit is a /state-less/ version of the reinforcement learning (RL).
-However, bandits usually enjoy stronger theoretical guarantees and have abundant real-world applications.
+But why study an easier version of RL while RL seems to be solving all the problems these day?
+Bandits are simpler and thus have strong theoretical guarantees and yet have abundant real-world applications.
+Furthermore, developments in bandits can potentially improve RL algorithms, either transferring ideas from bandits to RL or directly use bandits for Monte Carlo planning in MDP (e.g., the Monte Carlo tree search algorithm used in AlphaGo was originated from [https://dl.acm.org/doi/10.1007/11871842_29 this paper]).
+
 Informally speaking, bandits learn to make better decisions over time in a feedback-loop.
 The decisions necessarily affect the feedback information, and the feedback data collected so far is no longer i.i.d.; most traditional learning guarantees do not apply.
 

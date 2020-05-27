@@ -55,6 +55,15 @@ table#tlayout {
     border-collapse: separate;
     background: white;
     margin: auto;
+/*  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;*/
+/*
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px; */
 /*    font-family: "Times New Roman", Times, serif; */
 /*    font-family: 'Open Sans', sans-serif;*/
 /*    font-family: 'Open Sans'; */
@@ -73,7 +82,7 @@ body {
 	padding-bottom: 8px;
 	margin: 0; 
   text-align: justify;
-	line-height: 1.4;
+	line-height: 1.45;
   color: var(--content-text);
 }
 
@@ -87,8 +96,8 @@ body {
 	font-size: 1.0em;
 	width: auto;
 	white-space: nowrap;
-    text-align: left;
-    vertical-align: top;
+  text-align: left;
+  vertical-align: top;
 }
 
 #layout-menu td {
@@ -98,13 +107,13 @@ body {
 
 #layout-content {
 	padding-top: 0.0em;
-	padding-left: 1.0em;
-	padding-right: 1.0em;
+	padding-left: 1.5em;
+	padding-right: 3.0em;
     border: none;
     background: white;
     text-align: left;
     vertical-align: top;
-    width: 740px;
+    width: 700px;
 }
 
 #layout-menu a {
