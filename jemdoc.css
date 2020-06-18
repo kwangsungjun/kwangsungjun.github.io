@@ -113,7 +113,7 @@ body {
     background: white;
     text-align: left;
     vertical-align: top;
-    width: 700px;
+    width: 680px;
 }
 
 #layout-menu a {
@@ -220,11 +220,12 @@ h3 {
 	border-bottom: none;
 }
 
-p {
+p { /* adjust justify here*/
 	margin-top: 0.0em;
 	margin-bottom: 0.8em;
 	padding: 0;
-  text-align: justify;
+/*  text-align: justify;*/
+  text-align: left;
   color: var(--content-text);
 }
 

@@ -22,7 +22,7 @@ Statistics GIDP, Applied Math GIDP (affiliated){{</br>}}
 University of Arizona{{</br>}}
 
 kjun å† cs ∂ø† arizona ∂ø† edu{{</br>}}
-746 Gould-Simpson, 1040 E. 4th St., Tucson, AZ 85721, USA {{</br>}}
+746 Gould-Simpson, 1040 E. 4th St., Tucson, AZ 85721 {{</br>}}
 [https://scholar.google.com/citations?user=VgvC7o8AAAAJ&hl=en Google scholar]{{</br>}}
 [./data/kjun-cv.pdf CV]
 
@@ -43,7 +43,7 @@ Before then, I spent 9 years at UW-Madison for a PhD degree with [http://pages.c
 - 10\/19: Our paper on kernel regression paper is accepted at NeurIPS'19.
 - 10\/19: Our paper on parameter-free SGD with local differential privacy is accepted to PriML'19 (worshop at NeurIPS).
 
-== multi-armed bandit
+== multi-armed bandits
 
 Multi-armed bandit is a /state-less/ version of the reinforcement learning (RL).
 But why study an easier version of RL while RL seems to be solving all the problems these day?
@@ -76,9 +76,9 @@ Also, the cartoon caption contest of New Yorker is currently using a multi-armed
 - 06/13: At [http://icml.cc/2013/?page_id=47 ICML], "Learning from Human-Generated Lists." [http://techtalks.tv/talks/learning-from-human-generated-lists/58261/ \[video\]]
 
 
-== services
-
-- Program Committee / Reviewer: AISTATS'20 reviewer, AAAI'20 Area Chair, ICML'19, COLT'19 (subreviewer), IJCAI'19, NeurIPS'19, IEEE Transactions on Signal Processing, ICML'19, AISTATS'19 ,NeurIPS'18, AISTATS'18, AAAI'18, NeurIPS'17, ICML'17, COLT'17 (subreviewer), AISTATS'17, ICML'16.
+# == services
+# 
+# - Program Committee / Reviewer: AISTATS'20 reviewer, AAAI'20 Area Chair, ICML'19, COLT'19 (subreviewer), IJCAI'19, NeurIPS'19, IEEE Transactions on Signal Processing, ICML'19, AISTATS'19 ,NeurIPS'18, AISTATS'18, AAAI'18, NeurIPS'17, ICML'17, COLT'17 (subreviewer), AISTATS'17, ICML'16.
 
 
 # # jemdoc: menu{MENU}{index.html}, showsource
