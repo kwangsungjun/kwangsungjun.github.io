@@ -2,6 +2,13 @@
 # jemdoc: analytics{UA-106338466-1}
 = publications
 
+  *Crush Optimism with Pessimism: Structured Bandits Beyond Asymptotic Optimality*.{{</br>
+  <font color=A92B13>Kwang-Sung Jun</font>}}, Chicheng Zhang.{{</br>}}
+  preprint, 2020.
+  [https://arxiv.org/abs/2006.08754 \[arxiv\]]
+  
+  {{----</br>}}
+
   *Parameter-Free Locally Differentially Private Stochastic Subgradient Descent*.{{</br>
   <font color=A92B13>Kwang-Sung Jun</font>}}, Francesco Orabona.{{</br>}}
   In NeurIPS Workshop on Privacy in Machine Learning (*PriML*), 2019.
@@ -46,12 +53,16 @@
 
   {{----</br>}}
 
-
-
   *Online Learning for Changing Environments using Coin Betting*.{{</br>
   <font color=a92b13>Kwang-Sung Jun</font>}}, Francesco Orabona, Stephen Wright, Rebecca Willett.{{</br>}}
   Electronic Journal of Statistics (*EJS*), 2017.
   [https://projecteuclid.org/euclid.ejs/1513306874 \[official\]]
+  - \[conference version\]{{</br>}}
+    *Improved Strongly Adaptive Online Learning using Coin Betting*.{{</br>
+    <font color=a92b13>Kwang-Sung Jun</font>}}, Francesco Orabona, Stephen Wright, Rebecca Willett.{{</br>}}
+    In International Conference on Artificial Intelligence and Statistics (*AISTATS*), 2017.  {{<font color=C02A41><b>Oral presentation</b></font>}}.
+    [http://proceedings.mlr.press/v54/jun17a.html \[official\]]
+    [https://arxiv.org/abs/1610.04578 \[arxiv\]]
 
   *Scalable Generalized Linear Bandits: Online Computation and Hashing*.{{</br>
    <font color=a92b13>Kwang-Sung Jun</font>}}, Aniruddha Bhargava, Robert Nowak, and Rebecca Willett.{{</br>}}
@@ -63,11 +74,7 @@
   Xiaozhu Meng, Barton P. Miller, and {{<font color=a92b13>Kwang-Sung Jun</font>}}. {{</br>}}
   In European Symposium on Research in Computer Security (*ESORICS*),  2017.
 
-  *Improved Strongly Adaptive Online Learning using Coin Betting*.{{</br>
-  <font color=a92b13>Kwang-Sung Jun</font>}}, Francesco Orabona, Stephen Wright, Rebecca Willett.{{</br>}}
-  In International Conference on Artificial Intelligence and Statistics (*AISTATS*), 2017.  {{<font color=C02A41><b>Oral presentation</b></font>}}.
-  [http://proceedings.mlr.press/v54/jun17a.html \[official\]]
-  [https://arxiv.org/abs/1610.04578 \[arxiv\]]
+
 
   {{----</br>}}
 
