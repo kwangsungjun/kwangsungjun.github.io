@@ -1,0 +1,427 @@
+<!doctype html>
+<html >
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--[if lt IE 9]>
+                <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+        <![endif]-->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+
+  <link rel="stylesheet" type="text/css" href="/templates/pandoc-bootstrap-adaptive-template/tufte.css" />
+
+   <link href="https://vjs.zencdn.net/5.4.4/video-js.css" rel="stylesheet" />
+
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type='text/javascript' src='/templates/pandoc-bootstrap-adaptive-template/menu/js/jquery.cookie.js'></script>
+<script type='text/javascript' src='/templates/pandoc-bootstrap-adaptive-template/menu/js/jquery.hoverIntent.minified.js'></script>
+<script type='text/javascript' src='/templates/pandoc-bootstrap-adaptive-template/menu/js/jquery.dcjqaccordion.2.7.min.js'></script>
+
+<link href="/templates/pandoc-bootstrap-adaptive-template/menu/css/skins/blue.css" rel="stylesheet" type="text/css" />
+<link href="/templates/pandoc-bootstrap-adaptive-template/menu/css/skins/graphite.css" rel="stylesheet" type="text/css" />
+<link href="/templates/pandoc-bootstrap-adaptive-template/menu/css/skins/grey.css" rel="stylesheet" type="text/css" />
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+  <script src="/templates/pandoc-bootstrap-adaptive-template/script.js"></script>
+
+    <script src="/bower_components/sticky-kit/jquery.sticky-kit.js "></script>
+  <meta name="generator" content="pandoc" />
+  <title>CSC 580: Home</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="bootstrap.css" />
+</head>
+<body>
+
+<!--
+    <div class="navbar navbar-static-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <span class="doc-title">CSC 580: Home</span>
+        <ul class="nav pull-right doc-info">
+                            </ul>
+      </div>
+    </div>
+  </div>
+  -->
+  <div class="container">
+    <div class="row">
+            <div class="span12">
+            
+            <h1 id="csc-580-principles-of-machine-learning---fall-2020">CSC 580: Principles of Machine Learning - Fall 2020</h1>
+            <!--
+            This course is a continuing line of topics from [CSC 665 Section 2 Machine Learning Theory](https://zcc1307.github.io/csc665/index.html) that delve into online learning and multi-armed bandits (but the knowledge from ML theory is not required).
+            The students will learn, via the lens of mathematical foundations, how and when machines can learn in an online manner.
+            Specifically, the course offers mathematical formulation of learning environments (e.g., stochastic and adversarial worlds with possibly limited feedback), fundamental limits of learning in these environments, various algorithms concerning sample efficiency, computational efficiency, and generality.
+            Throughout, students will not only learn fundamental mathematical tools upholding the current understanding of sequential decision making in the research community but also develop skills of adapting these techniques to their own research needs such as developing new algorithms.
+
+            Why online learning / multi-armed bandits?
+
+             * Backbone of stochastic gradient descent algorithms.
+             * How can 'learning' possible when when the data is arbitrarily manipulated.
+             * Learn how companies learn your preferences by interacting with you in recommendation systems and online advertisements.
+             * Besides, beautiful mathematical results and algorithms, and some practical algorithms.
+             -->
+            <p>This is a graduate level machine learning course.</p>
+            <h3 id="syllabus">Syllabus</h3>
+            <p>Here is the <a href="./data/syllabus%20-%20CSC%20580.pdf">syallabus</a>.</p>
+            <h3 id="logistics-info">Logistics info</h3>
+            <ul>
+            <li><strong>Monday and Wednesday, 3:30pm-4:45pm</strong></li>
+            <li>Fully online, synchronous</li>
+            <li>Office Hour: Tuesdays 4pm or by email appointment <!-- * **(TODO)** [Piazza link](http://piazza.com/arizona/spring2020/csc665) access code: bandits --></li>
+            <li><a href="https://www.gradescope.com/courses/163532">Gradescope</a> entry code: MXD4D2</li>
+            <li><a href="https://d2l.arizona.edu/d2l/home/947630">D2L</a></li>
+            </ul>
+            <h3 id="instructor">Instructor</h3>
+            <ul>
+            <li><a href="https://kwangsungjun.github.io/">Kwang-Sung Jun</a></li>
+            <li>k[lastname]<span class="citation" data-cites="cs.arizona.edu">@cs.arizona.edu</span></li>
+            <li>Gould-Simpson 746</li>
+            </ul>
+            <h3 id="textbook">Textbook</h3>
+            <p>The required textbook is Hal Daumé’s <a href="http://ciml.info/">Course in Machine Learning</a>, fully and freely available online.</p>
+            <!--
+            Much of the course
+            materials will be based on the following materials (in the order of appearance
+              in class schedule):
+
+             * [Lecture notes](https://parameterfree.com/lecture-notes-on-online-learning/) by Francesco Orabona (FO).
+             * [Bandit algorithms](https://tor-lattimore.com/downloads/book/book.pdf) by Tor Lattimore and Csaba Szepesvari (LS)
+             * [Understanding machine learning: from theory to algorithms](https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/) by Shai Shalev-Shwartz and Shai Ben-David (SSBD)
+
+            The following set of surveys and books also provide a good coverage of relevant materials:
+
+             * [Online learning and online convex optimization](https://www.cs.huji.ac.il/~shais/papers/OLsurvey.pdf) by Shai Shalev-Shwartz
+             * [Introduction to online optimization](https://ocobook.cs.princeton.edu/OCObook.pdf) by Elad Hazan (H)
+             * [Regret analysis of stochastic and nonstochastic multi-armed bandit problems](http://sbubeck.com/SurveyBCB12.pdf) by Sebastien Bubeck and Nicolo Cesa-Bianchi
+             * [Introduction to Multi-Armed Bandits](https://arxiv.org/pdf/1904.07272.pdf) by Alex Slivkins
+            -->
+            <h3 id="review-for-prerequisites">Review for prerequisites</h3>
+            <p>Here are some excellent notes for <a href="http://cs229.stanford.edu/section/cs229-prob.pdf">probability review</a> and <a href="http://cs229.stanford.edu/section/cs229-linalg.pdf">linear algebra review</a>. You should have no difficulty in Python programming (matlab/julia allowed).</p>
+            <h3 id="schedule">Schedule</h3>
+            <table>
+            <colgroup>
+            <col style="width: 11%" />
+            <col style="width: 2%" />
+            <col style="width: 41%" />
+            <col style="width: 14%" />
+            <col style="width: 14%" />
+            <col style="width: 14%" />
+            </colgroup>
+            <thead>
+            <tr class="header">
+            <th style="text-align: right;">#</th>
+            <th></th>
+            <th style="text-align: left;">  Topics</th>
+            <th style="text-align: center;">Readings</th>
+            <th style="text-align: center;"></th>
+            <th style="text-align: center;">Homework</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="odd">
+            <td style="text-align: right;">1: 08/24</td>
+            <td></td>
+            <td style="text-align: left;">intro / math review / decision tree</td>
+            <td style="text-align: center;">Ch 1</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: right;">2: 08/26</td>
+            <td></td>
+            <td style="text-align: left;">.</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: right;">3: 08/31</td>
+            <td></td>
+            <td style="text-align: left;">limits of learning / instance-based learning</td>
+            <td style="text-align: center;">Ch 2,3</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;">HW1</td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: right;">4: 09/02</td>
+            <td></td>
+            <td style="text-align: left;">.</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: right;">: 09/07</td>
+            <td></td>
+            <td style="text-align: left;">(no class)</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: right;">5: 09/09</td>
+            <td></td>
+            <td style="text-align: left;">perceptron</td>
+            <td style="text-align: center;">Ch 4</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: right;">6: 09/14</td>
+            <td></td>
+            <td style="text-align: left;">.</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: right;">7: 09/16</td>
+            <td></td>
+            <td style="text-align: left;">practical issues: cross validation, evaluation, feature selection</td>
+            <td style="text-align: center;">Ch 5</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: right;">8: 09/21</td>
+            <td></td>
+            <td style="text-align: left;">.</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;">HW2</td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: right;">9: 09/23</td>
+            <td></td>
+            <td style="text-align: left;">bias-variance decomposition</td>
+            <td style="text-align: center;">Ch 5</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: right;">10: 09/28</td>
+            <td></td>
+            <td style="text-align: left;">reduction</td>
+            <td style="text-align: center;">Ch 6</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: right;">11: 10/05</td>
+            <td></td>
+            <td style="text-align: left;">.</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: right;">12: 10/07</td>
+            <td></td>
+            <td style="text-align: left;">.</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: right;">13: 10/12</td>
+            <td></td>
+            <td style="text-align: left;">linear models</td>
+            <td style="text-align: center;">Ch 7</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: right;">14: 10/14</td>
+            <td></td>
+            <td style="text-align: left;">.</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;">HW3</td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: right;">15: 10/19</td>
+            <td></td>
+            <td style="text-align: left;">kernel methods</td>
+            <td style="text-align: center;">Ch 11</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: right;">16: 10/21</td>
+            <td></td>
+            <td style="text-align: left;">.</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;">project proposal</td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: right;">17: 10/26</td>
+            <td></td>
+            <td style="text-align: left;">naive Bayes, graphical models</td>
+            <td style="text-align: center;">Ch 9</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: right;">18: 10/28</td>
+            <td></td>
+            <td style="text-align: left;">.</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: right;">19: 10/30</td>
+            <td></td>
+            <td style="text-align: left;">.</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;">HW4</td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: right;">20: 11/02</td>
+            <td></td>
+            <td style="text-align: left;">bias and fairness</td>
+            <td style="text-align: center;">Ch 8</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: right;">21: 11/04</td>
+            <td></td>
+            <td style="text-align: left;">neural networks</td>
+            <td style="text-align: center;">Ch 10</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: right;">22: 11/09</td>
+            <td></td>
+            <td style="text-align: left;">.</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: right;">: 11/11</td>
+            <td></td>
+            <td style="text-align: left;">(no class)</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: right;">23: 11/16</td>
+            <td></td>
+            <td style="text-align: left;">ensemble</td>
+            <td style="text-align: center;">Ch 13</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: right;">24: 11/18</td>
+            <td></td>
+            <td style="text-align: left;">efficient learning, sgd</td>
+            <td style="text-align: center;">Ch 14</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;">HW5</td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: right;">25: 11/23</td>
+            <td></td>
+            <td style="text-align: left;">unsupervised learning</td>
+            <td style="text-align: center;">Ch 15</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: right;">26: 11/25</td>
+            <td></td>
+            <td style="text-align: left;">.</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: right;">27: 11/30</td>
+            <td></td>
+            <td style="text-align: left;">reinforcement learning</td>
+            <td style="text-align: center;">Ch 16</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: right;">28: 12/02</td>
+            <td></td>
+            <td style="text-align: left;">learning theory</td>
+            <td style="text-align: center;">Ch 12</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: right;">29: 12/07</td>
+            <td></td>
+            <td style="text-align: left;">(reserved for catch up)</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: right;">30: 12/09</td>
+            <td></td>
+            <td style="text-align: left;">(reserved for catch up)</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: right;">: 12/14</td>
+            <td></td>
+            <td style="text-align: left;">final exam (take home)</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: right;">: 12/17</td>
+            <td></td>
+            <td style="text-align: left;">final project due</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: right;"><img width=20/></td>
+            <td><img width=10/></td>
+            <td style="text-align: left;"><img width=400/></td>
+            <td style="text-align: center;"><img width=200/></td>
+            <td style="text-align: center;"><img width=100/></td>
+            <td style="text-align: center;"><img width=100/></td>
+            </tr>
+            </tbody>
+            </table>
+            <h3 id="machine-learning-courses-at-ua">Machine learning courses at UA</h3>
+            <ul>
+            <li><a href="https://zcc1307.github.io/csc665/index.html">CSC 588 Machine Learning Theory</a> by Chicheng Zhang</li>
+            <li><a href="http://kobus.ca/teaching/cs535/spring18/index.html">CSC 535 Probabilistic Graphical Models</a> by Kobus Barnard</li>
+            <li>[ISTA 457/INFO 557 Neural Networks] by <a href="https://bethard.faculty.arizona.edu/">Steven Bethard</a></li>
+            <li><a href="http://w3.sista.arizona.edu/~clayton/courses/ml/index.html">INFO 521 Introduction to Machine Learning</a> by Clayton Morrison</li>
+            <li><a href="https://www2.cs.arizona.edu/~pachecoj/courses/csc665-1/index.html">CSC 665-1 Advanced Topics in Probabilistic Graphical Models</a> by Jason Pacheco (Fall 2019)</li>
+            <li><a href="http://math.arizona.edu/~hzhang/math574m.html">MATH 574M Statistical Machine Learning</a> by Helen Zhang</li>
+            </ul>
+            <p></br> </br> </br> </br> </br></p>
+            </div>
+    </div>
+  </div>
+
+
+  <script src="https://vjs.zencdn.net/5.4.4/video.js"></script>
+
+</body>
+</html>
