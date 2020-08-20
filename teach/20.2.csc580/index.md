@@ -83,7 +83,7 @@ You should have no difficulty in Python programming (matlab/julia allowed).
 |13: 10/12 || linear models                                                                     | Ch 7 | | |
 |14: 10/14 || .                                                                                 |  | | HW3 |
 |15: 10/19 || kernel methods                                                                    | Ch 11 | | |
-|16: 10/21 || .                                                                                 |  | | project proposal |
+|16: 10/21 || .                                                                                 |  | | project proposal due |
 |17: 10/26 || naive Bayes, graphical models                                                     | Ch 9 | | |
 |18: 10/28 || .                                                                                 |  | | |
 |19: 10/30 || .                                                                                 |  | | HW4 |
