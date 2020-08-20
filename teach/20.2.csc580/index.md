@@ -67,7 +67,7 @@ You should have no difficulty in Python programming (matlab/julia allowed).
 
 |#  | | &nbsp;&nbsp;Topics | Readings |  | Homework |
 |---:|-|:-------------|:---:|:---:|:---:|
-| 1: 08/24 || intro / math review / decision tree                                               | Ch 1 | | |
+| 1: 08/24 || intro / math review / decision tree                                               | Ch 1 | | HW0 |
 | 2: 08/26 || .                                                                                 |  | | |
 | 3: 08/31 || limits of learning / instance-based learning                                      | Ch 2,3 | | HW1 |
 | 4: 09/02 || .                                                                                 |  | | |
