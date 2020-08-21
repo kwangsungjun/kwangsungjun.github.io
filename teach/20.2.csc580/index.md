@@ -17,7 +17,7 @@ This is a graduate level machine learning course.
 
 ### Syllabus
 
-Here is the [syallabus](./data/syllabus - CSC 580.pdf).
+Here is the [syallabus updated on Aug 20, 2020](./data/syllabus - CSC 580.pdf). Further adjustments will be available in D2L.
 
 ### Logistics info
 
@@ -62,6 +62,7 @@ The following set of surveys and books also provide a good coverage of relevant 
 
 Here are some excellent notes for [probability review](http://cs229.stanford.edu/section/cs229-prob.pdf) and [linear algebra review](http://cs229.stanford.edu/section/cs229-linalg.pdf).
 You should have no difficulty in Python programming (matlab/julia allowed).
+You may also find [The matrix cookbook](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf), [The Probability and Statistics Cookbook](http://statistics.zone/) useful, and [Calculus cheatsheet](https://tutorial.math.lamar.edu/pdf/calculus_cheat_sheet_all.pdf).
 
 ### Schedule
 
