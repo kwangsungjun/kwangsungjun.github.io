@@ -23,9 +23,9 @@ Here is the [syallabus updated on Aug 20, 2020](./data/syllabus - CSC 580.pdf). 
 
  * **Monday and Wednesday, 3:30pm-4:45pm**
  * Fully online, synchronous
- * Office Hour: Tuesdays 4pm or by email appointment
+ * Office Hour: Tuesdays 4pm (zoom) or by email appointment
 <!-- * **(TODO)** [Piazza link](http://piazza.com/arizona/spring2020/csc665) access code: bandits -->
- * [Gradescope](https://www.gradescope.com/courses/163532) entry code: MXD4D2
+<!-- * [Gradescope](https://www.gradescope.com/courses/163532) entry code: MXD4D2 -->
  * [D2L](https://d2l.arizona.edu/d2l/home/947630)
 
 [//]: # ()
