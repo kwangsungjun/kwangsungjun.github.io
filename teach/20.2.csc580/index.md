@@ -70,8 +70,8 @@ You may also find [The matrix cookbook](https://www.math.uwaterloo.ca/~hwolkowi/
 |---:|-|:-------------|:---:|:---:|:---:|
 | 1: 08/24 || intro / math review / decision tree                                               | Ch 1 | | HW0 |
 | 2: 08/26 || .                                                                                 |  | | |
-| 3: 08/31 || limits of learning / instance-based learning                                      | Ch 2,3 | | HW1 |
-| 4: 09/02 || .                                                                                 |  | | |
+| 3: 08/31 || limits of learning / instance-based learning                                      | Ch 2,3 | |  |
+| 4: 09/02 || .                                                                                 |  | | HW1 |
 |  : 09/07 || (no class)                                                                        |  | | |
 | 5: 09/09 || perceptron                                                                        | Ch 4 | | |
 | 6: 09/14 || .                                                                                 |  | | |
