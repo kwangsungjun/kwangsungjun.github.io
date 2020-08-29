@@ -30,7 +30,8 @@
   <font color=a92b13>Kwang-Sung Jun</font>}}, Rebecca Willett, Stephen Wright, Robert Nowak.{{</br>}}
   In International Conference on Machine Learning (*ICML*), 2019.
   [http://proceedings.mlr.press/v97/jun19a.html \[official\]]
-  [https://arxiv.org/abs/1901.02470 \[arxiv\]][https://github.com/kwangsungjun/lrbandit \[code\]]
+  [https://arxiv.org/abs/1901.02470 \[arxiv\]] 
+  [https://github.com/kwangsungjun/lrbandit \[code\]]
 
   {{----</br>}}
 
@@ -69,7 +70,7 @@
   In Neural Information Processing Systems (*NeurIPS*), 2017.
   [http://papers.nips.cc/paper/6615-scalable-generalized-linear-bandits-online-computation-and-hashing \[official\]]
   [https://arxiv.org/abs/1706.00136 \[arxiv\]]
-  [./data/code-gloc-20180510.zip https://github.com/kwangsungjun/lrbandit \[code\]]
+  [./data/code-gloc-20180510.zip \[code\]]
 
   *Identifying Multiple Authors in a Binary Program*.{{</br>}}
   Xiaozhu Meng, Barton P. Miller, and {{<font color=a92b13>Kwang-Sung Jun</font>}}. {{</br>}}
