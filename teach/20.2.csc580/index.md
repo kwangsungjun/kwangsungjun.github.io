@@ -17,7 +17,7 @@ This is a graduate level machine learning course.
 
 ### Syllabus
 
-Here is the [syallabus updated on Aug 20, 2020](./data/syllabus - CSC 580.pdf). Further adjustments will be available in D2L.
+Here is the [syallabus updated on Sep 9, 2020](./data/syllabus - CSC 580.pdf). Further adjustments will be available in D2L.
 
 ### Logistics info
 
