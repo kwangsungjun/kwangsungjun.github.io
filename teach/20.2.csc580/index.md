@@ -66,6 +66,8 @@ You may also find [The matrix cookbook](https://www.math.uwaterloo.ca/~hwolkowi/
 
 ### Schedule
 
+**For updated schedule, please see D2L**
+
 |#  | | &nbsp;&nbsp;Topics | Readings |  | Homework |
 |---:|-|:-------------|:---:|:---:|:---:|
 | 1: 08/24 || intro / math review / decision tree                                               | Ch 1 | | HW0 |
@@ -100,7 +102,7 @@ You may also find [The matrix cookbook](https://www.math.uwaterloo.ca/~hwolkowi/
 |28: 12/02 || learning theory                                                                   | Ch 12 | | |
 |29: 12/07 || (reserved for catch up)                                                           |  | | |
 |30: 12/09 || (reserved for catch up)                                                           |  | | |
-|  : 12/14 || final exam (take home)                                                            |   |   |   |
+|  : 12/14 || final exam                                                             |   |   |   |
 |  : 12/17 || final project due                                                                 |   |   |   |
 |<img width=20/>|<img width=10/>| <img width=400/>                                              | <img width=200/> |<img width=100/> | <img width=100/>  |
 
