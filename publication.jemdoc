@@ -4,8 +4,9 @@
 
   *Crush Optimism with Pessimism: Structured Bandits Beyond Asymptotic Optimality*.{{</br>
   <font color=A92B13>Kwang-Sung Jun</font>}}, Chicheng Zhang.{{</br>}}
-  In ICML Workshop on Theoretical Foundations of Reinforcement Learning, 2020.
+  In Neural Information Processing Systems (*NeurIPS*), 2020.
   [https://arxiv.org/abs/2006.08754 \[arxiv\]] [data/2020-crop-slides-rltheory.pdf \[slides\]]  [https://www.youtube.com/watch?v=S8dluBz4lMU \[video\]]
+  - Previously appeared in ICML Workshop on Theoretical Foundations of Reinforcement Learning, 2020.
   
   {{----</br>}}
 
