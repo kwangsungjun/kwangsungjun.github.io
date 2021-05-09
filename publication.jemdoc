@@ -2,6 +2,20 @@
 # jemdoc: analytics{UA-106338466-1}
 = publications
 
+  *Improved Confidence Bounds for the Linear Logistic Model and Applications to Bandits*.{{</br>
+  <font color=a92b13>Kwang-Sung Jun</font>}}, Lalit Jain, Blake Mason, Houssam Nassif.{{</br>}} 
+  In International Conference on Machine Learning (*ICML*), accepted, 2021.
+
+  *Improved Regret Bounds of Bilinear Bandits using Action Space Dimension Analysis*.{{</br>}}
+  Kyoungseok Jang, {{<font color=A92B13>Kwang-Sung Jun</font>}}, Se Young Yun, Wanmo Kang.{{</br>}} 
+  In International Conference on Machine Learning (*ICML*), accepted, 2021.
+
+  *Transfer Learning in Bandits with Latent Continuity*.{{</br>}}
+  Hyejin Park, Seiyun Shin, {{<font color=A92B13>Kwang-Sung Jun</font>}}, Jungseul Ok.
+  In IEEE International Symposium on Information Theory (*ISIT*), accepted, 2021.
+
+  {{----</br>}}
+
   *Crush Optimism with Pessimism: Structured Bandits Beyond Asymptotic Optimality*.{{</br>
   <font color=A92B13>Kwang-Sung Jun</font>}}, Chicheng Zhang.{{</br>}}
   In Neural Information Processing Systems (*NeurIPS*), 2020.
