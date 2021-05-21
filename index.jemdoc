@@ -59,8 +59,8 @@ Furthermore, developments in bandits can potentially improve RL algorithms, eith
 Informally speaking, bandits learn to make better decisions over time in a feedback-loop.
 The decisions necessarily affect the feedback information, and the feedback data collected so far is no longer i.i.d.; most traditional learning guarantees do not apply.
 
-Bandits are actively being studied in both [https://arxiv.org/abs/1204.5721 theory] and [http://rob.schapire.net/papers/www10.pdf applications] including [https://mwtds.azurewebsites.net/ deployable web service]. 
-Also, the cartoon caption contest of New Yorker is currently using a multi-armed bandit algorithm to efficiently crowdsource caption evaluations ([http://nextml.org/2015/12/04/new-yorker.html this article])!
+Bandits are actively being studied in both [https://tor-lattimore.com/downloads/book/book.pdf theory] and [http://rob.schapire.net/papers/www10.pdf applications] including [https://mwtds.azurewebsites.net/ deployable web service] and [https://arxiv.org/abs/1603.06560 hyperparameter optimization] (check [https://docs.ray.io/en/master/tune/api_docs/schedulers.html\#tune-scheduler-hyperband ray implementation]).
+Also, the cartoon caption contest of New Yorker is using bandit algorithms to efficiently crowdsource caption evaluations ([http://nextml.org/2015/12/04/new-yorker.html this article])!
 
 
 == talks
