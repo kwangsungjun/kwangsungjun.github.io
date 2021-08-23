@@ -70,40 +70,38 @@ You may also find [The matrix cookbook](https://www.math.uwaterloo.ca/~hwolkowi/
 
 |#  | | &nbsp;&nbsp;Topics | Readings |  | Homework |
 |---:|-|:-------------|:---:|:---:|:---:|
-| 1: 08/24 || intro / math review / decision tree                                               | Ch 1 | | HW0 |
-| 2: 08/26 || .                                                                                 |  | | |
-| 3: 08/31 || limits of learning / instance-based learning                                      | Ch 2,3 | |  |
-| 4: 09/02 || .                                                                                 |  | | HW1 |
-|  : 09/07 || (no class)                                                                        |  | | |
-| 5: 09/09 || perceptron                                                                        | Ch 4 | | |
-| 6: 09/14 || .                                                                                 |  | | |
-| 7: 09/16 || practical issues: cross validation, evaluation, feature selection                 | Ch 5 | | |
-| 8: 09/21 || .                                                                                 |  | | HW2 |
-| 9: 09/23 || bias-variance decomposition                                                       | Ch 5 | | |
-|10: 09/28 || reduction                                                                         | Ch 6 | | |
-|11: 10/05 || .                                                                                 |  | | |
-|12: 10/07 || .                                                                                 |  | | |
-|13: 10/12 || linear models                                                                     | Ch 7 | | |
-|14: 10/14 || .                                                                                 |  | | HW3 |
-|15: 10/19 || kernel methods                                                                    | Ch 11 | | |
-|16: 10/21 || .                                                                                 |  | | project proposal due |
-|17: 10/26 || naive Bayes, graphical models                                                     | Ch 9 | | |
-|18: 10/28 || .                                                                                 |  | | |
-|19: 10/30 || .                                                                                 |  | | HW4 |
-|20: 11/02 || bias and fairness                                                                 | Ch 8 | | |
-|21: 11/04 || neural networks                                                                   | Ch 10 | | |
-|22: 11/09 || .                                                                                  |  | | |
-|  : 11/11 || (no class)                                                                        |  | | |
-|23: 11/16 || ensemble                                                                          | Ch 13 | | |
-|24: 11/18 || efficient learning, sgd                                                           | Ch 14 | | HW5 |
-|25: 11/23 || unsupervised learning                                                             | Ch 15 | | |
-|26: 11/25 || .                                                                                 |  | | |
-|27: 11/30 || reinforcement learning                                                            | Ch 16 | | |
-|28: 12/02 || learning theory                                                                   | Ch 12 | | |
-|29: 12/07 || (reserved for catch up)                                                           |  | | |
-|30: 12/09 || (reserved for catch up)                                                           |  | | |
+| 1: 08/23 || intro / math review / decision tree                                               | Ch 1 | | HW0 |
+| 2: 08/25 || .                                                                                 |  | | |
+| 3: 08/30 || limits of learning / instance-based learning                                      | Ch 2,3 | |  |
+| 4: 09/01 || .                                                                                 |  | | HW1 |
+| 5: 09/08 || perceptron                                                                        | Ch 4 | | |
+| 6: 09/13 || .                                                                                 |  | | |
+| 7: 09/15 || practical issues: cross validation, evaluation, feature selection                 | Ch 5 | | |
+| 8: 09/20 || .                                                                                 |  | | |
+| 9: 09/22 || bias-variance decomposition                                                       | Ch 5 | | |
+|10: 09/27 || reduction                                                                         | Ch 6 | HW2 | |
+|11: 09/29 || .                                                                                 |  | | |
+|12: 10/04 || .                                                                                 |  | | |
+|13: 10/06 || linear models                                                                     | Ch 7 | | |
+|14: 10/11 || .                                                                                 |  | |  |
+|15: 10/13 || Midterm Exam                                                                      | Ch 11 | | midterm |
+|16: 10/18 || project proposal due                                                              |  | |  |
+|17: 10/20 || naive Bayes, graphical models                                                     | Ch 9 | | |
+|18: 10/25 || .                                                                                 |  | | project proposal due |
+|19: 10/27 || .                                                                                 |  | | |
+|20: 11/01 || bias and fairness                                                                 | Ch 8 | | HW3 |
+|21: 11/03 || neural networks                                                                   | Ch 10 | | |
+|22: 11/08 || .                                                                                  |  | | |
+|23: 11/10 || ensemble                                                                          | Ch 13 | | |
+|24: 11/15 || efficient learning, sgd                                                           | Ch 14 | | HW4 |
+|25: 11/17 || unsupervised learning                                                             | Ch 15 | | |
+|26: 11/22 || .                                                                                 |  | | |
+|27: 11/24 || reinforcement learning                                                            | Ch 16 | | |
+|28: 11/29 || learning theory                                                                   | Ch 12 | | |
+|29: 12/01 || (reserved for catch up)                                                           |  | | |
+|30: 12/06 || (reserved for catch up)                                                           |  | | |
+|30: 12/08 || (reserved for catch up)                                                           |  | | final project due |
 |  : 12/14 || final exam                                                             |   |   |   |
-|  : 12/17 || final project due                                                                 |   |   |   |
 |<img width=20/>|<img width=10/>| <img width=400/>                                              | <img width=200/> |<img width=100/> | <img width=100/>  |
 
 
