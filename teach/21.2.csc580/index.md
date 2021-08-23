@@ -17,7 +17,7 @@ This is a graduate level machine learning course.
 
 ### Syllabus
 
-Here is the [syallabus updated on Aug 22, 2021](./data/syllabus - CSC 580 21F.pdf). Further adjustments will be available in D2L.
+Here is the [syallabus updated on Aug 22, 2021](./data/syllabus - CSC 580 21f.pdf). Further adjustments will be available in D2L.
 
 ### Logistics info
 
