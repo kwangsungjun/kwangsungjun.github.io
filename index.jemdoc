@@ -28,11 +28,18 @@ kjun å† cs ∂ø† arizona ∂ø† edu{{</br>}}
 
 ~~~
 
-{{<font color=D95B43><b> (Sep'21) I am actively recruiting PhD students. Email me! </b></font>}}
+{{<font color=D95B43><b> 
+(Sep'21) I am actively recruiting PhD students.</b> </br>
+Required background is probability, statistics, linear algebra, calculus, and some CS backgrounds. 
+Background in ML theory is a plus. Your undergrad major does not matter, but minimal CS background is required (we can discuss it further). For this position, you should expect to spend a lot of time on mathematical research (e.g., algorithms with performance guarantees) as opposed to tuning hyperparameters on benchmark datasets. This, however, does not mean we will only stick to theories. We will develop performant algorithms and test them in real-world tasks. You can find my email from my webpage and send me an email if you are interested.
+</font>}}
 
 == intro
 
-My research is centered around sequential decision-making in feedback loops (i.e., the multi-armed bandit problem) and online (machine, not human) learning.
+Broadly, I work on interactive machine learning.
+I spend most of my time on on developing and analyzing adaptive decision-making\/sampling methods including bandit algorithms and monte carlo tree search methods. 
+Recently, I am also looking into applications in efficient matrix decomposition, geoscience (some blackbox\/bayesian optimization involved), and material science problems.
+#My research is centered around sequential decision-making in feedback loops (i.e., the multi-armed bandit problem) and online (machine, not human) learning.
 I also had some fun in the past with machine learning applied to psychology.  
 I was previously a postdoc with [http://francesco.orabona.com/ Francesco Orabona] at Boston University.
 Before then, I spent 9 years at UW-Madison for a PhD degree with [http://pages.cs.wisc.edu/~jerryzhu/ Xiaojin (Jerry) Zhu] and a postdoc position at [https://discovery.wisc.edu/ Wisconsin Institute for Discovery] with [http://nowak.ece.wisc.edu Robert Nowak], [http://willett.ece.wisc.edu/ Rebecca Willett], and [http://pages.cs.wisc.edu/~swright/ Stephen Wright].
