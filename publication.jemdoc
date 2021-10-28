@@ -2,6 +2,11 @@
 # jemdoc: analytics{UA-106338466-1}
 = publications
 
+  *Tight Concentrations and Confidence Sequences from the Regret of Universal Portfolio*.{{</br>}}
+  Francesco Orabona, {{<font color=a92b13>Kwang-Sung Jun</font>}}.{{</br>}} 
+  ArXiv preprint 2110.14099, 2021.
+  [https://arxiv.org/abs/2110.14099 \[arxiv\]]
+
   *Improved Confidence Bounds for the Linear Logistic Model and Applications to Bandits*.{{</br>
   <font color=a92b13>Kwang-Sung Jun</font>}}, Lalit Jain, Blake Mason, Houssam Nassif.{{</br>}} 
   In International Conference on Machine Learning (*ICML*), 2021.
