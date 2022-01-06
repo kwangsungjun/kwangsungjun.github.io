@@ -24,6 +24,7 @@ Here is the [syallabus updated on 01/06/2022](./data/22s380 syllabus.pdf). Furth
 ### Textbook
 
 The required textbook is 
+
  * WL: Wasserman, L. "All of Statistics: A Concise Course in Statistical Inference." Springer, 2004
  * MK: Murphy, K. "Machine Learning: A Probabilistic Perspective." MIT press, 2012
 
