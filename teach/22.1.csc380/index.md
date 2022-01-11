@@ -58,34 +58,34 @@ Please see D2L for a more detailed and calibrated schedule.
 
 |#  | | &nbsp;&nbsp;Topics | Readings |  | Homework |
 |---:|-|:-------------|:---:|:---:|:---:|
-| 1: 01/13 || intro                                                     | Ch 1   | |  |
+| 1: 01/13 || intro                                                     |        | |  |
 | 2: 01/18 || probability                                               |        | | |
-| 3: 01/20 || .                                                         | Ch 2,3 | | HW1 |
+| 3: 01/20 || .                                                         |        | | HW1 |
 | 4: 01/25 || .                                                         |        | | |
-| 5: 01/27 || statistics                                                | Ch 4   | | HW2 |
+| 5: 01/27 || statistics                                                |        | | HW2 |
 | 6: 02/01 || .                                                         |        | | |
-| 7: 02/03 || data collection and exploratory analysis                  | Ch 5   | | |
+| 7: 02/03 || data collection and exploratory analysis                  |        | | |
 | 8: 02/08 || .                                                         |        | | HW3 |
-| 9: 02/10 || data processing and visualization                         | Ch 5   | | |
-|10: 02/15 || .                                                         | Ch 6   | | |
+| 9: 02/10 || data processing and visualization                         |        | | |
+|10: 02/15 || .                                                         |        | | |
 |11: 02/17 || hypothesis testing                                        |        | | HW4 |
 |12: 02/22 || .                                                         |        | | |
-|13: 02/24 || intro to ML                                               | Ch 7   | | |
+|13: 02/24 || intro to ML                                               |        | | |
 |14: 03/01 || .                                                         |        | | |
-|15: 03/03 || midterm                                                   | Ch 11  | | midterm |
+|15: 03/03 || midterm                                                   |        | | midterm |
 |16: 03/15 || midterm review                                            |        | | |
-|17: 03/17 || predictive models                                         | Ch 9   | | HW5 |
+|17: 03/17 || predictive models                                         |        | | HW5 |
 |18: 03/22 || .                                                         |        | | |
 |19: 03/24 || supervised learning - linear models                       |        | | |
-|20: 03/29 || .                                                         | Ch 8   | | HW6 |
-|21: 03/31 || supervised learning - nonlinear models                    | Ch 10  | | |
+|20: 03/29 || .                                                         |        | | HW6 |
+|21: 03/31 || supervised learning - nonlinear models                    |        | | |
 |22: 04/05 || .                                                         |        | | |
-|23: 04/07 || unsupervised learning - clustering                        | Ch 13  | | HW7 |
-|24: 04/12 || .                                                         | Ch 14  | | |
-|25: 04/14 || unsupervised learning - PCA                               | Ch 15  | | |
+|23: 04/07 || unsupervised learning - clustering                        |        | | HW7 |
+|24: 04/12 || .                                                         |        | | |
+|25: 04/14 || unsupervised learning - PCA                               |        | | |
 |26: 04/19 || .                                                         |        | | HW8 |
-|27: 04/21 || model assessment                                          | Ch 16  | | |
-|28: 04/26 || .                                                         | Ch 12  | | |
+|27: 04/21 || model assessment                                          |        | | |
+|28: 04/26 || .                                                         |        | | |
 |29: 04/28 || data science ethics                                       |  | | |
 |30: 05/03 || .                                    |  | | |
 |  : 05/05 ||                                                           |  | | project due |
