@@ -25,8 +25,12 @@ Here is the [syallabus updated on 01/06/2022](./data/22s380 syllabus.pdf). Furth
 
 The required textbook is 
 
+ * WJ: Watkins, J., ["An Introduction to the Science of Statistics: From Theory to Implementation"](https://www.math.arizona.edu/~jwatkins/statbook.pdf)
+ * MK: Murphy, K., "Machine Learning: A Probabilistic Perspective." MIT press, 2012
+
+Backup textbook
+
  * WL: Wasserman, L. "All of Statistics: A Concise Course in Statistical Inference." Springer, 2004
- * MK: Murphy, K. "Machine Learning: A Probabilistic Perspective." MIT press, 2012
 
 <!--
 Much of the course
@@ -48,7 +52,7 @@ The following set of surveys and books also provide a good coverage of relevant 
 Other useful resources
 
  * Here are some excellent notes for [probability review](http://cs229.stanford.edu/section/cs229-prob.pdf) and [linear algebra review](http://cs229.stanford.edu/section/cs229-linalg.pdf).
- * You should have no difficulty in Python programming (matlab/julia allowed).
+ * You should have no difficulty in Python programming.
  * You may also find [The matrix cookbook](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf), [The Probability and Statistics Cookbook](http://statistics.zone/) useful, and [Calculus cheatsheet](https://tutorial.math.lamar.edu/pdf/calculus_cheat_sheet_all.pdf).
 
 ### Schedule

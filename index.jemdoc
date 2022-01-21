@@ -28,11 +28,11 @@ Gould-Simpson Rm 746, 1040 E. 4th St., Tucson, AZ 85721 {{</br>}}
 
 ~~~
 
-{{<font color=D95B43><b> 
-(Sep'21) I am actively recruiting PhD students.</b> </br>
-Required background is probability, statistics, linear algebra, calculus, and some CS backgrounds. 
-Background in ML theory is a plus. Your undergrad major does not matter, but minimal CS background is required (we can discuss it further). For this position, you should expect to spend a lot of time on mathematical research (e.g., algorithms with performance guarantees) as opposed to tuning hyperparameters on benchmark datasets. This, however, does not mean we will only stick to theories. We will develop performant algorithms and test them in real-world tasks. You can find my email from my webpage and send me an email if you are interested.
-</font>}}
+# {{<font color=D95B43><b> 
+# (Sep'21) I am actively recruiting PhD students.</b> </br>
+# Required background is probability, statistics, linear algebra, calculus, and some CS backgrounds. 
+# Background in ML theory is a plus. Your undergrad major does not matter, but minimal CS background is required (we can discuss it further). For this position, you should expect to spend a lot of time on mathematical research (e.g., algorithms with performance guarantees) as opposed to tuning hyperparameters on benchmark datasets. This, however, does not mean we will only stick to theories. We will develop performant algorithms and test them in real-world tasks. You can find my email from my webpage and send me an email if you are interested.
+# </font>}}
 
 == intro
 
@@ -47,6 +47,7 @@ Before then, I spent 9 years at UW-Madison for a PhD degree with [http://pages.c
 
 == news
 
+- 01\/22: 1 paper accpeted at AAAI, 3 papers accepted to AISTATS.
 - 05\/21: 2 papers accepted at ICML. 
 - 05\/21: 1 paper accepted at ISIT. 
 - 07\/20: I gave a talk at the [https://sites.google.com/view/rltheoryseminars/home RL theory virtual seminars] on 7\/28\/2020.

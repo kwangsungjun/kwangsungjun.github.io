@@ -2,6 +2,24 @@
 # jemdoc: analytics{UA-106338466-1}
 = publications
 
+  *Jointly Efficient and Optimal Algorithms for Logistic Bandits*.{{</br>}}
+  Louis Faury, Marc Abeille, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Clément Calauzènes.{{</br>}} 
+  In International Conference on Artificial Intelligence and Statistics (*AISTATS*), 2022.  
+
+  *Norm-Agnostic Linear Bandits*.{{</br>}}
+  Spencer Brady Gales, Sunder Sethuraman, {{<font color=a92b13>Kwang-Sung Jun</font>}}.{{</br>}}
+  In International Conference on Artificial Intelligence and Statistics (*AISTATS*), 2022.  
+  
+  *Maillard Sampling: Boltzmann Exploration Done Optimally*.{{</br>}} 
+  Jie Bian, {{<font color=a92b13>Kwang-Sung Jun</font>}}.{{</br>}}
+  In International Conference on Artificial Intelligence and Statistics (*AISTATS*), 2022.  
+
+  *An Experimental Design Approach for Regret Minimization in Logistic Bandits*.{{</br>}}
+  Blake Mason, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Lalit Jain.{{</br>}}  
+  In AAAI Conference on Artificial Intelligence (*AAAI*), 2022.
+
+  {{----</br>}}
+
   *Tight Concentrations and Confidence Sequences from the Regret of Universal Portfolio*.{{</br>}}
   Francesco Orabona, {{<font color=a92b13>Kwang-Sung Jun</font>}}.{{</br>}} 
   ArXiv preprint 2110.14099, 2021.
@@ -18,7 +36,7 @@
   [https://proceedings.mlr.press/v139/jang21a.html \[official\]]
 
   *Transfer Learning in Bandits with Latent Continuity*.{{</br>}}
-  Hyejin Park, Seiyun Shin, {{<font color=A92B13>Kwang-Sung Jun</font>}}, Jungseul Ok.
+  Hyejin Park, Seiyun Shin, {{<font color=A92B13>Kwang-Sung Jun</font>}}, Jungseul Ok.{{</br>}}
   In IEEE International Symposium on Information Theory (*ISIT*), 2021.
   [https://ieeexplore.ieee.org/document/9518093 \[official\]]
 
