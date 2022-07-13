@@ -2,10 +2,10 @@
 # jemdoc: analytics{UA-106338466-1}
 = teaching
 
-- Spring 2020, [./teach/20.1.csc665/index.html CSC 665 Online Learning and Multi-armed Bandits]
-- Fall 2020, [./teach/20.2.csc580/index.html CSC 580 Principles of Machine Learning]
-- Fall 2021, [./teach/21.2.csc580/index.html CSC 580 Principles of Machine Learning]
 - Spring 2022, [./teach/22.1.csc380/index.html CSC 380 Principles of Data Science]
+- Fall 2021, [./teach/21.2.csc580/index.html CSC 580 Principles of Machine Learning]
+- Fall 2020, [./teach/20.2.csc580/index.html CSC 580 Principles of Machine Learning]
+- Spring 2020, [./teach/20.1.csc665/index.html CSC 665 Online Learning and Multi-armed Bandits]
   
 
 {{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}}
