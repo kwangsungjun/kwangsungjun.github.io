@@ -2,9 +2,13 @@
 # jemdoc: analytics{UA-106338466-1}
 = publications
 
+  *Improved Regret Analysis for Variance-Adaptive Linear Bandits and Horizon-Free Linear Mixture MDPs*.{{</br>}}
+  Yeoneung Kim, Insoon Yang, {{<font color=a92b13>Kwang-Sung Jun</font>}}.{{</br>}} 
+  Preprint. [https://arxiv.org/abs/2111.03289 \[arxiv\]] 
+
   *Jointly Efficient and Optimal Algorithms for Logistic Bandits*.{{</br>}}
   Louis Faury, Marc Abeille, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Clément Calauzènes.{{</br>}} 
-  In International Conference on Artificial Intelligence and Statistics (*AISTATS*), 2022.  
+  In International Conference on Artificial Intelligence and Statistics (*AISTATS*), 2022. [https://arxiv.org/abs/2201.01985 \[arxiv\]] 
 
   *Norm-Agnostic Linear Bandits*.{{</br>}}
   Spencer Brady Gales, Sunder Sethuraman, {{<font color=a92b13>Kwang-Sung Jun</font>}}.{{</br>}}
@@ -12,11 +16,11 @@
   
   *Maillard Sampling: Boltzmann Exploration Done Optimally*.{{</br>}} 
   Jie Bian, {{<font color=a92b13>Kwang-Sung Jun</font>}}.{{</br>}}
-  In International Conference on Artificial Intelligence and Statistics (*AISTATS*), 2022.  
+  In International Conference on Artificial Intelligence and Statistics (*AISTATS*), 2022. [https://arxiv.org/abs/2111.03290 \[arxiv\]]
 
   *An Experimental Design Approach for Regret Minimization in Logistic Bandits*.{{</br>}}
   Blake Mason, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Lalit Jain.{{</br>}}  
-  In AAAI Conference on Artificial Intelligence (*AAAI*), 2022.
+  In AAAI Conference on Artificial Intelligence (*AAAI*), 2022. [http://arxiv.org/abs/2202.02407 \[arxiv\]]
 
   {{----</br>}}
 
