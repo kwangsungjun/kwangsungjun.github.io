@@ -2,9 +2,18 @@
 # jemdoc: analytics{UA-106338466-1}
 = publications
 
+== preprints
+
   *Improved Regret Analysis for Variance-Adaptive Linear Bandits and Horizon-Free Linear Mixture MDPs*.{{</br>}}
   Yeoneung Kim, Insoon Yang, {{<font color=a92b13>Kwang-Sung Jun</font>}}.{{</br>}} 
   Preprint. [https://arxiv.org/abs/2111.03289 \[arxiv\]] 
+
+  *Tight Concentrations and Confidence Sequences from the Regret of Universal Portfolio*.{{</br>}}
+  Francesco Orabona, {{<font color=a92b13>Kwang-Sung Jun</font>}}.{{</br>}} 
+  ArXiv preprint 2110.14099, 2021.
+  [https://arxiv.org/abs/2110.14099 \[arxiv\]]
+
+== 2022
 
   *Jointly Efficient and Optimal Algorithms for Logistic Bandits*.{{</br>}}
   Louis Faury, Marc Abeille, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Clément Calauzènes.{{</br>}} 
@@ -22,12 +31,7 @@
   Blake Mason, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Lalit Jain.{{</br>}}  
   In AAAI Conference on Artificial Intelligence (*AAAI*), 2022. [https://ojs.aaai.org/index.php/AAAI/article/view/20741 \[official\]] [http://arxiv.org/abs/2202.02407 \[arxiv\]]
 
-  {{----</br>}}
-
-  *Tight Concentrations and Confidence Sequences from the Regret of Universal Portfolio*.{{</br>}}
-  Francesco Orabona, {{<font color=a92b13>Kwang-Sung Jun</font>}}.{{</br>}} 
-  ArXiv preprint 2110.14099, 2021.
-  [https://arxiv.org/abs/2110.14099 \[arxiv\]]
+== 2021
 
   *Improved Confidence Bounds for the Linear Logistic Model and Applications to Bandits*.{{</br>
   <font color=a92b13>Kwang-Sung Jun</font>}}, Lalit Jain, Blake Mason, Houssam Nassif.{{</br>}} 
@@ -44,7 +48,7 @@
   In IEEE International Symposium on Information Theory (*ISIT*), 2021.
   [https://ieeexplore.ieee.org/document/9518093 \[official\]]
 
-  {{----</br>}}
+== 2020
 
   *Crush Optimism with Pessimism: Structured Bandits Beyond Asymptotic Optimality*.{{</br>
   <font color=A92B13>Kwang-Sung Jun</font>}}, Chicheng Zhang.{{</br>}}
@@ -52,7 +56,7 @@
   [https://arxiv.org/abs/2006.08754 \[arxiv\]] [data/2020-crop-slides-rltheory.pdf \[slides\]]  [https://www.youtube.com/watch?v=S8dluBz4lMU \[video\]]
   - Previously appeared in ICML Workshop on Theoretical Foundations of Reinforcement Learning, 2020.
   
-  {{----</br>}}
+== 2019
 
   *Parameter-Free Locally Differentially Private Stochastic Subgradient Descent*.{{</br>
   <font color=A92B13>Kwang-Sung Jun</font>}}, Francesco Orabona.{{</br>}}
@@ -78,7 +82,7 @@
   [https://arxiv.org/abs/1901.02470 \[arxiv\]] 
   [https://github.com/kwangsungjun/lrbandit \[code\]]
 
-  {{----</br>}}
+== 2018
 
   *Adversarial Attacks on Stochastic Bandits*.{{</br>
   <font color=a92b13>Kwang-Sung Jun</font>}}, Lihong Li, Yuzhe Ma, Xiaojin Zhu.{{</br>}}
@@ -97,7 +101,7 @@
   In Cooperative and Graph Signal Processing, Petar Djuric and Cedric Richard, Eds., Elsevier, 2018.
   [https://www.elsevier.com/books/cooperative-and-graph-signal-processing/djuric/978-0-12-813677-5 \[official\]]
 
-  {{----</br>}}
+== 2017
 
   *Online Learning for Changing Environments using Coin Betting*.{{</br>
   <font color=a92b13>Kwang-Sung Jun</font>}}, Francesco Orabona, Stephen Wright, Rebecca Willett.{{</br>}}
@@ -121,11 +125,7 @@
   Xiaozhu Meng, Barton P. Miller, and {{<font color=a92b13>Kwang-Sung Jun</font>}}. {{</br>}}
   In European Symposium on Research in Computer Security (*ESORICS*),  2017.
 
-
-
-  {{----</br>}}
-
-
+== 2016
 
   *Graph-Based Active Learning: A New Look at Expected Error Minimization*. {{</br>
   <font color=a92b13>Kwang-Sung Jun</font>}} and Robert Nowak.{{</br>}}
@@ -148,8 +148,7 @@
   In International Conference on Artificial Intelligence and Statistics (*AISTATS*), 2016.
   [http://proceedings.mlr.press/v51/jun16.html \[official\]]
 
-  {{----</br>}}
-
+== 2015 and before
 
   *Human memory search as initial-visit emitting random walk*. {{</br>
   <font color=a92b13>Kwang-Sung Jun</font>}}, Xiaojin Zhu, Timothy Rogers, Zhuoran Yang, and Ming Yuan. {{</br>}}
@@ -187,7 +186,7 @@
   In International Conference on Machine Learning (*ICML*), 2010. 
   [http://pages.cs.wisc.edu/~jerryzhu/pub/tie.pdf \[pdf\]]
 
-  *An efficient collaborative filtering method based on $k$-nearest neighbor learning for large-scale data*.{{</br> 
+  *An efficient collaborative filtering method based on k-nearest neighbor learning for large-scale data*.{{</br> 
   <font color=a92b13>Kwang-Sung Jun</font>}} and Kyu-Baek Hwang. {{</br>}} 
   In Proceedings of Korea Computer Congress, 2008.
 
