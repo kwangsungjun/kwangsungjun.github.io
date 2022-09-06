@@ -4,6 +4,14 @@
 
 == preprints
 
+  *Revisiting Simple Regret Minimization in Multi-Armed Bandits*.{{</br>}}
+  Yao Zhao, Connor Stephens, Szepesvári, {{<font color=a92b13>Kwang-Sung Jun</font>}}.{{</br>}} 
+  Preprint. [https://kwangsungjun.github.io/data-public/2022-zhao-revisiting.pdf \[pdf\]] 
+
+  *PopArt: Efficient Sparse Regression and Experimental Design for Optimal Sparse Linear Bandits*.{{</br>}}
+  Kyoungseok Jang, Chicheng Zhang, {{<font color=a92b13>Kwang-Sung Jun</font>}}.{{</br>}} 
+  Preprint. [https://kwangsungjun.github.io/data-public/2022-jang-popart.pdf \[pdf\]] 
+
   *Improved Regret Analysis for Variance-Adaptive Linear Bandits and Horizon-Free Linear Mixture MDPs*.{{</br>}}
   Yeoneung Kim, Insoon Yang, {{<font color=a92b13>Kwang-Sung Jun</font>}}.{{</br>}} 
   Preprint. [https://arxiv.org/abs/2111.03289 \[arxiv\]] 
