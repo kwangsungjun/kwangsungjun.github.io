@@ -8,20 +8,20 @@
   Yao Zhao, Connor Stephens, Csaba Szepesvári, {{<font color=a92b13>Kwang-Sung Jun</font>}}.{{</br>}} 
   Preprint. [https://kwangsungjun.github.io/data-public/2022-zhao-revisiting.pdf \[pdf\]] 
 
-  *PopArt: Efficient Sparse Regression and Experimental Design for Optimal Sparse Linear Bandits*.{{</br>}}
-  Kyoungseok Jang, Chicheng Zhang, {{<font color=a92b13>Kwang-Sung Jun</font>}}.{{</br>}} 
-  Preprint. [https://kwangsungjun.github.io/data-public/2022-jang-popart.pdf \[pdf\]] 
-
-  *Improved Regret Analysis for Variance-Adaptive Linear Bandits and Horizon-Free Linear Mixture MDPs*.{{</br>}}
-  Yeoneung Kim, Insoon Yang, {{<font color=a92b13>Kwang-Sung Jun</font>}}.{{</br>}} 
-  Preprint. [https://arxiv.org/abs/2111.03289 \[arxiv\]] 
-
   *Tight Concentrations and Confidence Sequences from the Regret of Universal Portfolio*.{{</br>}}
   Francesco Orabona, {{<font color=a92b13>Kwang-Sung Jun</font>}}.{{</br>}} 
   ArXiv preprint 2110.14099, 2021.
   [https://arxiv.org/abs/2110.14099 \[arxiv\]]
 
 == 2022
+
+  *PopArt: Efficient Sparse Regression and Experimental Design for Optimal Sparse Linear Bandits*.{{</br>}}
+  Kyoungseok Jang, Chicheng Zhang, {{<font color=a92b13>Kwang-Sung Jun</font>}}.{{</br>}} 
+  In Neural Information Processing Systems (*NeurIPS*), 2022. [https://kwangsungjun.github.io/data-public/2022-jang-popart.pdf \[preprint\]] 
+
+  *Improved Regret Analysis for Variance-Adaptive Linear Bandits and Horizon-Free Linear Mixture MDPs*.{{</br>}}
+  Yeoneung Kim, Insoon Yang, {{<font color=a92b13>Kwang-Sung Jun</font>}}.{{</br>}} 
+  In Neural Information Processing Systems (*NeurIPS*), 2022.  [https://arxiv.org/abs/2111.03289 \[arxiv\]] 
 
   *Jointly Efficient and Optimal Algorithms for Logistic Bandits*.{{</br>}}
   Louis Faury, Marc Abeille, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Clément Calauzènes.{{</br>}} 
