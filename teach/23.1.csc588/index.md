@@ -1,4 +1,4 @@
-# CSC 588: Machine Learning Theory - Spring 2022
+# CSC 588: Machine Learning Theory - Spring 2023
 
 This course provides an introduction to the theoretical aspects of machine learning. Students will learn how and when machine learning is possible/impossible as well as various algorithms with theoretical guarantees under minimal assumptions. Specifically, the course offers formulation of learning environments (e.g., batch and online settings, stochastic and adversarial worlds with possibly limited feedback), fundamental limits of learning in these environments, various algorithms concerning sample efficiency, computational efficiency, and generality. Throughout, students will not only learn fundamental tools upholding the current understanding of machine learning systems in the research community but also develop skills of adapting these techniques to their own research needs such as developing new algorithms for large-scale, data-driven applications.
 
