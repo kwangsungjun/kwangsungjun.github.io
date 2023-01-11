@@ -4,7 +4,7 @@ This course provides an introduction to the theoretical aspects of machine learn
 
 ### Syllabus
 
-Here is the [syallabus updated on 01/09/2023](./data/23s588 syllabus.pdf). Further adjustments will be available in D2L.
+Here is the [syallabus updated on 01/11/2023](./data/23s588 syllabus.pdf). Further adjustments will be available in D2L.
 
 ### Logistics info
 
