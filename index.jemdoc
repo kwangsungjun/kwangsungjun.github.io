@@ -37,8 +37,9 @@ Gould-Simpson Rm 746, 1040 E. 4th St., Tucson, AZ 85721 {{</br>}}
 == intro
 
 Broadly, I work on interactive machine learning.
-I spend most of my time on on developing and analyzing adaptive decision-making\/sampling methods including bandit algorithms and monte carlo tree search methods. 
-Recently, I am also looking into applications in efficient matrix decomposition, geoscience (some blackbox\/bayesian optimization involved), and material science problems.
+I spend most of my time on on developing and analyzing adaptive decision-making\/sampling methods including bandit algorithms and reinforcement learning.
+I tend to revolve around simple problems. 
+Recently, I am also looking into Monte Carlo tree search methods and various applications including efficient matrix decomposition, geoscience (some blackbox\/bayesian optimization involved), and material science problems.
 #My research is centered around sequential decision-making in feedback loops (i.e., the multi-armed bandit problem) and online (machine, not human) learning.
 I also had some fun in the past with machine learning applied to psychology.  
 I was previously a postdoc with [http://francesco.orabona.com/ Francesco Orabona] (who I call the 'master of coin') at Boston University.
@@ -47,7 +48,7 @@ Before then, I spent 9 years at UW-Madison for a PhD degree with [http://pages.c
 
 == news
 
-- 09\/22: 2 papers accepted at NeurIPS
+- 09\/22: 2 papers accepted at NeurIPS. Congrats to my postdoc Kyoungseok Jang!
 - 05\/22: I gave a talk at the [https://sites.google.com/view/rltheoryseminars/home RL theory virtual seminars] on Maillard sampling.
 - 01\/22: 1 paper accpeted at AAAI, 3 papers accepted to AISTATS.
 - 05\/21: 2 papers accepted at ICML. 
