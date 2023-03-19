@@ -3,3 +3,4 @@ all:
 	jemdoc publication.jemdoc
 	jemdoc teaching.jemdoc
 	jemdoc personal.jemdoc
+	jemdoc talk.jemdoc
