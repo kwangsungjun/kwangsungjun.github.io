@@ -1,6 +1,5 @@
 # jemdoc: menu{MENU}{index.html}
 # jemdoc: analytics{UA-106338466-1}
-#= jemdoc -- light markup
 = home
 
 # {{</br>}}
@@ -80,7 +79,7 @@ Also, the cartoon caption contest of New Yorker is using bandit algorithms to ef
 == service
 
 - Senior program committee / area chair: COLT, NeurIPS
-- Program Committee: NeurIPS, ICML, AISTATS, AAAI
+- Program committee: NeurIPS, ICML, AISTATS, AAAI
 
 # # jemdoc: menu{MENU}{index.html}, showsource
 # = jemdoc -- light markup
