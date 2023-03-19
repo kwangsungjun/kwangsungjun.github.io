@@ -62,36 +62,38 @@ Before then, I spent 9 years at UW-Madison for a PhD degree with [http://pages.c
 
 == multi-armed bandits
 
-Multi-armed bandit is a /state-less/ version of the reinforcement learning (RL).
-But why study an easier version of RL while RL seems to be solving all the problems these day?
-Bandits are simpler and thus have strong theoretical guarantees and yet have abundant real-world applications.
-Furthermore, developments in bandits can potentially improve RL algorithms, either transferring ideas from bandits to RL or directly use bandits for Monte Carlo planning in MDP (e.g., the Monte Carlo tree search algorithm used in AlphaGo was originated from [https://dl.acm.org/doi/10.1007/11871842_29 this paper]).
-
-Informally speaking, bandits learn to make better decisions over time in a feedback-loop.
+The multi-armed bandit problem is a /state-less/ version of reinforcement learning (RL).
+Informally speaking, bandit algorithms learn to make better decisions over time in a feedback-loop.
 The decisions necessarily affect the feedback information, and the feedback data collected so far is no longer i.i.d.; most traditional learning guarantees do not apply.
+But why study an easier version of RL while RL seems to be solving all the problems these day?
+
+ - Being a very simple problem, you can develop algorithms with precise theoretical guarantees and superior performance compared to RL algorithms applied to bandit problems. These guarantees include precise instance-dependent guarantees (as opposed to the worst-case or minimax guarantees) where some algorithms even achieve optimal rates with exact numerical constants!
+ - Bayesian optimization's convergence guarantees are analyzed in the bandit setup.
+ - Developments in bandits are being transferred to propose new RL algorithms with strong guarantees.
+ - Monte Carlo tree search (MCTS) algorithm used in AlphaGo was originated from the paper [https://dl.acm.org/doi/10.1007/11871842_29 "bandit based Monte-Carlo planning"], and MCTS made a revolutionary performance improvement in solving Go since its appearance. UCT was extended to PUCT and used in AlphaGo and numerous other successful RL applications from DeepMind and other applications (e.g., [https://www.nature.com/articles/nature25978 chemical synthesis]).
+ - Bandit algorithms were used to improve the computational complexity of k-medoids problem (similar to k-Means) dramatically; e.g., [https://proceedings.neurips.cc/paper/2019/file/c4de8ced6214345614d33fb0b16a8acd-Paper.pdf this paper].
 
 Bandits are actively being studied in both [https://tor-lattimore.com/downloads/book/book.pdf theory] and [http://rob.schapire.net/papers/www10.pdf applications] including [https://mwtds.azurewebsites.net/ deployable web service] and [https://arxiv.org/abs/1603.06560 hyperparameter optimization] (check [https://docs.ray.io/en/master/tune/api_docs/schedulers.html\#tune-scheduler-hyperband ray implementation]).
 Also, the cartoon caption contest of New Yorker is using bandit algorithms to efficiently crowdsource caption evaluations ([http://nextml.org/2015/12/04/new-yorker.html this article])!
 
-
-== talks
-
-- 07\/20: At [https://sites.google.com/view/rltheoryseminars/home RL theory virtual seminars], "Crush Optimism with Pessimism: Structured Bandits Beyond Asymptotic Optimality." [https://www.youtube.com/watch?v=S8dluBz4lMU \[video\]]
-- 05\/20: At Los Alamos - Arizona Days Conference, "Adaptive data collection for accelerating discovery rates."
-- 09\/19: At TRIPODS seminar, the U of Arizona, "Adaptive data collection for accelerating discovery rates."  
-- 09\/19: At TRIPODS RWG6, the U of Arizona, "Accelerating discovery rate in adaptive experiments via bandits with low-rank structure." 
-- 07\/19: At Microsoft New England, "Accelerating discovery rate in adaptive experiments via bandits with low-rank structure."
-- 04\/19: At the U of Arizona, "Accelerating discovery rate in adaptive experiments via bandits with low-rank structure."
-- 10\/18: At Open AIR: Industry Open House, Boston University, "Adapting to changing environments in online learning."
-- 10\/17: At [http://silo.ece.wisc.edu/web/ SILO], "Scalable Generalized Linear Bandits: Online Computation and Hashing." [http://silo.ece.wisc.edu/web/content/seminar/id/243 \[abstract\]]
-- 04\/17: At [http://www.aistats.org/aistats2017//schedule.html AISTATS], "Improved Strongly Adaptive Online Learning using Coin Betting."
-- 06\/16: At [http://cpcp.wisc.edu/ CPCP] Annual Retreat, "Multi-Armed Bandit Algorithms and Applications to Experiment Selection." [http://cpcp.wisc.edu/resources/cpcp-retreat-2016-multi-armed-bandit-algorithms-and-applications-to-experiment-selection-kwang-sung-jun-6-30-2016 \[abstract & video\]]
-- 03\/16: At [http://silo.ece.wisc.edu/web/ SILO], "Top Arm Identification in Multi-Armed Bandits with Batch Arm Pulls." [http://silo.ece.wisc.edu/web/content/seminar/id/198 \[abstract & video\]]
-- 03\/16: At [http://eng.ssu.ac.kr/web/eng/edu_a_01_07_a Soongsil University], two talks on human memory search.
-- 06\/16: At [http://icml.cc/2016/ ICML], "Anytime Exploration for Multi-armed Bandits using Confidence Information." [http://techtalks.tv/talks/anytime-exploration-for-multi-armed-bandits-using-confidence-information/62425/ \[video\]]
-- 11\/15: At HAMLET (interdisciplinary seminar series at UW-Madison), "Measuring semantic structure from verbal fluency data with the initial-visit-emitting (INVITE) random walk."
-- 03\/15: At [http://www.ttic.edu/ TTIC], "Learning from Human-Generated Lists."
-- 06\/13: At [http://icml.cc/2013/?page_id=47 ICML], "Learning from Human-Generated Lists." [http://techtalks.tv/talks/learning-from-human-generated-lists/58261/ \[video\]]
+# == talks
+# 
+# - 07\/20: At [https://sites.google.com/view/rltheoryseminars/home RL theory virtual seminars], "Crush Optimism with Pessimism: Structured Bandits Beyond Asymptotic Optimality." [https://www.youtube.com/watch?v=S8dluBz4lMU \[video\]]
+# - 05\/20: At Los Alamos - Arizona Days Conference, "Adaptive data collection for accelerating discovery rates."
+# - 09\/19: At TRIPODS seminar, the U of Arizona, "Adaptive data collection for accelerating discovery rates."  
+# - 09\/19: At TRIPODS RWG6, the U of Arizona, "Accelerating discovery rate in adaptive experiments via bandits with low-rank structure." 
+# - 07\/19: At Microsoft New England, "Accelerating discovery rate in adaptive experiments via bandits with low-rank structure."
+# - 04\/19: At the U of Arizona, "Accelerating discovery rate in adaptive experiments via bandits with low-rank structure."
+# - 10\/18: At Open AIR: Industry Open House, Boston University, "Adapting to changing environments in online learning."
+# - 10\/17: At [http://silo.ece.wisc.edu/web/ SILO], "Scalable Generalized Linear Bandits: Online Computation and Hashing." [http://silo.ece.wisc.edu/web/content/seminar/id/243 \[abstract\]]
+# - 04\/17: At [http://www.aistats.org/aistats2017//schedule.html AISTATS], "Improved Strongly Adaptive Online Learning using Coin Betting."
+# - 06\/16: At [http://cpcp.wisc.edu/ CPCP] Annual Retreat, "Multi-Armed Bandit Algorithms and Applications to Experiment Selection." [http://cpcp.wisc.edu/resources/cpcp-retreat-2016-multi-armed-bandit-algorithms-and-applications-to-experiment-selection-kwang-sung-jun-6-30-2016 \[abstract & video\]]
+# - 03\/16: At [http://silo.ece.wisc.edu/web/ SILO], "Top Arm Identification in Multi-Armed Bandits with Batch Arm Pulls." [http://silo.ece.wisc.edu/web/content/seminar/id/198 \[abstract & video\]]
+# - 03\/16: At [http://eng.ssu.ac.kr/web/eng/edu_a_01_07_a Soongsil University], two talks on human memory search.
+# - 06\/16: At [http://icml.cc/2016/ ICML], "Anytime Exploration for Multi-armed Bandits using Confidence Information." [http://techtalks.tv/talks/anytime-exploration-for-multi-armed-bandits-using-confidence-information/62425/ \[video\]]
+# - 11\/15: At HAMLET (interdisciplinary seminar series at UW-Madison), "Measuring semantic structure from verbal fluency data with the initial-visit-emitting (INVITE) random walk."
+# - 03\/15: At [http://www.ttic.edu/ TTIC], "Learning from Human-Generated Lists."
+# - 06\/13: At [http://icml.cc/2013/?page_id=47 ICML], "Learning from Human-Generated Lists." [http://techtalks.tv/talks/learning-from-human-generated-lists/58261/ \[video\]]
 
 
 # == services

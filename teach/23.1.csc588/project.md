@@ -23,7 +23,7 @@ You can choose to do one of the following types of projects:
 If you need help with choosing a project, please schedule an appointment with me and I will help you brainstorm one.
 
     
-*   **Final Report.** A 4-page summary of the project. You can use appendix if there are details you want to share. The report will be judged on both clarity and quality. The report needs to be typeset by LaTeX.
+*   **Final Report.** A 4-page summary of the project (8 pages for teams). You can use appendix if there are details you want to share. The report will be judged on both clarity and quality. The report needs to be typeset by LaTeX.
     
     *   For literature survey, provide a critical summary of the papers you have read; discuss the connections among these papers, and their impacts to broader field.
     *   For implementation projects, present your experimental results, and check whether the experimental results agree with theory.

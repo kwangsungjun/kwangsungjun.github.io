@@ -90,71 +90,34 @@ Before then, I spent 9 years at UW-Madison for a PhD degree with <a href="http:/
 </li>
 </ul>
 <h2>multi-armed bandits</h2>
-<p>Multi-armed bandit is a <i>state-less</i> version of the reinforcement learning (RL).
-But why study an easier version of RL while RL seems to be solving all the problems these day?
-Bandits are simpler and thus have strong theoretical guarantees and yet have abundant real-world applications.
-Furthermore, developments in bandits can potentially improve RL algorithms, either transferring ideas from bandits to RL or directly use bandits for Monte Carlo planning in MDP (e.g., the Monte Carlo tree search algorithm used in AlphaGo was originated from <a href="https://dl.acm.org/doi/10.1007/11871842_29" target=&ldquo;blank&rdquo;>this paper</a>).
-</p>
-<p>Informally speaking, bandits learn to make better decisions over time in a feedback-loop.
+<p>The multi-armed bandit problem is a <i>state-less</i> version of reinforcement learning (RL).
+Informally speaking, bandit algorithms learn to make better decisions over time in a feedback-loop.
 The decisions necessarily affect the feedback information, and the feedback data collected so far is no longer i.i.d.; most traditional learning guarantees do not apply.
+But why study an easier version of RL while RL seems to be solving all the problems these day?
 </p>
-<p>Bandits are actively being studied in both <a href="https://tor-lattimore.com/downloads/book/book.pdf" target=&ldquo;blank&rdquo;>theory</a> and <a href="http://rob.schapire.net/papers/www10.pdf" target=&ldquo;blank&rdquo;>applications</a> including <a href="https://mwtds.azurewebsites.net/" target=&ldquo;blank&rdquo;>deployable web service</a> and <a href="https://arxiv.org/abs/1603.06560" target=&ldquo;blank&rdquo;>hyperparameter optimization</a> (check <a href="https://docs.ray.io/en/master/tune/api_docs/schedulers.html#tune-scheduler-hyperband" target=&ldquo;blank&rdquo;>ray implementation</a>).
-Also, the cartoon caption contest of New Yorker is using bandit algorithms to efficiently crowdsource caption evaluations (<a href="http://nextml.org/2015/12/04/new-yorker.html" target=&ldquo;blank&rdquo;>this article</a>)!
-</p>
-<h2>talks</h2>
 <ul>
-<li><p>07/20: At <a href="https://sites.google.com/view/rltheoryseminars/home" target=&ldquo;blank&rdquo;>RL theory virtual seminars</a>, &ldquo;Crush Optimism with Pessimism: Structured Bandits Beyond Asymptotic Optimality.&rdquo; <a href="https://www.youtube.com/watch?v=S8dluBz4lMU" target=&ldquo;blank&rdquo;>[video]</a>
+<li><p>Being a very simple problem, you can develop algorithms with precise theoretical guarantees and superior performance compared to RL algorithms applied to bandit problems. These guarantees include precise instance-dependent guarantees (as opposed to the worst-case or minimax guarantees) where some algorithms even achieve optimal rates with exact numerical constants!
 </p>
 </li>
-<li><p>05/20: At Los Alamos - Arizona Days Conference, &ldquo;Adaptive data collection for accelerating discovery rates.&rdquo;
+<li><p>Bayesian optimization's convergence guarantees are analyzed in the bandit setup!
 </p>
 </li>
-<li><p>09/19: At TRIPODS seminar, the U of Arizona, &ldquo;Adaptive data collection for accelerating discovery rates.&rdquo;  
+<li><p>Developments in bandits are being transferred to propose new RL algorithms with strong guarantees.
 </p>
 </li>
-<li><p>09/19: At TRIPODS RWG6, the U of Arizona, &ldquo;Accelerating discovery rate in adaptive experiments via bandits with low-rank structure.&rdquo; 
+<li><p>Monte Carlo tree search (MCTS) algorithm used in AlphaGo was originated from the paper <a href="https://dl.acm.org/doi/10.1007/11871842_29" target=&ldquo;blank&rdquo;>&ldquo;bandit based Monte-Carlo planning&rdquo;</a>, and MCTS made a revolutionary performance improvement in solving Go since its appearance. UCT was extended to PUCT and used in AlphaGo and numerous other successful RL applications from DeepMind and other applications (e.g., <a href="https://www.nature.com/articles/nature25978" target=&ldquo;blank&rdquo;>chemical synthesis</a>).
 </p>
 </li>
-<li><p>07/19: At Microsoft New England, &ldquo;Accelerating discovery rate in adaptive experiments via bandits with low-rank structure.&rdquo;
-</p>
-</li>
-<li><p>04/19: At the U of Arizona, &ldquo;Accelerating discovery rate in adaptive experiments via bandits with low-rank structure.&rdquo;
-</p>
-</li>
-<li><p>10/18: At Open AIR: Industry Open House, Boston University, &ldquo;Adapting to changing environments in online learning.&rdquo;
-</p>
-</li>
-<li><p>10/17: At <a href="http://silo.ece.wisc.edu/web/" target=&ldquo;blank&rdquo;>SILO</a>, &ldquo;Scalable Generalized Linear Bandits: Online Computation and Hashing.&rdquo; <a href="http://silo.ece.wisc.edu/web/content/seminar/id/243" target=&ldquo;blank&rdquo;>[abstract]</a>
-</p>
-</li>
-<li><p>04/17: At <a href="http://www.aistats.org/aistats2017//schedule.html" target=&ldquo;blank&rdquo;>AISTATS</a>, &ldquo;Improved Strongly Adaptive Online Learning using Coin Betting.&rdquo;
-</p>
-</li>
-<li><p>06/16: At <a href="http://cpcp.wisc.edu/" target=&ldquo;blank&rdquo;>CPCP</a> Annual Retreat, &ldquo;Multi-Armed Bandit Algorithms and Applications to Experiment Selection.&rdquo; <a href="http://cpcp.wisc.edu/resources/cpcp-retreat-2016-multi-armed-bandit-algorithms-and-applications-to-experiment-selection-kwang-sung-jun-6-30-2016" target=&ldquo;blank&rdquo;>[abstract &amp; video]</a>
-</p>
-</li>
-<li><p>03/16: At <a href="http://silo.ece.wisc.edu/web/" target=&ldquo;blank&rdquo;>SILO</a>, &ldquo;Top Arm Identification in Multi-Armed Bandits with Batch Arm Pulls.&rdquo; <a href="http://silo.ece.wisc.edu/web/content/seminar/id/198" target=&ldquo;blank&rdquo;>[abstract &amp; video]</a>
-</p>
-</li>
-<li><p>03/16: At <a href="http://eng.ssu.ac.kr/web/eng/edu_a_01_07_a" target=&ldquo;blank&rdquo;>Soongsil University</a>, two talks on human memory search.
-</p>
-</li>
-<li><p>06/16: At <a href="http://icml.cc/2016/" target=&ldquo;blank&rdquo;>ICML</a>, &ldquo;Anytime Exploration for Multi-armed Bandits using Confidence Information.&rdquo; <a href="http://techtalks.tv/talks/anytime-exploration-for-multi-armed-bandits-using-confidence-information/62425/" target=&ldquo;blank&rdquo;>[video]</a>
-</p>
-</li>
-<li><p>11/15: At HAMLET (interdisciplinary seminar series at UW-Madison), &ldquo;Measuring semantic structure from verbal fluency data with the initial-visit-emitting (INVITE) random walk.&rdquo;
-</p>
-</li>
-<li><p>03/15: At <a href="http://www.ttic.edu/" target=&ldquo;blank&rdquo;>TTIC</a>, &ldquo;Learning from Human-Generated Lists.&rdquo;
-</p>
-</li>
-<li><p>06/13: At <a href="http://icml.cc/2013/?page_id=47" target=&ldquo;blank&rdquo;>ICML</a>, &ldquo;Learning from Human-Generated Lists.&rdquo; <a href="http://techtalks.tv/talks/learning-from-human-generated-lists/58261/" target=&ldquo;blank&rdquo;>[video]</a>
+<li><p>Bandit algorithms were used to improve the computational complexity of k-medoids problem (similar to k-Means) dramatically; e.g., <a href="https://proceedings.neurips.cc/paper/2019/file/c4de8ced6214345614d33fb0b16a8acd-Paper.pdf" target=&ldquo;blank&rdquo;>this paper</a>.
 </p>
 </li>
 </ul>
+<p>Bandits are actively being studied in both <a href="https://tor-lattimore.com/downloads/book/book.pdf" target=&ldquo;blank&rdquo;>theory</a> and <a href="http://rob.schapire.net/papers/www10.pdf" target=&ldquo;blank&rdquo;>applications</a> including <a href="https://mwtds.azurewebsites.net/" target=&ldquo;blank&rdquo;>deployable web service</a> and <a href="https://arxiv.org/abs/1603.06560" target=&ldquo;blank&rdquo;>hyperparameter optimization</a> (check <a href="https://docs.ray.io/en/master/tune/api_docs/schedulers.html#tune-scheduler-hyperband" target=&ldquo;blank&rdquo;>ray implementation</a>).
+Also, the cartoon caption contest of New Yorker is using bandit algorithms to efficiently crowdsource caption evaluations (<a href="http://nextml.org/2015/12/04/new-yorker.html" target=&ldquo;blank&rdquo;>this article</a>)!
+</p>
 <div id="footer">
 <div id="footer-text">
-Page generated 2023-03-05 20:53:43 MST, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+Page generated 2023-03-18 18:16:22 MST, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </td>
