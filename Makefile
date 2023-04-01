@@ -4,3 +4,4 @@ all:
 	jemdoc teaching.jemdoc
 	jemdoc personal.jemdoc
 	jemdoc talk.jemdoc
+	jemdoc artifact.jemdoc
