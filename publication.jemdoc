@@ -4,17 +4,23 @@
 
 == preprints
 
-  *Tighter PAC-Bayes Bounds Through Coin-Betting*.{{</br>}}
-  Kyoungseok Jang, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Ilja Kuzborskij, Francesco Orabona (alphabetical order).{{</br>}}
-  [https://arxiv.org/abs/2302.05829 \[arxiv\]]
-
-  *Revisiting Simple Regret: Fast Rates for Returning a Good Arm*.{{</br>}}
-  Yao Zhao, Connor Stephens, Csaba Szepesvári, {{<font color=a92b13>Kwang-Sung Jun</font>}}.{{</br>}} 
-  [https://arxiv.org/abs/2210.16913 \[arxiv\]]
 
   *Tight Concentrations and Confidence Sequences from the Regret of Universal Portfolio*.{{</br>}}
   Francesco Orabona, {{<font color=a92b13>Kwang-Sung Jun</font>}}.{{</br>}} 
   [https://arxiv.org/abs/2110.14099 \[arxiv\]]
+
+== 2023
+
+  *Revisiting Simple Regret: Fast Rates for Returning a Good Arm*.{{</br>}}
+  Yao Zhao, Connor Stephens, Csaba Szepesvári, {{<font color=a92b13>Kwang-Sung Jun</font>}}.{{</br>}} 
+  In International Conference on Machine Learning (*ICML*), 2023.{{</br>}}
+  [https://arxiv.org/abs/2210.16913 \[arxiv\]]
+
+  *Tighter PAC-Bayes Bounds Through Coin-Betting*.{{</br>}}
+  Kyoungseok Jang, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Ilja Kuzborskij, Francesco Orabona (alphabetical order).{{</br>}}
+  In Conference on Learning Theory (*COLT*), 2023.{{</br>}}
+  [https://arxiv.org/abs/2302.05829 \[arxiv\]]
+
 
 == 2022
 
@@ -72,7 +78,7 @@
   *Crush Optimism with Pessimism: Structured Bandits Beyond Asymptotic Optimality*.{{</br>
   <font color=A92B13>Kwang-Sung Jun</font>}}, Chicheng Zhang.{{</br>}}
   In Neural Information Processing Systems (*NeurIPS*), 2020.{{</br>}}
-  [https://arxiv.org/abs/2006.08754 \[arxiv\]] [data/2020-crop-slides-rltheory.pdf \[slides\]]  [https://www.youtube.com/watch?v=S8dluBz4lMU \[video\]]
+  [https://proceedings.neurips.cc/paper/2020/hash/46489c17893dfdcf028883202cefd6d1-Abstract.html \[official\]] [https://arxiv.org/abs/2006.08754 \[arxiv\]] [data/2020-crop-slides-rltheory.pdf \[slides\]]  [https://www.youtube.com/watch?v=S8dluBz4lMU \[video\]]
   - Previously appeared in ICML Workshop on Theoretical Foundations of Reinforcement Learning, 2020.
   
 == 2019
