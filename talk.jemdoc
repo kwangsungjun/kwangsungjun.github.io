@@ -1,6 +1,6 @@
 # jemdoc: menu{MENU}{talk.html}
 # jemdoc: analytics{UA-106338466-1}
-= talks
+= Talks
 
 - 09\/22: At [https://sites.google.com/view/rltheoryseminars/home RL theory virtual seminars], "Maillard Sampling: Boltzmann Exploration Done Optimally." [https://www.youtube.com/watch?v=JWNVXPihti0&ab_channel=RLtheoryseminars \[video\]]
 - 07\/20: At [https://sites.google.com/view/rltheoryseminars/home RL theory virtual seminars], "Crush Optimism with Pessimism: Structured Bandits Beyond Asymptotic Optimality." [https://www.youtube.com/watch?v=S8dluBz4lMU \[video\]]

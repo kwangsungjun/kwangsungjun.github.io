@@ -1,6 +1,6 @@
 # jemdoc: menu{MENU}{index.html}
 # jemdoc: analytics{UA-106338466-1}
-= home
+= Home
 
 # {{</br>}}
 # {{</br>}}
@@ -34,7 +34,7 @@ Gould-Simpson Rm 746, 1040 E. 4th St., Tucson, AZ 85721 {{</br>}}
 # Background in ML theory is a plus. Your undergrad major does not matter, but minimal CS background is required (we can discuss it further). For this position, you should expect to spend a lot of time on mathematical research (e.g., algorithms with performance guarantees) as opposed to tuning hyperparameters on benchmark datasets. This, however, does not mean we will only stick to theories. We will develop performant algorithms and test them in real-world tasks. You can find my email from my webpage and send me an email if you are interested.
 # </font>}}
 
-== intro
+== Intro
 
 Broadly, I work on interactive machine learning.
 I spend most of my time on on developing and analyzing adaptive decision-making\/sampling methods including bandit algorithms and reinforcement learning.
@@ -46,7 +46,7 @@ I was previously a postdoc with [http://francesco.orabona.com/ Francesco Orabona
 Before then, I spent 9 years at UW-Madison for a PhD degree with [http://pages.cs.wisc.edu/~jerryzhu/ Xiaojin (Jerry) Zhu] and a postdoc position at [https://discovery.wisc.edu/ Wisconsin Institute for Discovery] with [http://nowak.ece.wisc.edu Robert Nowak], [http://willett.ece.wisc.edu/ Rebecca Willett], and [http://pages.cs.wisc.edu/~swright/ Stephen Wright].
 
 
-== news
+== News
 
 - Sep'22: 2 papers accepted at NeurIPS. Congrats to my postdoc Kyoungseok Jang!
 - May'22: I gave a talk at the [https://sites.google.com/view/rltheoryseminars/home RL theory virtual seminars] on Maillard sampling.
@@ -60,7 +60,7 @@ Before then, I spent 9 years at UW-Madison for a PhD degree with [http://pages.c
 - Oct'19: Our paper on kernel regression paper is accepted at NeurIPS'19.
 - Oct'19: Our paper on parameter-free SGD with local differential privacy is accepted to PriML'19 (worshop at NeurIPS).
 
-== multi-armed bandits
+== Multi-armed bandits
 
 The multi-armed bandit problem is a /state-less/ version of reinforcement learning (RL).
 Informally speaking, bandit algorithms learn to make better decisions over time in a feedback-loop.
@@ -76,10 +76,10 @@ But why study an easier version of RL while RL seems to be solving all the probl
 Bandits are actively being studied in both [https://tor-lattimore.com/downloads/book/book.pdf theory] and [http://rob.schapire.net/papers/www10.pdf applications] including [https://mwtds.azurewebsites.net/ deployable web service] and [https://arxiv.org/abs/1603.06560 hyperparameter optimization] (check [https://docs.ray.io/en/master/tune/api_docs/schedulers.html\#tune-scheduler-hyperband ray implementation]).
 Also, the cartoon caption contest of New Yorker is using bandit algorithms to efficiently crowdsource caption evaluations ([http://nextml.org/2015/12/04/new-yorker.html this article])!
 
-== service
+== Service
 
-- Senior program committee / area chair: COLT, NeurIPS
-- Program committee: NeurIPS, ICML, AISTATS, AAAI
+- Area chair: COLT, NeurIPS, AAAI
+- Program committee: ICML, AISTATS, AAAI
 
 # # jemdoc: menu{MENU}{index.html}, showsource
 # = jemdoc -- light markup
