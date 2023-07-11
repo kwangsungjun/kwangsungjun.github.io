@@ -78,8 +78,8 @@ Also, the cartoon caption contest of New Yorker is using bandit algorithms to ef
 
 == Service
 
-- Area chair: COLT, NeurIPS, AAAI
-- Program committee: ICML, AISTATS, AAAI
+- Area chair: COLT, ALT, NeurIPS, AAAI
+- Program committee: ICML, AISTATS
 
 # # jemdoc: menu{MENU}{index.html}, showsource
 # = jemdoc -- light markup
