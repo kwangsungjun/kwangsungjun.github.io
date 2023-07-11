@@ -53,14 +53,14 @@ Before then, I spent 9 years at UW-Madison for a PhD degree with [http://pages.c
 - Sep'22: 2 papers accepted at NeurIPS. Congrats to my postdoc Kyoungseok Jang!
 - May'22: I gave a talk at the [https://sites.google.com/view/rltheoryseminars/home RL theory virtual seminars] on Maillard sampling.
 - Jan'22: 1 paper accpeted at AAAI, 3 papers accepted to AISTATS.
-- May'21: 2 papers accepted at ICML. 
-- May'21: 1 paper accepted at ISIT. 
-- Jul'20: I gave a talk at the [https://sites.google.com/view/rltheoryseminars/home RL theory virtual seminars] on structured bandits with the asymptotic optimality.
-- Jul'20: Chicheng and I have a new work on structured bandits that is accepted to ICML'20 workshop on theoretical foundations of reinforcement learning!
-- Nov'19: In Spring 2020, I will be teaching [./20.1.csc665/index.html CSC 665 Online Learning and Multi-armed Bandits].
-- Oct'19: Chicheng Zhang, Jason Pacheco, and I are organizing a [https://sites.google.com/view/ua-mlrg/ machine learning reading group] at UA.
-- Oct'19: Our paper on kernel regression paper is accepted at NeurIPS'19.
-- Oct'19: Our paper on parameter-free SGD with local differential privacy is accepted to PriML'19 (worshop at NeurIPS).
+# - May'21: 2 papers accepted at ICML. 
+# - May'21: 1 paper accepted at ISIT. 
+# - Jul'20: I gave a talk at the [https://sites.google.com/view/rltheoryseminars/home RL theory virtual seminars] on structured bandits with the asymptotic optimality.
+# - Jul'20: Chicheng and I have a new work on structured bandits that is accepted to ICML'20 workshop on theoretical foundations of reinforcement learning!
+# - Nov'19: In Spring 2020, I will be teaching [./20.1.csc665/index.html CSC 665 Online Learning and Multi-armed Bandits].
+# - Oct'19: Chicheng Zhang, Jason Pacheco, and I are organizing a [https://sites.google.com/view/ua-mlrg/ machine learning reading group] at UA.
+# - Oct'19: Our paper on kernel regression paper is accepted at NeurIPS'19.
+# - Oct'19: Our paper on parameter-free SGD with local differential privacy is accepted to PriML'19 (worshop at NeurIPS).
 
 == Multi-armed bandits
 
