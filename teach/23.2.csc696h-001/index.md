@@ -4,7 +4,9 @@ This course introduces the concentration of measure phenomenon. Students will le
 
  1. The basic concentration of measure bounds such as subgaussian random variable, sub-exponential random variable, empirical Bernstein, robust mean estimators, and McDiarmid’s inequality, 
  1. Numerically tight confidence bounds including time-uniform bounds, bounds for linear models, PAC-Bayes bounds, and their applications to machine learning problems, and
- 1. Advanced tools for the deviation of functions including covering and packing, the concentration of Rademacher/Gaussian complexities, metric entropy, and chaining. Throughout, students will not only learn fundamental tools upholding the current understanding of concentration of measure but also develop skills for adapting these techniques to their own research needs such as developing and analyzing new algorithms for interactive machine learning problems like multi-armed bandits and A/B testing.
+ 1. Advanced tools for the deviation of functions including covering and packing, the concentration of Rademacher/Gaussian complexities, metric entropy, and chaining. 
+
+Throughout, students will not only learn fundamental tools upholding the current understanding of concentration of measure but also develop skills for adapting these techniques to their own research needs such as developing and analyzing new algorithms for interactive machine learning problems like multi-armed bandits and A/B testing.
 
 ### Syllabus
 
@@ -12,7 +14,7 @@ Here is the [syallabus updated on 08/14/2023](./data/23f696h_syllabus.pdf). Furt
 
 ### Logistics info
 
- * **Mondays and Wednesdays, 12:30pm - 1:45pm**
+ * **Mondays and Wednesdays, 12:30pm - 1:45pm**, Gould-Simpson 701
  * D2L: https://d2l.arizona.edu/d2l/home/1347795
 <!-- * **(TODO)** [Piazza link](http://piazza.com/arizona/spring2020/csc665) access code: bandits -->
 <!-- * [Gradescope](https://www.gradescope.com/courses/163532) entry code: MXD4D2 -->
