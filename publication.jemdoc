@@ -14,11 +14,13 @@
   *Revisiting Simple Regret: Fast Rates for Returning a Good Arm*.{{</br>}}
   Yao Zhao, Connor Stephens, Csaba Szepesvári, {{<font color=a92b13>Kwang-Sung Jun</font>}}.{{</br>}} 
   In International Conference on Machine Learning (*ICML*), 2023.{{</br>}}
+  [https://proceedings.mlr.press/v202/zhao23g.html \[official\]]
   [https://arxiv.org/abs/2210.16913 \[arxiv\]]
 
   *Tighter PAC-Bayes Bounds Through Coin-Betting*.{{</br>}}
   Kyoungseok Jang, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Ilja Kuzborskij, Francesco Orabona (alphabetical order).{{</br>}}
   In Conference on Learning Theory (*COLT*), 2023.{{</br>}}
+  [https://proceedings.mlr.press/v195/jang23a.html \[official\]]
   [https://arxiv.org/abs/2302.05829 \[arxiv\]]
 
 
@@ -112,14 +114,14 @@
   *Adversarial Attacks on Stochastic Bandits*.{{</br>
   <font color=a92b13>Kwang-Sung Jun</font>}}, Lihong Li, Yuzhe Ma, Xiaojin Zhu.{{</br>}}
   In Neural Information Processing Systems (*NeurIPS*), 2018.{{</br>}}
-  [https://arxiv.org/abs/1810.12188 \[arxiv\]]
   [http://papers.nips.cc/paper/7622-adversarial-attacks-on-stochastic-bandits \[official\]]
+  [https://arxiv.org/abs/1810.12188 \[arxiv\]]
 
   *Data Poisoning Attacks in Contextual Bandits*.{{</br>}}
   Yuzhe Ma, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Lihong Li, Xiaojin Zhu.{{</br>}}
   In Conference on Decision and Game Theory for Security (*GameSec*), 2018.{{</br>}}
-  [https://arxiv.org/abs/1808.05760 \[arxiv\]]
   [https://link.springer.com/chapter/10.1007/978-3-030-01554-1_11 \[official\]]
+  [https://arxiv.org/abs/1808.05760 \[arxiv\]]
 
   *Bayesian Active Learning on Graphs*.{{</br>
   <font color=a92b13>Kwang-Sung Jun</font>}}, Robert Nowak.{{</br>}} 
