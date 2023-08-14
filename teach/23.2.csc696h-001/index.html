@@ -1,0 +1,555 @@
+<!doctype html>
+<html >
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--[if lt IE 9]>
+                <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+        <![endif]-->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+
+  <link rel="stylesheet" type="text/css" href="/templates/pandoc-bootstrap-adaptive-template/tufte.css" />
+
+   <link href="https://vjs.zencdn.net/5.4.4/video-js.css" rel="stylesheet" />
+
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type='text/javascript' src='/templates/pandoc-bootstrap-adaptive-template/menu/js/jquery.cookie.js'></script>
+<script type='text/javascript' src='/templates/pandoc-bootstrap-adaptive-template/menu/js/jquery.hoverIntent.minified.js'></script>
+<script type='text/javascript' src='/templates/pandoc-bootstrap-adaptive-template/menu/js/jquery.dcjqaccordion.2.7.min.js'></script>
+
+<link href="/templates/pandoc-bootstrap-adaptive-template/menu/css/skins/blue.css" rel="stylesheet" type="text/css" />
+<link href="/templates/pandoc-bootstrap-adaptive-template/menu/css/skins/graphite.css" rel="stylesheet" type="text/css" />
+<link href="/templates/pandoc-bootstrap-adaptive-template/menu/css/skins/grey.css" rel="stylesheet" type="text/css" />
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+  <script src="/templates/pandoc-bootstrap-adaptive-template/script.js"></script>
+
+    <script src="/bower_components/sticky-kit/jquery.sticky-kit.js "></script>
+  <meta name="generator" content="pandoc" />
+  <title>CSC 696H-001 Fall 2023: Home</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="bootstrap.css" />
+</head>
+<body>
+
+<!--
+    <div class="navbar navbar-static-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <span class="doc-title">CSC 696H-001 Fall 2023: Home</span>
+        <ul class="nav pull-right doc-info">
+                            </ul>
+      </div>
+    </div>
+  </div>
+  -->
+  <div class="container">
+    <div class="row">
+            <div class="span12">
+            <nav class="navbar navbar-default">
+              <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="index.html">CSC 696H-001</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                    <!--<li><a href="project.html">Project</a></li>-->
+                    <!--        <li><a href="project.html">Project</a></li>-->
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+            </nav>
+            <h1
+            id="csc-696h-001-topics-in-concentration-of-measure---fall-2023">CSC
+            696H-001: Topics in Concentration of Measure - Fall
+            2023</h1>
+            <p>This course introduces the concentration of measure
+            phenomenon. Students will learn various techniques to
+            control tail bounds of popular mean estimators and
+            estimators for the minimum value of a function. The course
+            will consist of three part:</p>
+            <ol type="1">
+            <li>The basic concentration of measure bounds such as
+            subgaussian random variable, sub-exponential random
+            variable, empirical Bernstein, robust mean estimators, and
+            McDiarmid’s inequality,</li>
+            <li>Numerically tight confidence bounds including
+            time-uniform bounds, bounds for linear models, PAC-Bayes
+            bounds, and their applications to machine learning problems,
+            and</li>
+            <li>Advanced tools for the deviation of functions including
+            covering and packing, the concentration of
+            Rademacher/Gaussian complexities, metric entropy, and
+            chaining. Throughout, students will not only learn
+            fundamental tools upholding the current understanding of
+            concentration of measure but also develop skills for
+            adapting these techniques to their own research needs such
+            as developing and analyzing new algorithms for interactive
+            machine learning problems like multi-armed bandits and A/B
+            testing.</li>
+            </ol>
+            <h3 id="syllabus">Syllabus</h3>
+            <p>Here is the <a
+            href="./data/23f696h_syllabus.pdf">syallabus updated on
+            08/14/2023</a>. Further adjustments will be available in
+            D2L.</p>
+            <h3 id="logistics-info">Logistics info</h3>
+            <ul>
+            <li><strong>Mondays and Wednesdays, 12:30pm -
+            1:45pm</strong></li>
+            <li>D2L: https://d2l.arizona.edu/d2l/home/1347795
+            <!-- * **(TODO)** [Piazza link](http://piazza.com/arizona/spring2020/csc665) access code: bandits -->
+            <!-- * [Gradescope](https://www.gradescope.com/courses/163532) entry code: MXD4D2 --></li>
+            <li>Please find other information from the D2L and the
+            syllabus.</li>
+            </ul>
+            <h3 id="instructor">Instructor</h3>
+            <ul>
+            <li><a href="https://kwangsungjun.github.io/">Kwang-Sung
+            Jun</a></li>
+            <li>k[lastname]<span class="citation"
+            data-cites="cs.arizona.edu">@cs.arizona.edu</span></li>
+            <li>Gould-Simpson Rm 746</li>
+            </ul>
+            <h3 id="textbook">Textbook</h3>
+            <p>Textbooks:</p>
+            <ul>
+            <li>[W] Martin J. Wainwright, High-Dimensional Statistics: A
+            Non-Asymptotic Viewpoint, 2019.</li>
+            <li>[BLM] Stéphane Boucheron, Gábor Lugosi, and Pascal
+            Massart. Concentration inequalities: A nonasymptotic theory
+            of independence, 2012.</li>
+            </ul>
+            <p>Both are available through UA library. The main textbook
+            will be [W], but we will occasionally use [BLM] and other
+            materials. The instructor will announce other related
+            materials in D2L.</p>
+            <p>There is no designated textbook for this course. Much of
+            the course materials will be based on these books:</p>
+            <p>Other useful resources</p>
+            <ul>
+            <li>Here are some excellent notes for <a
+            href="http://cs229.stanford.edu/section/cs229-prob.pdf">probability
+            review</a> and <a
+            href="http://cs229.stanford.edu/section/cs229-linalg.pdf">linear
+            algebra review</a>.</li>
+            <li>Section 2-4 of the book <a
+            href="https://tor-lattimore.com/downloads/book/book.pdf">bandit
+            algorithms</a> also provides a concise summary of the basic
+            probability theory.</li>
+            <li>You may also find <a
+            href="https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf">The
+            matrix cookbook</a>, <a href="http://statistics.zone/">The
+            Probability and Statistics Cookbook</a> useful, and <a
+            href="https://tutorial.math.lamar.edu/pdf/calculus_cheat_sheet_all.pdf">Calculus
+            cheatsheet</a>.</li>
+            </ul>
+            <h3 id="evaluation">Evaluation</h3>
+            <ul>
+            <li>Two homeworks (20+20=40)</li>
+            <li>Participation (5)</li>
+            <li>Weekly discussion (5)</li>
+            <li>Pop quiz (10): weekly</li>
+            <li>Paper critique (10)</li>
+            <li>Presentation (30)</li>
+            </ul>
+            <p>There will be no exams, but each student must do an
+            independent presentation for 60 minutes + rebuttal based on
+            the paper critique. More on the rebuttal: for each
+            presentation, approximately two students will have to write
+            their own paper critiques (in the standard ML conference
+            paper review format), and the presenter must show a rebuttal
+            against those critiques.</p>
+            <h3 id="schedule">Schedule</h3>
+            <p>The following is a rough schedule. Please see D2L for a
+            more detailed and calibrated schedule.</p>
+            <table>
+            <colgroup>
+            <col style="width: 11%" />
+            <col style="width: 2%" />
+            <col style="width: 41%" />
+            <col style="width: 14%" />
+            <col style="width: 14%" />
+            <col style="width: 14%" />
+            </colgroup>
+            <thead>
+            <tr class="header">
+            <th style="text-align: right;">#</th>
+            <th></th>
+            <th style="text-align: left;">  Topics</th>
+            <th style="text-align: center;">Readings</th>
+            <th style="text-align: center;"></th>
+            <th style="text-align: center;">Homework</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="odd">
+            <td style="text-align: right;">1: 08/21</td>
+            <td></td>
+            <td style="text-align: left;">intro</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: right;">2: 08/23</td>
+            <td></td>
+            <td style="text-align: left;">(part 1) sub-gaussian random
+            variables</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: right;">3: 08/28</td>
+            <td></td>
+            <td style="text-align: left;">Sub-exponential random
+            variables (1)</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: right;">4: 08/30</td>
+            <td></td>
+            <td style="text-align: left;">Sub-exponential random
+            variables (2)</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: right;">5: 09/04</td>
+            <td></td>
+            <td style="text-align: left;">labor day; no lecture</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: right;">5: 09/06</td>
+            <td></td>
+            <td style="text-align: left;">robust mean estimators</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: right;">6: 09/11</td>
+            <td></td>
+            <td style="text-align: left;">empirical Bernstein
+            inequality</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: right;">7: 09/13</td>
+            <td></td>
+            <td style="text-align: left;">martingale-based methods and
+            McDiarmid’s inequality</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: right;">8: 09/18</td>
+            <td></td>
+            <td style="text-align: left;">lipschitz functions of
+            Gaussian variables</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: right;">9: 09/20</td>
+            <td></td>
+            <td style="text-align: left;">(part 2) Time-uniform bounds
+            and applications in multi-armed bandits</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: right;">10: 09/25</td>
+            <td></td>
+            <td style="text-align: left;">bounds for linear models and
+            linear bandits (1)</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: right;">11: 09/27</td>
+            <td></td>
+            <td style="text-align: left;">bounds for linear models and
+            linear bandits (2)</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: right;">12: 10/02</td>
+            <td></td>
+            <td style="text-align: left;">numerically tight bounds:
+            KL-divergence and betting-based bounds</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: right;">13: 10/04</td>
+            <td></td>
+            <td style="text-align: left;">pac-bayes bounds (1)</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: right;">14: 10/09</td>
+            <td></td>
+            <td style="text-align: left;">pac-bayes bounds (2)</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: right;">15: 10/11</td>
+            <td></td>
+            <td style="text-align: left;">(part 3) uniform law of large
+            numbers.</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: right;">16: 10/16</td>
+            <td></td>
+            <td style="text-align: left;">upper bounds on the rademacher
+            complexity</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: right;">17: 10/18</td>
+            <td></td>
+            <td style="text-align: left;">covering and packing</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: right;">18: 10/23</td>
+            <td></td>
+            <td style="text-align: left;">gaussian and rademacher
+            complexity</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: right;">19: 10/25</td>
+            <td></td>
+            <td style="text-align: left;">metric entropy and
+            sub-gaussian processes</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: right;">20: 10/30</td>
+            <td></td>
+            <td style="text-align: left;">sudakov’s lower bound</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: right;">21: 11/01</td>
+            <td></td>
+            <td style="text-align: left;">chaining</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: right;">22: 11/06</td>
+            <td></td>
+            <td style="text-align: left;">student paper
+            presentation</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: right;">23: 11/08</td>
+            <td></td>
+            <td style="text-align: left;">student paper
+            presentation</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: right;">24: 11/13</td>
+            <td></td>
+            <td style="text-align: left;">student paper
+            presentation</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: right;">25: 11/15</td>
+            <td></td>
+            <td style="text-align: left;">student paper
+            presentation</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: right;">26: 11/20</td>
+            <td></td>
+            <td style="text-align: left;">student paper
+            presentation</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: right;">27: 11/22</td>
+            <td></td>
+            <td style="text-align: left;">student paper
+            presentation</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: right;">28: 11/27</td>
+            <td></td>
+            <td style="text-align: left;">student paper
+            presentation</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: right;">29: 11/29</td>
+            <td></td>
+            <td style="text-align: left;">student paper
+            presentation</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: right;">30: 12/04</td>
+            <td></td>
+            <td style="text-align: left;">student paper
+            presentation</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="even">
+            <td style="text-align: right;">31: 12/06</td>
+            <td></td>
+            <td style="text-align: left;">student paper
+            presentation</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            </tr>
+            <tr class="odd">
+            <td style="text-align: right;"><img width=20/></td>
+            <td><img width=10/></td>
+            <td style="text-align: left;"><img width=400/></td>
+            <td style="text-align: center;"><img width=200/></td>
+            <td style="text-align: center;"><img width=100/></td>
+            <td style="text-align: center;"><img width=100/></td>
+            </tr>
+            </tbody>
+            </table>
+            <h3 id="potential-presentation-topics">Potential
+            presentation topics</h3>
+            <ul>
+            <li>Vector concentration of measure: Jin et al., <a
+            href="https://arxiv.org/pdf/1902.03736.pdf">A Short Note on
+            Concentration Inequalities for Random Vectors with
+            SubGaussian Norm</a>, 2019.</li>
+            <li>Robust estimator for matrices: Misker, <a
+            href="https://www.jstor.org/stable/pdf/26542885.pdf?casa_token=8Ore5ZXK-bwAAAAA:LiutSFbMYzVve3m6MGsbtTqEc3owTEwTnnTmW4EOwaJwBv03VTtJ83OPNLhRsbMKPt96QL9qhbHBblrV4WY2rO_zZ_X_I6rZPCLhnggNxRW8sYKz-fs">Sub-Gaussian
+            estimators of the mean of a random matrix with
+            heavy-tailed</a>, 2018.</li>
+            <li>Catoni estimator without knowledge of the variance: Lee
+            and Valiant, <a
+            href="https://www.cs.purdue.edu/homes/pvaliant/mean-in-R.pdf">Optimal
+            Sub-Gaussian Mean Estimation in R</a>, 2021.</li>
+            <li>Robust confidence sequence: Wang and Ramdas, <a
+            href="https://www.sciencedirect.com/science/article/pii/S0304414923001084">Catoni-style
+            confidence sequences for heavy-tailed mean estimation</a>,
+            2022.</li>
+            <li>Robust estimator based on median of means: Minsker, <a
+            href="https://arxiv.org/pdf/2305.18681">Efficient median of
+            means estimator</a>, 2023.</li>
+            <li>Mixture martingale technique: Kaufmann and Koolen, <a
+            href="https://www.jmlr.org/papers/volume22/18-798/18-798.pdf">Mixture
+            Martingales Revisited with Applications to Sequential Tests
+            and Confidence Intervals</a>, 2018.</li>
+            <li>Cencentration bounds for sparse linear models: Jang et
+            al., <a
+            href="https://openreview.net/forum?id=GWcdXz0M6a">PopArt:
+            Efficient Sparse Regression and Experimental Design for
+            Optimal Sparse Linear Bandits</a>, 2022.</li>
+            <li>Efron-stein: Kuzborskij and Szepesvari, <a
+            href="https://arxiv.org/pdf/1909.01931">Efron-Stein
+            PAC-Bayesian Inequalities</a>, 2019.
+            <ul>
+            <li>see also: Rivasplata, <a
+            href="https://arxiv.org/abs/2101.04671">A note on a
+            confidence bound of Kuzborskij and Szepesvari</a>, 2020</li>
+            </ul></li>
+            <li>Online to confidence set conversion: Abbasi-Yadkori et
+            al., <a
+            href="http://proceedings.mlr.press/v22/abbasi-yadkori12/abbasi-yadkori12.pdf">Online-to-Confidence-Set
+            Conversions and Application to Sparse Stochastic
+            Bandits</a>, 2012.</li>
+            <li>Data-dependent priors in PAC-Bayes: Dziugaite et al, <a
+            href="http://proceedings.mlr.press/v130/karolina-dziugaite21a/karolina-dziugaite21a.pdf">On
+            the role of data in PAC-Bayes bounds</a>, 2021.</li>
+            <li>Online PAC-Bayes: Haddouche and Guedj, <a
+            href="https://proceedings.neurips.cc/paper_files/paper/2022/file/a4d991d581accd2955a1e1928f4e6965-Paper-Conference.pdf">Online
+            PAC-Bayes Learning</a>, 2022.</li>
+            <li>Backprop PAC-Bayes: Rivasplata et al., <a
+            href="https://arxiv.org/pdf/1908.07380.pdf">PAC-Bayes with
+            Backprop</a>, 2019.</li>
+            <li>… and any other papers you are interested in, as long as
+            they are related to concentration of measure!</li>
+            </ul>
+            <p></br> </br> </br> </br> </br></p>
+            </div>
+    </div>
+  </div>
+
+
+  <script src="https://vjs.zencdn.net/5.4.4/video.js"></script>
+
+</body>
+</html>
