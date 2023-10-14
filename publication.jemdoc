@@ -196,7 +196,7 @@
   *Learning from Human-Generated Lists*. {{</br>
   <font color=a92b13>Kwang-Sung Jun</font>}}, Xiaojin Zhu, Burr Settles, and Timothy Rogers{{</br>}} 
   In International Conference on Machine Learning (*ICML*), 2013{{</br>}} 
-  [http://pages.cs.wisc.edu/~jerryzhu/pub/SWIRL.pdf  \[pdf\]]
+  [https://proceedings.mlr.press/v28/jun13.html \[official\]]
   [./data/swirl_code_data_v2.zip \[code&data\]] 
   [http://www.youtube.com/watch?v=V4TDynR2gPQ \[video\]]
 
@@ -217,6 +217,7 @@
   *Cognitive models of test-item effects in human category learning*{{</br>}} 
   Xiaojin Zhu, Bryan R. Gibson, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Timothy T. Rogers, Joseph Harrison, and Chuck Kalish. {{</br>}}
   In International Conference on Machine Learning (*ICML*), 2010. {{</br>}}
+  [https://dl.acm.org/doi/abs/10.5555/3104322.3104480 \[acm digital library\]]
   [http://pages.cs.wisc.edu/~jerryzhu/pub/tie.pdf \[pdf\]]
 
   *An efficient collaborative filtering method based on k-nearest neighbor learning for large-scale data*{{</br> 
