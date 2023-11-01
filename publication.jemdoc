@@ -4,12 +4,16 @@
 
 == Preprints
 
+  *Improved Regret Bounds of (Multinomial) Logistic Bandits via Regret-to-Confidence-Set Conversion*{{</br>}}
+  Junghyun Lee, Se-Young Yun, {{<font color=a92b13>Kwang-Sung Jun</font>}} {{</br>}}
+  [https://arxiv.org/abs/2310.18554 \[arxiv\]]
+
+== 2023
 
   *Tight Concentrations and Confidence Sequences from the Regret of Universal Portfolio*{{</br>}}
   Francesco Orabona, {{<font color=a92b13>Kwang-Sung Jun</font>}}{{</br>}} 
+  Accepted to IEEE Transactions on Information Theory, 2023{{</br>}}
   [https://arxiv.org/abs/2110.14099 \[arxiv\]]
-
-== 2023
 
   *Kullback-Leibler Maillard Sampling for Multi-armed Bandits with Bounded Rewards*{{</br>}}
   Hao Qin, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Chicheng Zhang{{</br>}}  
