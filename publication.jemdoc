@@ -179,7 +179,7 @@
   *Anytime Exploration for Multi-armed Bandits using Confidence Information*{{</br>
   <font color=a92b13>Kwang-Sung Jun</font>}} and Robert Nowak{{</br>}}
   In International Conference on Machine Learning (*ICML*), 2016{{</br>}} 
-  [https://proceedings.mlr.press/v48/jun16.html \[official\]]
+  [https://proceedings.mlr.press/v48/jun16.html \[official\]] [./data/jun16anytime-note.txt \[post-publication note\]]
 
   *Top arm identification in multi-armed bandits with batch arm pulls*. {{</br>
   <font color=a92b13>Kwang-Sung Jun</font>}}, Kevin Jamieson, Robert Nowak, and Xiaojin Zhu{{</br>}}
