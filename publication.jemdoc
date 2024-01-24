@@ -2,11 +2,16 @@
 # jemdoc: analytics{UA-106338466-1}
 = Publications
 
-== Preprints
+# == Preprints
+
+
+== 2024
 
   *Improved Regret Bounds of (Multinomial) Logistic Bandits via Regret-to-Confidence-Set Conversion*{{</br>}}
   Junghyun Lee, Se-Young Yun, {{<font color=a92b13>Kwang-Sung Jun</font>}} {{</br>}}
+  In International Conference on Artificial Intelligence and Statistics (*AISTATS*), 2024{{</br>}} 
   [https://arxiv.org/abs/2310.18554 \[arxiv\]]
+
 
 == 2023
 
