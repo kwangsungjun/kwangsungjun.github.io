@@ -2,8 +2,15 @@
 # jemdoc: analytics{UA-106338466-1}
 = Publications
 
-# == Preprints
+== Preprints
 
+  *Better-than-KL PAC-Bayes Bounds*{{</br>}}
+  Ilja Kuzborskij, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Yulian Wu, Kyoungseok Jang, Francesco Orabona {{</br>}}
+  [https://arxiv.org/abs/2402.09201 \[arxiv\]]
+  
+  *Noise-Adaptive Confidence Sets for Linear Bandits and Application to Bayesian Optimization*{{</br>
+  <font color=a92b13>Kwang-Sung Jun</font>}}, Jungtaek Kim {{</br>}}
+  [https://arxiv.org/abs/2402.07341 \[arxiv\]]
 
 == 2024
 
@@ -12,14 +19,14 @@
   In International Conference on Artificial Intelligence and Statistics (*AISTATS*), 2024{{</br>}} 
   [https://arxiv.org/abs/2310.18554 \[arxiv\]]
 
+  *Tight Concentrations and Confidence Sequences from the Regret of Universal Portfolio*{{</br>}}
+  Francesco Orabona, {{<font color=a92b13>Kwang-Sung Jun</font>}}{{</br>}} 
+  IEEE Transactions on Information Theory, 2024{{</br>}}
+  [https://ieeexplore.ieee.org/document/10315047 \[official\]]
+  [https://arxiv.org/abs/2110.14099 \[arxiv\]]
 
 == 2023
 
-  *Tight Concentrations and Confidence Sequences from the Regret of Universal Portfolio*{{</br>}}
-  Francesco Orabona, {{<font color=a92b13>Kwang-Sung Jun</font>}}{{</br>}} 
-  IEEE Transactions on Information Theory, 2023{{</br>}}
-  [https://ieeexplore.ieee.org/document/10315047 \[official\]]
-  [https://arxiv.org/abs/2110.14099 \[arxiv\]]
 
   *Kullback-Leibler Maillard Sampling for Multi-armed Bandits with Bounded Rewards*{{</br>}}
   Hao Qin, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Chicheng Zhang{{</br>}}  
