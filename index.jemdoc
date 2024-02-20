@@ -45,9 +45,11 @@ I also had some fun in the past with machine learning applied to psychology.
 I was previously a postdoc with [http://francesco.orabona.com/ Francesco Orabona] (who I call the 'master of coin') at Boston University.
 Before then, I spent 9 years at UW-Madison for a PhD degree with [http://pages.cs.wisc.edu/~jerryzhu/ Xiaojin (Jerry) Zhu] and a postdoc position at [https://discovery.wisc.edu/ Wisconsin Institute for Discovery] with [http://nowak.ece.wisc.edu Robert Nowak], [http://willett.ece.wisc.edu/ Rebecca Willett], and [http://pages.cs.wisc.edu/~swright/ Stephen Wright].
 
-
 == News
 
+- Feb'24: I will serve as an action editor for the journal /Machine Learning/.
+- Jan'24: 1 paper accepted to AISTATS on converting a regret bound into a tight confidence set. Congrats Junghyun!
+- Dec'23: 1 paper accepted to NeurIPS. Congrats Hao Qin!
 - Jul'23: 1 paper accepted to COLT on a very tight PAC-Bayes bound!
 - Jul'23: 1 paper accepted to ICML. Congrats to my student Yao and my collaborators Connor and Csaba!
 - Sep'22: 2 papers accepted at NeurIPS. Congrats to my postdoc Kyoungseok Jang!
@@ -82,6 +84,7 @@ Also, the cartoon caption contest of New Yorker is using bandit algorithms to ef
 
 - Area chair: COLT, ALT, NeurIPS, AAAI
 - Program committee: ICML, AISTATS
+- Action editor for /Machine Learning/.
 
 # # jemdoc: menu{MENU}{index.html}, showsource
 # = jemdoc -- light markup
