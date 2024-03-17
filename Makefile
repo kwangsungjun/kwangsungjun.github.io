@@ -5,3 +5,4 @@ all:
 	jemdoc personal.jemdoc
 	jemdoc talk.jemdoc
 	jemdoc artifact.jemdoc
+	jemdoc research-group.jemdoc
