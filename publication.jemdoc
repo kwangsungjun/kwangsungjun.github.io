@@ -34,7 +34,9 @@
   *Kullback-Leibler Maillard Sampling for Multi-armed Bandits with Bounded Rewards*{{</br>}}
   Hao Qin, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Chicheng Zhang{{</br>}}  
   In Neural Information Processing Systems (*NeurIPS*), 2023{{</br>}}   
-  [https://arxiv.org/abs/2304.14989 \[arxiv\]] [https://openreview.net/forum?id=xF89MjFbWp&referrer=%5Bthe%20profile%20of%20Chicheng%20Zhang%5D(%2Fprofile%3Fid%3D~Chicheng_Zhang1) \[open review\]]
+  [https://papers.nips.cc/paper_files/paper/2023/hash/bdebb4549d5a79501bc151411abdb6d7-Abstract-Conference.html \[official\]]
+  [https://arxiv.org/abs/2304.14989 \[arxiv\]] 
+  [https://openreview.net/forum?id=xF89MjFbWp&referrer=%5Bthe%20profile%20of%20Chicheng%20Zhang%5D(%2Fprofile%3Fid%3D~Chicheng_Zhang1) \[open review\]]
 
   *Revisiting Simple Regret: Fast Rates for Returning a Good Arm*{{</br>}}
   Yao Zhao, Connor Stephens, Csaba Szepesvári, {{<font color=a92b13>Kwang-Sung Jun</font>}}{{</br>}} 
@@ -54,12 +56,14 @@
   *PopArt: Efficient Sparse Regression and Experimental Design for Optimal Sparse Linear Bandits*{{</br>}}
   Kyoungseok Jang, Chicheng Zhang, {{<font color=a92b13>Kwang-Sung Jun</font>}}{{</br>}} 
   In Neural Information Processing Systems (*NeurIPS*), 2022. {{</br>}}
+  [https://papers.nips.cc/paper_files/paper/2022/hash/0e5cce15e1bfc6b3d7b71f24cc5da821-Abstract-Conference.html \[official\]]
   [https://openreview.net/forum?id=GWcdXz0M6a \[openreview\]]
   [https://arxiv.org/abs/2210.15345 \[arxiv\]]
 
   *Improved Regret Analysis for Variance-Adaptive Linear Bandits and Horizon-Free Linear Mixture MDPs*{{</br>}}
   Yeoneung Kim, Insoon Yang, {{<font color=a92b13>Kwang-Sung Jun</font>}}{{</br>}} 
   In Neural Information Processing Systems (*NeurIPS*), 2022{{</br>}}  
+  [https://papers.nips.cc/paper_files/paper/2022/hash/078fa8f77ce55ef6e9cf79275b88acb0-Abstract-Conference.html \[official\]]
   [https://openreview.net/forum?id=U_YPSEyN2ls \[openreview\]]
   [https://arxiv.org/abs/2111.03289 \[arxiv\]] 
 
