@@ -4,19 +4,21 @@
 
 == Preprints
 
-  *Efficient Low-Rank Matrix Estimation, Experimental Design, and Arm-Set-Dependent Low-Rank Bandits*{{</br>}}
-  Kyoungseok Jang, Chicheng Zhang, {{<font color=a92b13>Kwang-Sung Jun</font></br>}}
-  [https://arxiv.org/abs/2402.11156 \[arxiv\]] 
-  
   *Better-than-KL PAC-Bayes Bounds*{{</br>}}
   Ilja Kuzborskij, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Yulian Wu, Kyoungseok Jang, Francesco Orabona {{</br>}}
   [https://arxiv.org/abs/2402.09201 \[arxiv\]]
   
+== 2024
+
+  *Efficient Low-Rank Matrix Estimation, Experimental Design, and Arm-Set-Dependent Low-Rank Bandits*{{</br>}}
+  Kyoungseok Jang, Chicheng Zhang, {{<font color=a92b13>Kwang-Sung Jun</font></br>}}
+  In International Conference on Machine Learning (*ICML*), 2024{{</br>}}
+  [https://arxiv.org/abs/2402.11156 \[arxiv\]] 
+  
   *Noise-Adaptive Confidence Sets for Linear Bandits and Application to Bayesian Optimization*{{</br>
   <font color=a92b13>Kwang-Sung Jun</font>}}, Jungtaek Kim {{</br>}}
+  In International Conference on Machine Learning (*ICML*), 2024{{</br>}}
   [https://arxiv.org/abs/2402.07341 \[arxiv\]]
-
-== 2024
 
   *Improved Regret Bounds of (Multinomial) Logistic Bandits via Regret-to-Confidence-Set Conversion*{{</br>}}
   Junghyun Lee, Se-Young Yun, {{<font color=a92b13>Kwang-Sung Jun</font>}} {{</br>}}
