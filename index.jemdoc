@@ -47,14 +47,16 @@ Before then, I spent 9 years at UW-Madison for a PhD degree with [http://pages.c
 
 == News
 
+- May'24: 2 papers accepted to ICML: (i) adapting to the unknown noise level in linear bandits (ii) low-rank matrix recovery with better guarantees than the nuclear-norm regularization, how we can perform design of experiments for better subspace recovery, and how to solve low-rank bandits with them!
+- May'24: 1 paper accepted to COLT on PAC-Bayes bounds with a different divergence that is better than KL!
 - Feb'24: I will serve as an action editor for the journal /Machine Learning/.
 - Jan'24: 1 paper accepted to AISTATS on converting a regret bound into a tight confidence set. Congrats Junghyun!
 - Dec'23: 1 paper accepted to NeurIPS. Congrats Hao Qin!
 - Jul'23: 1 paper accepted to COLT on a very tight PAC-Bayes bound!
 - Jul'23: 1 paper accepted to ICML. Congrats to my student Yao and my collaborators Connor and Csaba!
 - Sep'22: 2 papers accepted at NeurIPS. Congrats to my postdoc Kyoungseok Jang!
-- May'22: I gave a talk at the [https://sites.google.com/view/rltheoryseminars/home RL theory virtual seminars] on Maillard sampling.
-- Jan'22: 1 paper accpeted at AAAI, 3 papers accepted to AISTATS.
+# - May'22: I gave a talk at the [https://sites.google.com/view/rltheoryseminars/home RL theory virtual seminars] on Maillard sampling.
+# - Jan'22: 1 paper accpeted at AAAI, 3 papers accepted to AISTATS.
 # - May'21: 2 papers accepted at ICML. 
 # - May'21: 1 paper accepted at ISIT. 
 # - Jul'20: I gave a talk at the [https://sites.google.com/view/rltheoryseminars/home RL theory virtual seminars] on structured bandits with the asymptotic optimality.
