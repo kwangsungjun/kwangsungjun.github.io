@@ -10,6 +10,11 @@
   
 == 2024
 
+  *Transfer Learning in Bandits with Latent Continuity*{{</br>}}
+  Hyejin Park, Seiyun Shin, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Jungseul Ok{{</br>}}
+  IEEE Transactions on Information Theory, 2024{{</br>}}
+  [https://ieeexplore.ieee.org/document/10633753 \[official\]]
+
   *Better-than-KL PAC-Bayes Bounds*{{</br>}}
   Ilja Kuzborskij, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Yulian Wu, Kyoungseok Jang, Francesco Orabona {{</br>}}
   In Conference on Learning Theory (*COLT*), 2024{{</br>}}
