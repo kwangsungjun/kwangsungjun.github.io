@@ -4,15 +4,22 @@
 
 == Preprints
 
-  *Adaptive Experimentation When You Can't Experiment*{{</br>}}
-  Yao Zhao, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Tanner Fiez, Lalit Jain    {{</br>}}
-  [https://arxiv.org/abs/2406.10738 \[arxiv\]]
   
 == 2024
 
+  *A Unified Confidence Sequence for Generalized Linear Models, with Applications to Bandits*{{</br>}}
+  Junghyun Lee, Se-Young Yun, and {{<font color=a92b13>Kwang-Sung Jun</font></br>}}
+  In Neural Information Processing Systems (*NeurIPS*), 2024{{</br>}}   
+  [https://arxiv.org/abs/2407.13977 \[arxiv\]]
+
+  *Adaptive Experimentation When You Can't Experiment*{{</br>}}
+  Yao Zhao, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Tanner Fiez, Lalit Jain    {{</br>}}
+  In Neural Information Processing Systems (*NeurIPS*), 2024{{</br>}}   
+  [https://arxiv.org/abs/2406.10738 \[arxiv\]]
+
   *Transfer Learning in Bandits with Latent Continuity*{{</br>}}
   Hyejin Park, Seiyun Shin, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Jungseul Ok{{</br>}}
-  IEEE Transactions on Information Theory, 2024{{</br>}}
+  IEEE Transactions on Information Theory (*TIT*), 2024{{</br>}}
   [https://ieeexplore.ieee.org/document/10633753 \[official\]]
 
   *Better-than-KL PAC-Bayes Bounds*{{</br>}}
@@ -37,7 +44,7 @@
 
   *Tight Concentrations and Confidence Sequences from the Regret of Universal Portfolio*{{</br>}}
   Francesco Orabona, {{<font color=a92b13>Kwang-Sung Jun</font>}}{{</br>}} 
-  IEEE Transactions on Information Theory, 2024{{</br>}}
+  IEEE Transactions on Information Theory (*TIT*), 2024{{</br>}}
   [https://ieeexplore.ieee.org/document/10315047 \[official\]]
   [https://arxiv.org/abs/2110.14099 \[arxiv\]]
 
