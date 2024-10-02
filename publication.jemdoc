@@ -25,22 +25,29 @@
   *Better-than-KL PAC-Bayes Bounds*{{</br>}}
   Ilja Kuzborskij, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Yulian Wu, Kyoungseok Jang, Francesco Orabona {{</br>}}
   In Conference on Learning Theory (*COLT*), 2024{{</br>}}
-  [https://arxiv.org/abs/2402.09201 \[arxiv\]]
+  [https://proceedings.mlr.press/v247/kuzborskij24a.html \[official\]]
+  [https://arxiv.org/abs/2402.09201 \[arxiv\]] 
 
   *Efficient Low-Rank Matrix Estimation, Experimental Design, and Arm-Set-Dependent Low-Rank Bandits*{{</br>}}
   Kyoungseok Jang, Chicheng Zhang, {{<font color=a92b13>Kwang-Sung Jun</font></br>}}
   In International Conference on Machine Learning (*ICML*), 2024{{</br>}}
+  [https://proceedings.mlr.press/v235/jang24e.html \[official\]] 
   [https://arxiv.org/abs/2402.11156 \[arxiv\]] 
+  [https://github.com/jajajang/lowpopart \[code\]] 
+  [https://youtu.be/OWvxJ32n6ME?si=RHVWe4zyHOHjABzS \[video\]]
   
   *Noise-Adaptive Confidence Sets for Linear Bandits and Application to Bayesian Optimization*{{</br>
   <font color=a92b13>Kwang-Sung Jun</font>}}, Jungtaek Kim {{</br>}}
   In International Conference on Machine Learning (*ICML*), 2024{{</br>}}
-  [https://arxiv.org/abs/2402.07341 \[arxiv\]]
+  [https://proceedings.mlr.press/v235/jun24a.html \[official\]]
+  [https://arxiv.org/abs/2402.07341 \[arxiv\]] 
 
   *Improved Regret Bounds of (Multinomial) Logistic Bandits via Regret-to-Confidence-Set Conversion*{{</br>}}
   Junghyun Lee, Se-Young Yun, {{<font color=a92b13>Kwang-Sung Jun</font>}} {{</br>}}
   In International Conference on Artificial Intelligence and Statistics (*AISTATS*), 2024{{</br>}} 
-  [https://arxiv.org/abs/2310.18554 \[arxiv\]]
+  [https://proceedings.mlr.press/v238/lee24d.html \[official\]]
+  [https://arxiv.org/abs/2310.18554 \[arxiv\]] 
+  [https://github.com/nick-jhlee/logistic_bandit \[code\]]
 
   *Tight Concentrations and Confidence Sequences from the Regret of Universal Portfolio*{{</br>}}
   Francesco Orabona, {{<font color=a92b13>Kwang-Sung Jun</font>}}{{</br>}} 
