@@ -9,7 +9,8 @@
 
   *A Unified Confidence Sequence for Generalized Linear Models, with Applications to Bandits*{{</br>}}
   Junghyun Lee, Se-Young Yun, and {{<font color=a92b13>Kwang-Sung Jun</font></br>}}
-  In Neural Information Processing Systems (*NeurIPS*), 2024{{</br>}}   
+  In Neural Information Processing Systems (*NeurIPS*), 2024{{</br>
+  <font color=C02A41><b>Oral presentation</b></font>}} at ICML'24 Workshop on Aligning Reinforcement Learning Experimentalists and Theorists  {{</br>}}
   [https://arxiv.org/abs/2407.13977 \[arxiv\]]
 
   *Adaptive Experimentation When You Can't Experiment*{{</br>}}
@@ -72,7 +73,8 @@
 
   *Tighter PAC-Bayes Bounds Through Coin-Betting*{{</br>}}
   Kyoungseok Jang, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Ilja Kuzborskij, Francesco Orabona (alphabetical order){{</br>}}
-  In Conference on Learning Theory (*COLT*), 2023{{</br>}}
+  In Conference on Learning Theory (*COLT*), 2023 {{</br>
+  <font color=C02A41><b>Oral presentation</b></font>}} at ICML'23 Workshop on PAC-Bayes Meets Interactive Learning {{</br>}}
   [https://proceedings.mlr.press/v195/jang23a.html \[official\]]
   [https://arxiv.org/abs/2302.05829 \[arxiv\]]
 
