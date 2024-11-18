@@ -47,7 +47,7 @@ Before then, I spent 9 years at UW-Madison for a PhD degree with [http://pages.c
 
 == News
 
-- Nov'24: I gave a talk at UW-Madison SILO on [https://silo.wisc.edu/talk/09122024-2-2-2-2-2/ Confidence Sequences via Online Learning] (click to watch the recording).
+- Nov'24: I gave a talk at UW-Madison SILO on 'Confidence Sequences via Online Learning' ([https://silo.wisc.edu/talk/09122024-2-2-2-2-2/ video link]). 
 - Oct'24: 2 papers accepted to NeurIPS: (i) led by Yao, bandit experiments with instrumental variables, so you can experiment when you can't experiment! (ii) led by Junghyun, unified confidence sets for generalized linear models and finally removing the norm dependence in logistic bandits with novel regret analysis!
 - May'24: 2 papers accepted to ICML: (i) adapting to the unknown noise level in linear bandits (ii) low-rank matrix recovery with better guarantees than the nuclear-norm regularization, how we can perform design of experiments for better subspace recovery, and how to solve low-rank bandits with them!
 - May'24: 1 paper accepted to COLT on PAC-Bayes bounds with a different divergence that is better than KL!
