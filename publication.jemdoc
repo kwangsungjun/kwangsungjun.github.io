@@ -2,8 +2,59 @@
 # jemdoc: analytics{UA-106338466-1}
 = Publications
 
+Let me introduce frequently-appearing themes in my research as of January 2025.
+I will identify a paper by (first author's last name) \+ (year) \+ (first word of the title).
+
+- *Online learning as a theoretical\/algorithmic tool (OL)*:
+  Online learning started from theoretical motivation, I believe, but it turns out to be a very useful tool for ML research such as deriving superior learning-theoretic guarantees, confidence bounds, and algorithms.
+  Interestingly, these results are often /nontrivial to obtain without online learning/!
+  -- +kuzborskij24better+, +orabona24tight+, +lee24improved+, +jun24noise+, +jang23tight+, +jun19kernel+, +jun17scalable+
+- *Instance-dependent guarantees (ID)*: 
+  If done right, this is a superior form of guarantee than the worst-case guarantee. 
+  At its best form, ID guarantees fully describe the performance of an algorithm as a function of the problem at hand.
+  Often, they reveal significantly accelerated rates compared to the worst-case guarantees, and some of these excellent guarantees can only be achieved via carefully designed algorithms.
+  -- +nguyen24haver+, +zhao24adaptive+, +jang24efficient+, +zhao23revisiting+, +jang22popart+
+- *Parameter-free algorithms (PF)*: 
+  Many existing algorithms have a key hyperparameter that may lead to catastrophic failure when mistuned (e.g., learning rates in SGD). PF algorithms attempt to tune it automatically -- more precisely, they provably adapts to the best hyperparameter automatically.
+  In a weaker form, they do not tune it precisely, but good enough that it would not hurt the performance too much.
+  -- +jun24noise+, +zhao23revisiting+, +gales22norm+, +jun19parameter+, +jun17improved+, +jun17online+
+  
+# Below, I tried to group my key papers by topics along with tags describing particular aspects.
+# 
+# - confidence bounds/sets 
+#   -- bounded random variables: +kuzborskij24better+ (OL), +orabona24tight+ (OL), +jang23tight+ (OL)
+#   -- confidence sets: +jun24noise+ (OL), +lee24improved+ (OL), +lee24aunified+, +jun17scalable+ (OL)
+# - multi-armed bandits
+#   -- Maillard/MED type: +qin23kullback+, +bian22maillard+
+#   -- pure exploration: +zhao23revisiting+ (PF, ID), +jun16top+
+#   -- etc: +jun18adversarial+ (adversarial attack), +park24transfer+ (transfer learning)
+# - contextual bandits
+#   -- adaptivity (norm, noise-level, etc.): +jun24noise+ (\+bayesian optimization; PF, OL), +gales22norm+ (PF)
+#   -- logistic/exponential family: +lee24aunified+ (OL), +lee24improved+, +faury22jointly+, +mason22anexperimental+, +jun21improved+ (\+dueling bandit), +jun17scalable+ (\+hashing)
+#   -- sparsity/low-rank: +jang24efficient+ (ID), +jang22popart+ (ID), +jang21improved+, +jun19bilinear+
+#   -- instrumental variable: +zhao24adaptive+ (ID)
+#   -- generic hypothesis space: +jun20crush+
+# - online learning
+#   -- +jun19parameter+ (PF), +jun17improved+, +jun17online+
+# - etc
+#   -- +jun19kernel+ (kernel; OL)
+
+#, +jun16graph+ (active learning)
+
+
 == Preprints
 
+  *Fixing the Loose Brake: Exponential-Tailed Stopping Time in Best Arm Identification*{{</br>}}
+  Kapilan Balagopalan, Tuan Ngo Nguyen, Yao Zhao, {{<font color=a92b13>Kwang-Sung Jun</font></br>}}
+  [https://arxiv.org/abs/2411.01808 \[arxiv\]]
+  
+  *HAVER: Instance-Dependent Error Bounds for Maximum Mean Estimation and Applications to Q-Learning*{{</br>}}
+  Tuan Ngo Nguyen, {{<font color=a92b13>Kwang-Sung Jun</font></br>}}
+  [https://arxiv.org/abs/2411.00405 \[arxiv\]]
+
+  *Minimum Empirical Divergence for Sub-Gaussian Linear Bandits*{{</br>}}
+  Kapilan Balagopalan, {{<font color=a92b13>Kwang-Sung Jun</font></br>}}
+  [https://arxiv.org/abs/2411.00229 \[arxiv\]]
   
 == 2024
 

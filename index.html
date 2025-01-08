@@ -48,18 +48,14 @@ Gould-Simpson Rm 746, 1040 E. 4th St., Tucson, AZ 85721 </br>
 </p>
 </td></tr></table>
 <h2>Intro</h2>
-<p>Broadly, I work on interactive machine learning.
-I spend most of my time on on developing and analyzing adaptive decision-making/sampling methods including bandit algorithms and reinforcement learning.
-I tend to revolve around simple problems. 
-Recently, I am also looking into Monte Carlo tree search methods and various applications including efficient matrix decomposition, geoscience (some blackbox/bayesian optimization involved), and material science problems.
-
-
-I was previously a postdoc with <a href="http://francesco.orabona.com/" target=&ldquo;blank&rdquo;>Francesco Orabona</a> (who I call the 'master of coin&rsquo;) at Boston University.
-Before then, I spent 9 years at UW-Madison for a PhD degree with <a href="http://pages.cs.wisc.edu/~jerryzhu/" target=&ldquo;blank&rdquo;>Xiaojin (Jerry) Zhu</a> and a postdoc position at <a href="https://discovery.wisc.edu/" target=&ldquo;blank&rdquo;>Wisconsin Institute for Discovery</a> with <a href="http://nowak.ece.wisc.edu" target=&ldquo;blank&rdquo;>Robert Nowak</a>, <a href="http://willett.ece.wisc.edu/" target=&ldquo;blank&rdquo;>Rebecca Willett</a>, and <a href="http://pages.cs.wisc.edu/~swright/" target=&ldquo;blank&rdquo;>Stephen Wright</a>.
+<p>Broadly, I am interested in interactive machine learning (IML), which includes reinforcement learning, bandits, Bayesian optimization, and active learning (see below for some introduction of these). I also develop novel confidence bounds that often becomes key tools for constructing efficient IML algorithms. Recently, I have been studying IML problems arising from GenAIs including LLMs.
+</p>
+<p>Before coming to UA, I did a postdoc with <a href="http://francesco.orabona.com/" target=&ldquo;blank&rdquo;>Francesco Orabona</a> (who I call the 'master of coin&rsquo;) at Boston University.
+Before then, I spent 9 years at UW-Madison for a PhD degree with <a href="http://pages.cs.wisc.edu/~jerryzhu/" target=&ldquo;blank&rdquo;>Xiaojin (Jerry) Zhu</a> and a postdoc position at <a href="https://discovery.wisc.edu/" target=&ldquo;blank&rdquo;>Wisconsin Institute for Discovery</a> with <a href="http://nowak.ece.wisc.edu" target=&ldquo;blank&rdquo;>Robert Nowak</a>, <a href="https://willett.psd.uchicago.edu/" target=&ldquo;blank&rdquo;>Rebecca Willett</a>, and <a href="http://pages.cs.wisc.edu/~swright/" target=&ldquo;blank&rdquo;>Stephen Wright</a>.
 </p>
 <h2>News</h2>
 <ul>
-<li><p>Nov&rsquo;24: I gave a talk at UW-Madison SILO on &rsquo; Confidence Sequences via Online Learning&rsquo; (<a href="https://silo.wisc.edu/talk/09122024-2-2-2-2-2/" target=&ldquo;blank&rdquo;>video link</a>). 
+<li><p>Nov&rsquo;24: I gave a talk at UW-Madison SILO on 'Confidence Sequences via Online Learning&rsquo; (<a href="https://silo.wisc.edu/talk/09122024-2-2-2-2-2/" target=&ldquo;blank&rdquo;>video link</a>). 
 </p>
 </li>
 <li><p>Oct&rsquo;24: 2 papers accepted to NeurIPS: (i) led by Yao, bandit experiments with instrumental variables, so you can experiment when you can't experiment! (ii) led by Junghyun, unified confidence sets for generalized linear models and finally removing the norm dependence in logistic bandits with novel regret analysis!
@@ -94,6 +90,13 @@ Before then, I spent 9 years at UW-Madison for a PhD degree with <a href="http:/
 </p>
 </li>
 </ul>
+<h2>Interactive machine learning</h2>
+<p>IML is an umbrella term for ML problems where the agent's decision is an <b>action</b> that affects which data/feedback s/he gets to receive as opposed to <b>prediction</b> that does not.
+For example, recommending a product is an <b>action</b> since we get click feedback for the recommended product, not for the unrecommended products (and we don't know what would have happened if we recommended another item). 
+Forecasting tomorrow's weather is a <b>prediction</b> since the weather tomorrow is not affected by which forecast we have made.
+Basically, if you are getting feedback on GenAI models, then the right approach is to view the generated outputs as 'action&rsquo; and leverage tools from interactive machine learning!
+
+</p>
 <h2>Bandit problems</h2>
 <p>The multi-armed bandit problem is a <i>state-less</i> version of reinforcement learning (RL).
 Informally speaking, bandit algorithms learn to make better decisions over time in a feedback-loop.
@@ -122,10 +125,10 @@ Also, the cartoon caption contest of New Yorker is using bandit algorithms to ef
 </p>
 <h2>Service</h2>
 <ul>
-<li><p>Area chair: COLT, ALT, NeurIPS, AAAI
+<li><p>Area chair: COLT, ALT, NeurIPS, AAAI, ICML
 </p>
 </li>
-<li><p>Program committee: ICML, AISTATS
+<li><p>Program committee: AISTATS
 </p>
 </li>
 <li><p>Action editor for <i>Machine Learning</i>.
@@ -134,7 +137,7 @@ Also, the cartoon caption contest of New Yorker is using bandit algorithms to ef
 </ul>
 <div id="footer">
 <div id="footer-text">
-Page generated 2024-11-17 19:35:45 MST, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+Page generated 2025-01-07 21:15:13 MST, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </td>

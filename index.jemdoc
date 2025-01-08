@@ -36,14 +36,16 @@ Gould-Simpson Rm 746, 1040 E. 4th St., Tucson, AZ 85721 {{</br>}}
 
 == Intro
 
-Broadly, I work on interactive machine learning.
-I spend most of my time on on developing and analyzing adaptive decision-making\/sampling methods including bandit algorithms and reinforcement learning.
-I tend to revolve around simple problems. 
-Recently, I am also looking into Monte Carlo tree search methods and various applications including efficient matrix decomposition, geoscience (some blackbox\/bayesian optimization involved), and material science problems.
-#My research is centered around sequential decision-making in feedback loops (i.e., the multi-armed bandit problem) and online (machine, not human) learning.
-#I also had some fun in the past with machine learning applied to psychology.  
-I was previously a postdoc with [http://francesco.orabona.com/ Francesco Orabona] (who I call the 'master of coin') at Boston University.
-Before then, I spent 9 years at UW-Madison for a PhD degree with [http://pages.cs.wisc.edu/~jerryzhu/ Xiaojin (Jerry) Zhu] and a postdoc position at [https://discovery.wisc.edu/ Wisconsin Institute for Discovery] with [http://nowak.ece.wisc.edu Robert Nowak], [http://willett.ece.wisc.edu/ Rebecca Willett], and [http://pages.cs.wisc.edu/~swright/ Stephen Wright].
+Broadly, I am interested in interactive machine learning (IML), which includes reinforcement learning, bandits, Bayesian optimization, and active learning (see below for some introduction of these). I also develop novel confidence bounds that often becomes key tools for constructing efficient IML algorithms. Recently, I have been studying IML problems arising from GenAIs including LLMs.
+
+Before coming to UA, I did a postdoc with [http://francesco.orabona.com/ Francesco Orabona] (who I call the 'master of coin') at Boston University.
+Before then, I spent 9 years at UW-Madison for a PhD degree with [http://pages.cs.wisc.edu/~jerryzhu/ Xiaojin (Jerry) Zhu] and a postdoc position at [https://discovery.wisc.edu/ Wisconsin Institute for Discovery] with [http://nowak.ece.wisc.edu Robert Nowak], [https://willett.psd.uchicago.edu/ Rebecca Willett], and [http://pages.cs.wisc.edu/~swright/ Stephen Wright].
+
+# I spend most of my time on on developing and analyzing adaptive decision-making\/sampling methods including bandit algorithms and reinforcement learning.
+# I tend to revolve around simple problems. 
+  # Recently, I am also looking into Monte Carlo tree search methods and various applications including efficient matrix decomposition, geoscience (some blackbox\/bayesian optimization involved), and material science problems.
+  #My research is centered around sequential decision-making in feedback loops (i.e., the multi-armed bandit problem) and online (machine, not human) learning.
+  #I also had some fun in the past with machine learning applied to psychology.  
 
 == News
 
@@ -68,6 +70,15 @@ Before then, I spent 9 years at UW-Madison for a PhD degree with [http://pages.c
 # - Oct'19: Our paper on kernel regression paper is accepted at NeurIPS'19.
 # - Oct'19: Our paper on parameter-free SGD with local differential privacy is accepted to PriML'19 (worshop at NeurIPS).
 
+
+== Interactive machine learning
+
+IML is an umbrella term for ML problems where the agent's decision is an *action* that affects which data\/feedback s\/he gets to receive as opposed to *prediction* that does not.
+For example, recommending a product is an *action* since we get click feedback for the recommended product, not for the unrecommended products (and we don't know what would have happened if we recommended another item). 
+Forecasting tomorrow's weather is a *prediction* since the weather tomorrow is not affected by which forecast we have made.
+Basically, if you are getting feedback on GenAI models, then the right approach is to view the generated outputs as 'action' and leverage tools from interactive machine learning!
+# I tend to revolve around simple problems.
+
 == Bandit problems
 
 The multi-armed bandit problem is a /state-less/ version of reinforcement learning (RL).
@@ -86,8 +97,8 @@ Also, the cartoon caption contest of New Yorker is using bandit algorithms to ef
 
 == Service
 
-- Area chair: COLT, ALT, NeurIPS, AAAI
-- Program committee: ICML, AISTATS
+- Area chair: COLT, ALT, NeurIPS, AAAI, ICML
+- Program committee: AISTATS
 - Action editor for /Machine Learning/.
 
 # # jemdoc: menu{MENU}{index.html}, showsource
