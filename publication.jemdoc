@@ -12,7 +12,7 @@ I will identify a paper by (first author's last name) \+ (year) \+ (first word o
 - *Instance-dependent guarantees (ID)*: 
   If done right, this is a superior form of guarantee than the worst-case guarantee. 
   At its best form, ID guarantees fully describe the performance of an algorithm as a function of the problem at hand.
-  Often, they reveal significantly accelerated rates compared to the worst-case guarantees, and some of these excellent guarantees can only be achieved via carefully designed algorithms.
+  Often, they reveal significantly accelerated rates compared to the worst-case guarantees, and some of these rates can only be achieved via carefully designed algorithms.
   -- +nguyen24haver+, +zhao24adaptive+, +jang24efficient+, +zhao23revisiting+, +jang22popart+
 - *Parameter-free algorithms (PF)*: 
   Many existing algorithms have a key hyperparameter that may lead to catastrophic failure when mistuned (e.g., learning rates in SGD). PF algorithms attempt to tune it automatically -- more precisely, they provably adapts to the best hyperparameter automatically.
