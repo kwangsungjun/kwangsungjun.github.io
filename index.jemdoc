@@ -36,7 +36,7 @@ Gould-Simpson Rm 746, 1040 E. 4th St., Tucson, AZ 85721 {{</br>}}
 
 == Intro
 
-Broadly, I am interested in interactive machine learning (IML), which includes reinforcement learning, bandits, Bayesian optimization, and active learning (see below for some introduction of these). I also develop novel confidence bounds that often becomes key tools for constructing efficient IML algorithms. Recently, I have been studying IML problems arising from GenAIs including LLMs.
+Broadly, I am interested in interactive machine learning (IML), which includes reinforcement learning, bandits, Bayesian optimization, and active learning (see below for some introduction of these). I also develop novel confidence bounds that often becomes key tools for constructing efficient IML algorithms. Recently, I have been looking into IML problems arising from GenAIs including LLMs.
 
 Before coming to UA, I did a postdoc with [http://francesco.orabona.com/ Francesco Orabona] (who I call the 'master of coin') at Boston University.
 Before then, I spent 9 years at UW-Madison for a PhD degree with [http://pages.cs.wisc.edu/~jerryzhu/ Xiaojin (Jerry) Zhu] and a postdoc position at [https://discovery.wisc.edu/ Wisconsin Institute for Discovery] with [http://nowak.ece.wisc.edu Robert Nowak], [https://willett.psd.uchicago.edu/ Rebecca Willett], and [http://pages.cs.wisc.edu/~swright/ Stephen Wright].
@@ -49,6 +49,7 @@ Before then, I spent 9 years at UW-Madison for a PhD degree with [http://pages.c
 
 == News
 
+- Jan'25: 2 papers accepted to AISTATS! (i) Linear extension of the MED algorithm (or Maillard sampling) that is randomized, off-policy-friendly, and nearly optimal. (ii) Estimating the value of the maximum mean among K arms (rather than estimating who achieves it) that can surpass the performance of the oracle who knows the best arm and reports its sample mean! 
 - Nov'24: I gave a talk at UW-Madison SILO on 'Confidence Sequences via Online Learning' ([https://silo.wisc.edu/talk/09122024-2-2-2-2-2/ video link]). 
 - Oct'24: 2 papers accepted to NeurIPS: (i) led by Yao, bandit experiments with instrumental variables, so you can experiment when you can't experiment! (ii) led by Junghyun, unified confidence sets for generalized linear models and finally removing the norm dependence in logistic bandits with novel regret analysis!
 - May'24: 2 papers accepted to ICML: (i) adapting to the unknown noise level in linear bandits (ii) low-rank matrix recovery with better guarantees than the nuclear-norm regularization, how we can perform design of experiments for better subspace recovery, and how to solve low-rank bandits with them!
