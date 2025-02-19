@@ -44,6 +44,10 @@ I will identify a paper by (first author's last name) \+ (year) \+ (first word o
 
 == Preprints
 
+  *Improved Offline Contextual Bandits with Second-Order Bounds: Betting and Freezing*{{</br>}} 
+  J. Jon Ryu, Jeongyeol Kwon, Benjamin Koppe, {{<font color=a92b13>Kwang-Sung Jun</font></br>}}
+  [https://arxiv.org/abs/2502.10826 \[arxiv\]]
+
   *Fixing the Loose Brake: Exponential-Tailed Stopping Time in Best Arm Identification*{{</br>}}
   Kapilan Balagopalan, Tuan Ngo Nguyen, Yao Zhao, {{<font color=a92b13>Kwang-Sung Jun</font></br>}}
   [https://arxiv.org/abs/2411.01808 \[arxiv\]]
