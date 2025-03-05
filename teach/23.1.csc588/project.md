@@ -224,3 +224,18 @@ Similiar courses in other institutions may also have nice collections of interes
 *   Chelsea Finn, Aravind Rajeswaran, Sham Kakade, Sergey Levine. Online Meta-Learning. ICML 2019.
 *   Maria-Florina Balcan, Avrim Blum, Santosh Vempala. Efficient Representations for Life-Long Learning and Autoencoding. COLT 2015.
 *   Leonardo Cella, Alessandro Lazaric, Massimiliano Pontil. Meta-learning with Stochastic Linear Bandits. arXiv 2020.
+
+
+#### Theory of LLM flnetuning/alignment
+
+(updated: Mar 2025)
+
+* huang et al., Correcting the Mythos of KL-Regularization ___.pdf
+* munos et al., Nash Learning from Human Feedback.pdf
+* gao et al., REBEL: Reinforcement Learning via Regressing Relative Rewards.pdf
+* huang et al., Self-Improvement in Language Models: The Sharpening Mechanism
+* xie et al., Exploratory Preference Optimization: Harnessing Implicit Q*-Approximation for Sample-Efficient RLHF
+* azar et al., A General Theoretical Paradigm to Understand Learning from Human Preferences
+
+
+
