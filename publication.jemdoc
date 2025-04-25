@@ -44,6 +44,15 @@ I will identify a paper by (first author's last name) \+ (year) \+ (first word o
 
 == Preprints
 
+
+  *Learning Explainable Dense Reward Shapes via Bayesian Optimization*{{</br>}} 
+  Ryan Koo, Ian Yang, Vipul Raheja, Mingyi Hong, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Dongyeop Kang{{</br>}}
+  [https://arxiv.org/abs/2504.16272 \[arxiv\]]
+
+  *Achieving adaptivity and optimality for multi-armed bandits using Exponential-Kullback Leiblier Maillard Sampling*{{</br>}}
+  Hao Qin, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Chicheng Zhang{{</br>}}
+  [https://arxiv.org/abs/2502.14379 \[arxiv\]]
+
   *Improved Offline Contextual Bandits with Second-Order Bounds: Betting and Freezing*{{</br>}} 
   J. Jon Ryu, Jeongyeol Kwon, Benjamin Koppe, {{<font color=a92b13>Kwang-Sung Jun</font></br>}}
   [https://arxiv.org/abs/2502.10826 \[arxiv\]]
