@@ -53,15 +53,23 @@ I will identify a paper by (first author's last name) \+ (year) \+ (first word o
   Hao Qin, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Chicheng Zhang{{</br>}}
   [https://arxiv.org/abs/2502.14379 \[arxiv\]]
 
-  *Improved Offline Contextual Bandits with Second-Order Bounds: Betting and Freezing*{{</br>}} 
-  J. Jon Ryu, Jeongyeol Kwon, Benjamin Koppe, {{<font color=a92b13>Kwang-Sung Jun</font></br>}}
-  [https://arxiv.org/abs/2502.10826 \[arxiv\]]
+  
+== 2025
+
+  *GL-LowPopArt: A Nearly Instance-Wise Minimax Estimator for (Adaptive) Generalized Linear Low-Rank Trace Regression*{{</br>}}
+  Junghyun Lee, Kyoungseok Jang, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Milan Vojnovic, Se-Young Yun
+  In International Conference on Machine Learning (*ICML*), 2025{{</br>}}
 
   *Fixing the Loose Brake: Exponential-Tailed Stopping Time in Best Arm Identification*{{</br>}}
   Kapilan Balagopalan, Tuan Ngo Nguyen, Yao Zhao, {{<font color=a92b13>Kwang-Sung Jun</font></br>}}
+  In International Conference on Machine Learning (*ICML*), 2025{{</br>}}
   [https://arxiv.org/abs/2411.01808 \[arxiv\]]
-  
-== 2025
+
+  *Improved Offline Contextual Bandits with Second-Order Bounds: Betting and Freezing*{{</br>}} 
+  J. Jon Ryu, Jeongyeol Kwon, Benjamin Koppe, {{<font color=a92b13>Kwang-Sung Jun</font></br>}}
+  In Conference on Learning Theory (*COLT*), 2025{{</br>}}
+  [https://arxiv.org/abs/2502.10826 \[arxiv\]]
+
 
   *HAVER: Instance-Dependent Error Bounds for Maximum Mean Estimation and Applications to Q-Learning*{{</br>}}
   Tuan Ngo Nguyen, Jay Barrett, {{<font color=a92b13>Kwang-Sung Jun</font></br>}}
