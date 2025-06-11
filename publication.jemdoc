@@ -45,6 +45,10 @@ I will identify a paper by (first author's last name) \+ (year) \+ (first word o
 == Preprints
 
 
+  *Alignment as Distribution Learning: Your Preference Model is Explicitly a Language Model*{{</br>}}
+  Jihun Yun, Juno Kim, Jongho Park, Junhyuck Kim, Jongha Jon Ryu, Jaewoong Cho, {{<font color=a92b13>Kwang-Sung Jun</font>}}
+  [https://arxiv.org/abs/2506.01523 \[arxiv\]]
+
   *Learning Explainable Dense Reward Shapes via Bayesian Optimization*{{</br>}} 
   Ryan Koo, Ian Yang, Vipul Raheja, Mingyi Hong, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Dongyeop Kang{{</br>}}
   [https://arxiv.org/abs/2504.16272 \[arxiv\]]
