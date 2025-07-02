@@ -45,8 +45,12 @@ I will identify a paper by (first author's last name) \+ (year) \+ (first word o
 == Preprints
 
 
+  *GL-LowPopArt: A Nearly Instance-Wise Minimax Estimator for (Adaptive) Generalized Linear Low-Rank Trace Regression*{{</br>}}
+  Junghyun Lee, Kyoungseok Jang, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Milan Vojnovic, Se-Young Yun
+  [https://arxiv.org/abs/2506.03074 \[arxiv\]] 
+
   *Alignment as Distribution Learning: Your Preference Model is Explicitly a Language Model*{{</br>}}
-  Jihun Yun, Juno Kim, Jongho Park, Junhyuck Kim, Jongha Jon Ryu, Jaewoong Cho, {{<font color=a92b13>Kwang-Sung Jun</font>}}
+  Jihun Yun, Juno Kim, Jongho Park, Junhyuck Kim, Jongha Jon Ryu, Jaewoong Cho, {{<font color=a92b13>Kwang-Sung Jun</font></br>}}
   [https://arxiv.org/abs/2506.01523 \[arxiv\]]
 
   *Learning Explainable Dense Reward Shapes via Bayesian Optimization*{{</br>}} 
@@ -59,10 +63,6 @@ I will identify a paper by (first author's last name) \+ (year) \+ (first word o
 
   
 == 2025
-
-  *GL-LowPopArt: A Nearly Instance-Wise Minimax Estimator for (Adaptive) Generalized Linear Low-Rank Trace Regression*{{</br>}}
-  Junghyun Lee, Kyoungseok Jang, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Milan Vojnovic, Se-Young Yun
-  In International Conference on Machine Learning (*ICML*), 2025{{</br>}}
 
   *Fixing the Loose Brake: Exponential-Tailed Stopping Time in Best Arm Identification*{{</br>}}
   Kapilan Balagopalan, Tuan Ngo Nguyen, Yao Zhao, {{<font color=a92b13>Kwang-Sung Jun</font></br>}}
