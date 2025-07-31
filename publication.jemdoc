@@ -46,7 +46,7 @@ I will identify a paper by (first author's last name) \+ (year) \+ (first word o
 
 
   *GL-LowPopArt: A Nearly Instance-Wise Minimax Estimator for (Adaptive) Generalized Linear Low-Rank Trace Regression*{{</br>}}
-  Junghyun Lee, Kyoungseok Jang, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Milan Vojnovic, Se-Young Yun
+  Junghyun Lee, Kyoungseok Jang, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Milan Vojnovic, Se-Young Yun{{</br>}}
   [https://arxiv.org/abs/2506.03074 \[arxiv\]] 
 
   *Alignment as Distribution Learning: Your Preference Model is Explicitly a Language Model*{{</br>}}
@@ -97,6 +97,7 @@ I will identify a paper by (first author's last name) \+ (year) \+ (first word o
   Yao Zhao, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Tanner Fiez, Lalit Jain    {{</br>}}
   In Neural Information Processing Systems (*NeurIPS*), 2024{{</br>}}   
   [https://arxiv.org/abs/2406.10738 \[arxiv\]]
+  [https://openreview.net/forum?id=2mqiTiJKrx&noteId=clKrcSNyxF \[official\]]
 
   *Transfer Learning in Bandits with Latent Continuity*{{</br>}}
   Hyejin Park, Seiyun Shin, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Jungseul Ok{{</br>}}
