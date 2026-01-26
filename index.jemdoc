@@ -36,10 +36,16 @@ Gould-Simpson Rm 746, 1040 E. 4th St., Tucson, AZ 85721 {{</br>}}
 
 == Intro
 
-Broadly, I am interested in interactive machine learning (IML), which includes reinforcement learning, bandits, Bayesian optimization, and active learning (see below for some introduction of these). I also develop novel confidence bounds that often becomes key tools for constructing efficient IML algorithms. Recently, I have been looking into IML problems arising from GenAIs including LLMs.
+Broadly, I am interested in interactive machine learning (IML), which includes reinforcement learning, bandits, Bayesian optimization, and active learning (see below for some introduction of these). I also develop novel confidence bounds that often becomes key tools for constructing efficient IML algorithms. Recently, I have been looking into IML problems arising from LLMs.
 
-Before coming to UA, I did a postdoc with [http://francesco.orabona.com/ Francesco Orabona] (who I call the 'master of coin') at Boston University.
-Before then, I spent 9 years at UW-Madison for a PhD degree with [http://pages.cs.wisc.edu/~jerryzhu/ Xiaojin (Jerry) Zhu] and a postdoc position at [https://discovery.wisc.edu/ Wisconsin Institute for Discovery] with [http://nowak.ece.wisc.edu Robert Nowak], [https://willett.psd.uchicago.edu/ Rebecca Willett], and [http://pages.cs.wisc.edu/~swright/ Stephen Wright].
+{{<font color=D95B43><b> 
+I will be moving to POSTECH CSE and Graduate School of AI, starting from February 2026! 
+</b>
+</font>}}
+
+
+# Before coming to UA, I did a postdoc with [http://francesco.orabona.com/ Francesco Orabona] (who I call the 'master of coin') at Boston University.
+# Before then, I spent 9 years at UW-Madison for a PhD degree with [http://pages.cs.wisc.edu/~jerryzhu/ Xiaojin (Jerry) Zhu] and a postdoc position at [https://discovery.wisc.edu/ Wisconsin Institute for Discovery] with [http://nowak.ece.wisc.edu Robert Nowak], [https://willett.psd.uchicago.edu/ Rebecca Willett], and [http://pages.cs.wisc.edu/~swright/ Stephen Wright].
 
 # I spend most of my time on on developing and analyzing adaptive decision-making\/sampling methods including bandit algorithms and reinforcement learning.
 # I tend to revolve around simple problems. 

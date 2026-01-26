@@ -8,7 +8,7 @@ I will identify a paper by (first author's last name) \+ (year) \+ (first word o
 - *Online learning as a theoretical\/algorithmic tool (OL)*:
   Online learning started from theoretical motivation, I believe, but it turns out to be a very useful tool for ML research such as deriving superior learning-theoretic guarantees, confidence bounds, and algorithms.
   Interestingly, these results are often /nontrivial to obtain without online learning/!
-  -- +kuzborskij24better+, +orabona24tight+, +lee24improved+, +jun24noise+, +jang23tight+, +jun19kernel+, +jun17scalable+
+  -- +kuzborskij24better+, +orabona24tight+, +lee24improved+, +jun24noise+, +jang23tighter+, +jun19kernel+, +jun17scalable+
 - *Instance-dependent guarantees (ID)*: 
   If done right, this is a superior form of guarantee than the worst-case guarantee. 
   At its best form, ID guarantees fully describe the performance of an algorithm as a function of the problem at hand.
