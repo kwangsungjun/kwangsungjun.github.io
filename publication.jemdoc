@@ -45,10 +45,6 @@ I will identify a paper by (first author's last name) \+ (year) \+ (first word o
 == Preprints
 
 
-  *GL-LowPopArt: A Nearly Instance-Wise Minimax Estimator for (Adaptive) Generalized Linear Low-Rank Trace Regression*{{</br>}}
-  Junghyun Lee, Kyoungseok Jang, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Milan Vojnovic, Se-Young Yun{{</br>}}
-  [https://arxiv.org/abs/2506.03074 \[arxiv\]] 
-
   *Alignment as Distribution Learning: Your Preference Model is Explicitly a Language Model*{{</br>}}
   Jihun Yun, Juno Kim, Jongho Park, Junhyuck Kim, Jongha Jon Ryu, Jaewoong Cho, {{<font color=a92b13>Kwang-Sung Jun</font></br>}}
   [https://arxiv.org/abs/2506.01523 \[arxiv\]]
@@ -61,6 +57,16 @@ I will identify a paper by (first author's last name) \+ (year) \+ (first word o
   Hao Qin, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Chicheng Zhang{{</br>}}
   [https://arxiv.org/abs/2502.14379 \[arxiv\]]
 
+== 2026
+
+  *Instance-Dependent Fixed-Budget Pure Exploration in Reinforcement Learning*{{</br>}}
+  Yeongjong Kim, Yeoneung Kim, {{<font color=a92b13>Kwang-Sung Jun</font>}}{{</br>}}
+  In International Conference on Learning Representations (*ICLR*), 2026{{</br>}}
+
+  *GL-LowPopArt: A Nearly Instance-Wise Minimax Estimator for (Adaptive) Generalized Linear Low-Rank Trace Regression*{{</br>}}
+  Junghyun Lee, Kyoungseok Jang, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Milan Vojnovic, Se-Young Yun{{</br>}}
+  In International Conference on Artificial Intelligence and Statistics (*AISTATS*), 2026{{</br>}} 
+  [https://arxiv.org/abs/2506.03074 \[arxiv\]] 
   
 == 2025
 
