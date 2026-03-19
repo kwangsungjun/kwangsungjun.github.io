@@ -16,15 +16,16 @@
 {}{img_left}{./imgs/2024 - dsc08267 resized v3.jpg}{profile_pic}{280px}{HEIGHTpx}
 
 Kwang-Sung Jun{{</br>}}
-Assistant Professsor{{</br>}}
-Computer Science{{</br>}}
-Statistics GIDP, Applied Math GIDP (affiliated){{</br>}}
-University of Arizona{{</br>}}
+Associate Professsor{{</br>}}
+Department of Computer Science and Engineering{{</br>}}
+Graduate School of Artificial Intelligence{{</br>}}
+Pohang University of Science and Technology{{</br>}}
 
-kjun å† cs ∂ø† arizona ∂ø† edu{{</br>}}
-Gould-Simpson Rm 746, 1040 E. 4th St., Tucson, AZ 85721 {{</br>}}
+kwangsungjun å† postech.ac.kr{{</br>}}
+RIST 4-dong 4410-ho, 67 Cheongam-ro, Pohang 37673 South Korea{{</br>}}
 [https://scholar.google.com/citations?user=VgvC7o8AAAAJ&hl=en Google scholar]{{</br>}}
 [./data/kjun-cv.pdf CV]
+
 
 ~~~
 
@@ -38,11 +39,7 @@ Gould-Simpson Rm 746, 1040 E. 4th St., Tucson, AZ 85721 {{</br>}}
 
 Broadly, I am interested in interactive machine learning (IML), which includes reinforcement learning, bandits, Bayesian optimization, and active learning (see below for some introduction of these). I also develop novel confidence bounds that often becomes key tools for constructing efficient IML algorithms. Recently, I have been looking into IML problems arising from LLMs.
 
-{{<font color=D95B43><b> 
-I will be moving to POSTECH CSE and Graduate School of AI, starting from February 2026! 
-</b>
-</font>}}
-
+Previously, I was an assistant professor at the University of Arizona.
 
 # Before coming to UA, I did a postdoc with [http://francesco.orabona.com/ Francesco Orabona] (who I call the 'master of coin') at Boston University.
 # Before then, I spent 9 years at UW-Madison for a PhD degree with [http://pages.cs.wisc.edu/~jerryzhu/ Xiaojin (Jerry) Zhu] and a postdoc position at [https://discovery.wisc.edu/ Wisconsin Institute for Discovery] with [http://nowak.ece.wisc.edu Robert Nowak], [https://willett.psd.uchicago.edu/ Rebecca Willett], and [http://pages.cs.wisc.edu/~swright/ Stephen Wright].
@@ -60,9 +57,9 @@ I will be moving to POSTECH CSE and Graduate School of AI, starting from Februar
 - Oct'24: 2 papers accepted to NeurIPS: (i) led by Yao, bandit experiments with instrumental variables, so you can experiment when you can't experiment! (ii) led by Junghyun, unified confidence sets for generalized linear models and finally removing the norm dependence in logistic bandits with novel regret analysis!
 - May'24: 2 papers accepted to ICML: (i) adapting to the unknown noise level in linear bandits (ii) low-rank matrix recovery with better guarantees than the nuclear-norm regularization, how we can perform design of experiments for better subspace recovery, and how to solve low-rank bandits with them!
 - May'24: 1 paper accepted to COLT on PAC-Bayes bounds with a different divergence that is better than KL!
-- Feb'24: I will serve as an action editor for the journal /Machine Learning/.
-- Jan'24: 1 paper accepted to AISTATS on converting a regret bound into a tight confidence set. Congrats Junghyun!
-- Dec'23: 1 paper accepted to NeurIPS. Congrats Hao Qin!
+# - Feb'24: I will serve as an action editor for the journal /Machine Learning/.
+# - Jan'24: 1 paper accepted to AISTATS on converting a regret bound into a tight confidence set. Congrats Junghyun!
+# - Dec'23: 1 paper accepted to NeurIPS. Congrats Hao Qin!
 # - Jul'23: 1 paper accepted to COLT on a very tight PAC-Bayes bound!
 # - Jul'23: 1 paper accepted to ICML. Congrats to my student Yao and my collaborators Connor and Csaba!
 # - Sep'22: 2 papers accepted at NeurIPS. Congrats to my postdoc Kyoungseok Jang!
