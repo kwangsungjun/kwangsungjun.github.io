@@ -101,9 +101,9 @@ Also, the cartoon caption contest of New Yorker is using bandit algorithms to ef
 
 == Service
 
-- Area chair: COLT, ALT, NeurIPS, AAAI, ICML
+- Senior Area Chair: ICML, AAAI
+- Area chair: COLT, ALT, NeurIPS
 - Program committee: AISTATS
-- Action editor for /Machine Learning/.
 
 # # jemdoc: menu{MENU}{index.html}, showsource
 # = jemdoc -- light markup
