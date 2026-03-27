@@ -39,7 +39,7 @@ RIST 4-dong 4410-ho, 67 Cheongam-ro, Pohang 37673 South Korea{{</br>}}
 
 Broadly, I am interested in interactive machine learning (IML), which includes reinforcement learning, bandits, Bayesian optimization, and active learning (see below for some introduction of these). I also develop novel confidence bounds that often becomes key tools for constructing efficient IML algorithms. Recently, I have been looking into IML problems arising from LLMs.
 
-Previously, I was an assistant professor at the University of Arizona.
+I also work closely with Krafton AI on post training of LLMs and with Meta Platforms on efficient A/B testing systems. Previously, I was an assistant professor at the University of Arizona.
 
 # Before coming to UA, I did a postdoc with [http://francesco.orabona.com/ Francesco Orabona] (who I call the 'master of coin') at Boston University.
 # Before then, I spent 9 years at UW-Madison for a PhD degree with [http://pages.cs.wisc.edu/~jerryzhu/ Xiaojin (Jerry) Zhu] and a postdoc position at [https://discovery.wisc.edu/ Wisconsin Institute for Discovery] with [http://nowak.ece.wisc.edu Robert Nowak], [https://willett.psd.uchicago.edu/ Rebecca Willett], and [http://pages.cs.wisc.edu/~swright/ Stephen Wright].
