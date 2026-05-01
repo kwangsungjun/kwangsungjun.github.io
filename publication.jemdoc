@@ -59,6 +59,14 @@ I will identify a paper by (first author's last name) \+ (year) \+ (first word o
 
 == 2026
 
+  *Coverage Improvement and Fast Convergence of On-policy Preference Learning*{{</br>}}
+  Juno Kim, Jihun Yun, Jason D. Lee, {{<font color=a92b13>Kwang-Sung Jun</font>}}{{</br>}}
+  In International Conference on Machine Learning (*ICML*), 2026{{</br>}}
+
+  *Fixed Budget is No Harder Than Fixed Confidence in Best-Arm Identification up to Logarithmic Factors*{{</br>}}
+  Kapilan Balagopalan, Yinan Li, Tuan Ngo Nguyen, Yao Zhao, Anton Daitche, Houssam Nassif, {{<font color=a92b13>Kwang-Sung Jun</font>}}{{</br>}}
+  In International Conference on Machine Learning (*ICML*), 2026{{</br>}}
+
   *Instance-Dependent Fixed-Budget Pure Exploration in Reinforcement Learning*{{</br>}}
   Yeongjong Kim, Yeoneung Kim, {{<font color=a92b13>Kwang-Sung Jun</font>}}{{</br>}}
   In International Conference on Learning Representations (*ICLR*), 2026{{</br>}}
