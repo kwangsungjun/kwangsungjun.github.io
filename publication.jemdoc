@@ -61,46 +61,50 @@ I will identify a paper by (first author's last name) \+ (year) \+ (first word o
   *Second-Order Bounds for \[0,1\]-Valued Regression via Betting Loss*{{</br>}}
   Yinan Li, Sungjoon Yoon, {{<font color=a92b13>Kwang-Sung Jun</font>}}{{</br>}}
   In Conference on Learning Theory (*COLT*), 2026{{</br>}}
+  [https://arxiv.org/abs/2507.12584 \[arxiv\]]
 
   *Coverage Improvement and Fast Convergence of On-policy Preference Learning*{{</br>}}
   Juno Kim, Jihun Yun, Jason D. Lee, {{<font color=a92b13>Kwang-Sung Jun</font>}}{{</br>}}
   In International Conference on Machine Learning (*ICML*), 2026{{</br>}}
+  [https://arxiv.org/abs/2601.08421 \[arxiv\]]
 
   *Fixed Budget is No Harder Than Fixed Confidence in Best-Arm Identification up to Logarithmic Factors*{{</br>}}
-  Kapilan Balagopalan, Yinan Li, Tuan Ngo Nguyen, Yao Zhao, Anton Daitche, Houssam Nassif, {{<font color=a92b13>Kwang-Sung Jun</font>}}{{</br>}}
+  Kapilan Balagopalan⁼⁼, Yinan Li⁼⁼, Tuan Ngo Nguyen, Yao Zhao, Anton Daitche, Houssam Nassif, {{<font color=a92b13>Kwang-Sung Jun</font>}}{{</br>}}
   In International Conference on Machine Learning (*ICML*), 2026{{</br>}}
+  [https://arxiv.org/abs/2602.03972 \[arxiv\]]
 
   *Instance-Dependent Fixed-Budget Pure Exploration in Reinforcement Learning*{{</br>}}
   Yeongjong Kim, Yeoneung Kim, {{<font color=a92b13>Kwang-Sung Jun</font>}}{{</br>}}
   In International Conference on Learning Representations (*ICLR*), 2026{{</br>}}
+  [https://openreview.net/forum?id=xIycolc5Xw \[official\]]
 
   *GL-LowPopArt: A Nearly Instance-Wise Minimax Estimator for (Adaptive) Generalized Linear Low-Rank Trace Regression*{{</br>}}
   Junghyun Lee, Kyoungseok Jang, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Milan Vojnovic, Se-Young Yun{{</br>}}
   In International Conference on Artificial Intelligence and Statistics (*AISTATS*), 2026{{</br>}} 
-  [https://arxiv.org/abs/2506.03074 \[arxiv\]] 
+  [https://arxiv.org/abs/2506.03074 \[arxiv\]] [https://openreview.net/forum?id=mMxiIP3Gxu \[official\]]
   
 == 2025
 
   *Fixing the Loose Brake: Exponential-Tailed Stopping Time in Best Arm Identification*{{</br>}}
-  Kapilan Balagopalan, Tuan Ngo Nguyen, Yao Zhao, {{<font color=a92b13>Kwang-Sung Jun</font></br>}}
+  Kapilan Balagopalan⁼⁼, Tuan Ngo Nguyen⁼⁼, Yao Zhao⁼⁼, {{<font color=a92b13>Kwang-Sung Jun</font></br>}}
   In International Conference on Machine Learning (*ICML*), 2025{{</br>}}
-  [https://arxiv.org/abs/2411.01808 \[arxiv\]]
+  [https://arxiv.org/abs/2411.01808 \[arxiv\]] [https://openreview.net/forum?id=DF2JV03T6q \[official\]]
 
   *Improved Offline Contextual Bandits with Second-Order Bounds: Betting and Freezing*{{</br>}} 
   J. Jon Ryu, Jeongyeol Kwon, Benjamin Koppe, {{<font color=a92b13>Kwang-Sung Jun</font></br>}}
   In Conference on Learning Theory (*COLT*), 2025{{</br>}}
-  [https://arxiv.org/abs/2502.10826 \[arxiv\]]
+  [https://arxiv.org/abs/2502.10826 \[arxiv\]] [https://proceedings.mlr.press/v291/ryu25a.html \[official\]]
 
 
   *HAVER: Instance-Dependent Error Bounds for Maximum Mean Estimation and Applications to Q-Learning*{{</br>}}
   Tuan Ngo Nguyen, Jay Barrett, {{<font color=a92b13>Kwang-Sung Jun</font></br>}}
   In International Conference on Artificial Intelligence and Statistics (*AISTATS*), 2025{{</br>}} 
-  [https://arxiv.org/abs/2411.00405 \[arxiv\]]
+  [https://arxiv.org/abs/2411.00405 \[arxiv\]] [https://proceedings.mlr.press/v258/nguyen25b.html \[official\]]
 
   *Minimum Empirical Divergence for Sub-Gaussian Linear Bandits*{{</br>}}
   Kapilan Balagopalan, {{<font color=a92b13>Kwang-Sung Jun</font></br>}}
   In International Conference on Artificial Intelligence and Statistics (*AISTATS*), 2025{{</br>}} 
-  [https://arxiv.org/abs/2411.00229 \[arxiv\]]
+  [https://arxiv.org/abs/2411.00229 \[arxiv\]] [https://proceedings.mlr.press/v258/balagopalan25a.html \[official\]]
   
 == 2024
 
@@ -108,7 +112,7 @@ I will identify a paper by (first author's last name) \+ (year) \+ (first word o
   Junghyun Lee, Se-Young Yun, and {{<font color=a92b13>Kwang-Sung Jun</font></br>}}
   In Neural Information Processing Systems (*NeurIPS*), 2024{{</br>
   <font color=C02A41><b>Oral presentation</b></font>}} at ICML'24 Workshop on Aligning Reinforcement Learning Experimentalists and Theorists  {{</br>}}
-  [https://arxiv.org/abs/2407.13977 \[arxiv\]]
+  [https://arxiv.org/abs/2407.13977 \[arxiv\]] [https://openreview.net/forum?id=MDdOQayWTA \[official\]]
 
   *Adaptive Experimentation When You Can't Experiment*{{</br>}}
   Yao Zhao, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Tanner Fiez, Lalit Jain    {{</br>}}
