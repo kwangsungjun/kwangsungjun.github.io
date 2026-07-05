@@ -44,6 +44,13 @@ I will identify a paper by (first author's last name) \+ (year) \+ (first word o
 
 == Preprints
 
+  *ε-Good Action Identification in Fixed-Budget Monte Carlo Tree Search*{{</br>}}
+  Yinan Li, Tuan Nguyen, {{<font color=a92b13>Kwang-Sung Jun</font></br>}}
+  [https://arxiv.org/abs/2605.11324 \[arxiv\]]
+
+  *Nearly Optimal Active Preference Learning and Its Application to LLM Alignment*{{</br>}}
+  Yao Zhao, {{<font color=a92b13>Kwang-Sung Jun</font></br>}}
+  [https://arxiv.org/abs/2602.01581 \[arxiv\]]
 
   *Alignment as Distribution Learning: Your Preference Model is Explicitly a Language Model*{{</br>}}
   Jihun Yun, Juno Kim, Jongho Park, Junhyuck Kim, Jongha Jon Ryu, Jaewoong Cho, {{<font color=a92b13>Kwang-Sung Jun</font></br>}}
@@ -53,11 +60,14 @@ I will identify a paper by (first author's last name) \+ (year) \+ (first word o
   Ryan Koo, Ian Yang, Vipul Raheja, Mingyi Hong, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Dongyeop Kang{{</br>}}
   [https://arxiv.org/abs/2504.16272 \[arxiv\]]
 
-  *Achieving adaptivity and optimality for multi-armed bandits using Exponential-Kullback Leiblier Maillard Sampling*{{</br>}}
-  Hao Qin, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Chicheng Zhang{{</br>}}
-  [https://arxiv.org/abs/2502.14379 \[arxiv\]]
-
 == 2026
+
+  *Achieving Adaptivity and Optimality for Multi-armed Bandits using Exponential-Kullback Leibler Maillard Sampling*{{</br>}}
+  Hao Qin, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Chicheng Zhang{{</br>}}
+  In Transactions on Machine Learning Research (*TMLR*), 2026{{</br>}}
+  [https://arxiv.org/abs/2502.14379 \[arxiv\]]
+  [https://openreview.net/forum?id=IuVkRmecVp \[official\]]
+
   *Second-Order Bounds for \[0,1\]-Valued Regression via Betting Loss*{{</br>}}
   Yinan Li, Sungjoon Yoon, Ethan Huang, {{<font color=a92b13>Kwang-Sung Jun</font>}}{{</br>}}
   In Conference on Learning Theory (*COLT*), 2026{{</br>}}
