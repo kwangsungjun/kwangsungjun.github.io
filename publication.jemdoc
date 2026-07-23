@@ -44,6 +44,10 @@ I will identify a paper by (first author's last name) \+ (year) \+ (first word o
 
 == Preprints
 
+  *Provably Efficient Regularized Online RLHF with Generalized Bilinear Preferences*{{</br>}}
+  Junghyun Lee, Minju Hong, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Chulhee Yun, Se-Young Yun{{</br>}}
+  [https://arxiv.org/abs/2602.23116 \[arxiv\]]
+
   *ε-Good Action Identification in Fixed-Budget Monte Carlo Tree Search*{{</br>}}
   Yinan Li, Tuan Nguyen, {{<font color=a92b13>Kwang-Sung Jun</font></br>}}
   [https://arxiv.org/abs/2605.11324 \[arxiv\]]
