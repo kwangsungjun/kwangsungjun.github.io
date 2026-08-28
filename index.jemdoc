@@ -17,11 +17,11 @@
 
 Kwang-Sung Jun{{</br>}}
 Associate Professsor{{</br>}}
-Department of Computer Science and Engineering{{</br>}}
 Graduate School of Artificial Intelligence{{</br>}}
+Department of Computer Science and Engineering{{</br>}}
 Pohang University of Science and Technology{{</br>}}
 
-kwangsungjun å† postech.ac.kr{{</br>}}
+kwangsungjun@postech.ac.kr{{</br>}}
 RIST 4-dong 4410-ho, 67 Cheongam-ro, Pohang 37673 South Korea{{</br>}}
 [https://scholar.google.com/citations?user=VgvC7o8AAAAJ&hl=en Google scholar]{{</br>}}
 [./data/kjun-cv.pdf CV]
@@ -35,11 +35,23 @@ RIST 4-dong 4410-ho, 67 Cheongam-ro, Pohang 37673 South Korea{{</br>}}
 # Background in ML theory is a plus. Your undergrad major does not matter, but minimal CS background is required (we can discuss it further). For this position, you should expect to spend a lot of time on mathematical research (e.g., algorithms with performance guarantees) as opposed to tuning hyperparameters on benchmark datasets. This, however, does not mean we will only stick to theories. We will develop performant algorithms and test them in real-world tasks. You can find my email from my webpage and send me an email if you are interested.
 # </font>}}
 
+
+{{<font color=D95B43><b>  
+I am currently actively recruiting self-motivated students for MS or PhD.
+I am also recruiting unpaid undergraduate interns, preferably onsite.
+</b></font>}}
+{{<font color=D95B43><b>  
+Shoot me an email if you are interested!</p>
+</b></font>}}
+
 == Intro
 
-Broadly, I am interested in interactive machine learning (IML), which includes reinforcement learning, bandits, Bayesian optimization, and active learning (see below for some introduction of these). I also develop novel confidence bounds that often becomes key tools for constructing efficient IML algorithms. Recently, I have been looking into IML problems arising from LLMs.
+Broadly, I am interested in interactive machine learning (IML), which includes reinforcement learning, bandits, Bayesian optimization, and active learning (see below for some introduction of these). I also develop novel and practical confidence bounds that often becomes key tools for constructing efficient IML algorithms. 
+
+Recently, I have been looking into IML problems arising from LLMs, including alignment, post-training, reasoning, and test-time scaling.
 
 I also work closely with Krafton AI on post training of LLMs and with Meta Platforms on efficient A/B testing systems. Previously, I was an assistant professor at the University of Arizona.
+
 
 # Before coming to UA, I did a postdoc with [http://francesco.orabona.com/ Francesco Orabona] (who I call the 'master of coin') at Boston University.
 # Before then, I spent 9 years at UW-Madison for a PhD degree with [http://pages.cs.wisc.edu/~jerryzhu/ Xiaojin (Jerry) Zhu] and a postdoc position at [https://discovery.wisc.edu/ Wisconsin Institute for Discovery] with [http://nowak.ece.wisc.edu Robert Nowak], [https://willett.psd.uchicago.edu/ Rebecca Willett], and [http://pages.cs.wisc.edu/~swright/ Stephen Wright].
@@ -51,7 +63,9 @@ I also work closely with Krafton AI on post training of LLMs and with Meta Platf
   #I also had some fun in the past with machine learning applied to psychology.  
 
 == News
-
+- Apr'26-Jul'26: I AISTATS, 1 ICLR, 2 ICML, 1 COLT, 1 TMLR
+- Jan'26: I have moved to POSTECH, which is one of the top research universities in South Korea!
+- Jul'25: 1 paper in ICML and 1 paper in COLT. 
 - Jan'25: 2 papers accepted to AISTATS! (i) Linear extension of the MED algorithm (or Maillard sampling) that is randomized, off-policy-friendly, and nearly optimal. (ii) Estimating the value of the maximum mean among K arms (rather than estimating who achieves it) that can surpass the performance of the oracle who knows the best arm and reports its sample mean! 
 - Nov'24: I gave a talk at UW-Madison SILO on 'Confidence Sequences via Online Learning' ([https://silo.wisc.edu/talk/09122024-2-2-2-2-2/ video link]). 
 - Oct'24: 2 papers accepted to NeurIPS: (i) led by Yao, bandit experiments with instrumental variables, so you can experiment when you can't experiment! (ii) led by Junghyun, unified confidence sets for generalized linear models and finally removing the norm dependence in logistic bandits with novel regret analysis!
@@ -77,27 +91,28 @@ I also work closely with Krafton AI on post training of LLMs and with Meta Platf
 
 == Interactive machine learning
 
-IML is an umbrella term for ML problems where the agent's decision is an *action* that affects which data\/feedback s\/he gets to receive as opposed to *prediction* that does not.
+Interactive machine learning (IML) is an umbrella term for ML problems where the agent's decision is an *action* that affects which data\/feedback s\/he gets to receive as opposed to *prediction* that does not.
 For example, recommending a product is an *action* since we get click feedback for the recommended product, not for the unrecommended products (and we don't know what would have happened if we recommended another item). 
 Forecasting tomorrow's weather is a *prediction* since the weather tomorrow is not affected by which forecast we have made.
-Basically, if you are getting feedback on GenAI models, then the right approach is to view the generated outputs as 'action' and leverage tools from interactive machine learning!
+
+If you are getting feedback (i.e., correct/incorrect) on the output from GenAI models (e.g., a response from an LLM), then the right approach is to view the generated outputs as 'action' and leverage tools from interactive machine learning!
 # I tend to revolve around simple problems.
 
-== Bandit problems
-
-The multi-armed bandit problem is a /state-less/ version of reinforcement learning (RL).
-Informally speaking, bandit algorithms learn to make better decisions over time in a feedback-loop.
-The decisions necessarily affect the feedback information, and the feedback data collected so far is no longer i.i.d.; most traditional learning guarantees do not apply.
-But why study an easier version of RL while RL seems to be solving all the problems these day?
-
- - Being a very simple problem, you can develop algorithms with precise theoretical guarantees and superior performance compared to RL algorithms applied to bandit problems. These guarantees include precise instance-dependent guarantees (as opposed to the worst-case or minimax guarantees) where some algorithms even achieve optimal rates with exact numerical constants!
- - Bayesian optimization's convergence guarantees are analyzed in the bandit setup.
- - Developments in bandits are being transferred to propose new RL algorithms with strong guarantees.
- - Monte Carlo tree search (MCTS) algorithm used in AlphaGo was originated from the paper [https://dl.acm.org/doi/10.1007/11871842_29 "bandit based Monte-Carlo planning"], and MCTS made a revolutionary performance improvement in solving Go since its appearance. UCT was extended to PUCT and used in AlphaGo and numerous other successful RL applications from DeepMind and other applications (e.g., [https://www.nature.com/articles/nature25978 chemical synthesis]).
- - Bandit algorithms were used to improve the computational complexity of k-medoids problem (similar to k-Means) dramatically; e.g., [https://proceedings.neurips.cc/paper/2019/file/c4de8ced6214345614d33fb0b16a8acd-Paper.pdf this paper].
-
-Bandits are actively being studied in both [https://tor-lattimore.com/downloads/book/book.pdf theory] and [http://rob.schapire.net/papers/www10.pdf applications] including [https://mwtds.azurewebsites.net/ deployable web service] and [https://arxiv.org/abs/1603.06560 hyperparameter optimization] (check [https://docs.ray.io/en/master/tune/api_docs/schedulers.html\#tune-scheduler-hyperband ray implementation]).
-Also, the cartoon caption contest of New Yorker is using bandit algorithms to efficiently crowdsource caption evaluations ([http://nextml.org/2015/12/04/new-yorker.html this article])!
+# == Bandit problems
+# 
+# The multi-armed bandit problem is a /state-less/ version of reinforcement learning (RL).
+# Informally speaking, bandit algorithms learn to make better decisions over time in a feedback-loop.
+# The decisions necessarily affect the feedback information, and the feedback data collected so far is no longer i.i.d.; most traditional learning guarantees do not apply.
+# But why study an easier version of RL while RL seems to be solving all the problems these day?
+# 
+#  - Being a very simple problem, you can develop algorithms with precise theoretical guarantees and superior performance compared to RL algorithms applied to bandit problems. These guarantees include precise instance-dependent guarantees (as opposed to the worst-case or minimax guarantees) where some algorithms even achieve optimal rates with exact numerical constants!
+#  - Bayesian optimization's convergence guarantees are analyzed in the bandit setup.
+#  - Developments in bandits are being transferred to propose new RL algorithms with strong guarantees.
+#  - Monte Carlo tree search (MCTS) algorithm used in AlphaGo was originated from the paper [https://dl.acm.org/doi/10.1007/11871842_29 "bandit based Monte-Carlo planning"], and MCTS made a revolutionary performance improvement in solving Go since its appearance. UCT was extended to PUCT and used in AlphaGo and numerous other successful RL applications from DeepMind and other applications (e.g., [https://www.nature.com/articles/nature25978 chemical synthesis]).
+#  - Bandit algorithms were used to improve the computational complexity of k-medoids problem (similar to k-Means) dramatically; e.g., [https://proceedings.neurips.cc/paper/2019/file/c4de8ced6214345614d33fb0b16a8acd-Paper.pdf this paper].
+# 
+# Bandits are actively being studied in both [https://tor-lattimore.com/downloads/book/book.pdf theory] and [http://rob.schapire.net/papers/www10.pdf applications] including [https://mwtds.azurewebsites.net/ deployable web service] and [https://arxiv.org/abs/1603.06560 hyperparameter optimization] (check [https://docs.ray.io/en/master/tune/api_docs/schedulers.html\#tune-scheduler-hyperband ray implementation]).
+# Also, the cartoon caption contest of New Yorker is using bandit algorithms to efficiently crowdsource caption evaluations ([http://nextml.org/2015/12/04/new-yorker.html this article])!
 
 == Service
 

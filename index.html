@@ -37,23 +37,43 @@ try {
 <img src="./imgs/2024 - dsc08267 resized v3.jpg" alt="profile_pic" width="280px" height="HEIGHTpx" />&nbsp;</td>
 <td align="left"><p>Kwang-Sung Jun</br>
 Associate Professsor</br>
-Department of Computer Science and Engineering</br>
 Graduate School of Artificial Intelligence</br>
+Department of Computer Science and Engineering</br>
 Pohang University of Science and Technology</br>
 </p>
-<p>kwangsungjun å† postech.ac.kr</br>
+<p>kwangsungjun@postech.ac.kr</br>
 RIST 4-dong 4410-ho, 67 Cheongam-ro, Pohang 37673 South Korea</br>
 <a href="https://scholar.google.com/citations?user=VgvC7o8AAAAJ&amp;hl=en" target=&ldquo;blank&rdquo;>Google scholar</a></br>
 <a href="./data/kjun-cv.pdf" target=&ldquo;blank&rdquo;>CV</a>
 </p>
 </td></tr></table>
+<p><font color=D95B43><b>  
+I am currently actively recruiting self-motivated students for MS or PhD.
+I am also recruiting unpaid undergraduate interns, preferably onsite.
+</b></font>
+</p>
+<p><font color=D95B43><b>  
+Shoot me an email if you are interested!</p>
+</b></font>
+</p>
 <h2>Intro</h2>
-<p>Broadly, I am interested in interactive machine learning (IML), which includes reinforcement learning, bandits, Bayesian optimization, and active learning (see below for some introduction of these). I also develop novel confidence bounds that often becomes key tools for constructing efficient IML algorithms. Recently, I have been looking into IML problems arising from LLMs.
+<p>Broadly, I am interested in interactive machine learning (IML), which includes reinforcement learning, bandits, Bayesian optimization, and active learning (see below for some introduction of these). I also develop novel and practical confidence bounds that often becomes key tools for constructing efficient IML algorithms. 
+</p>
+<p>Recently, I have been looking into IML problems arising from LLMs, including alignment, post-training, reasoning, and test-time scaling.
 </p>
 <p>I also work closely with Krafton AI on post training of LLMs and with Meta Platforms on efficient A/B testing systems. Previously, I was an assistant professor at the University of Arizona.
 </p>
 <h2>News</h2>
 <ul>
+<li><p>Apr&rsquo;26-Jul&rsquo;26: I AISTATS, 1 ICLR, 2 ICML, 1 COLT, 1 TMLR
+</p>
+</li>
+<li><p>Jan&rsquo;26: I have moved to POSTECH, which is one of the top research universities in South Korea!
+</p>
+</li>
+<li><p>Jul&rsquo;25: 1 paper in ICML and 1 paper in COLT. 
+</p>
+</li>
 <li><p>Jan&rsquo;25: 2 papers accepted to AISTATS! (i) Linear extension of the MED algorithm (or Maillard sampling) that is randomized, off-policy-friendly, and nearly optimal. (ii) Estimating the value of the maximum mean among K arms (rather than estimating who achieves it) that can surpass the performance of the oracle who knows the best arm and reports its sample mean! 
 </p>
 </li>
@@ -87,37 +107,12 @@ RIST 4-dong 4410-ho, 67 Cheongam-ro, Pohang 37673 South Korea</br>
 </li>
 </ul>
 <h2>Interactive machine learning</h2>
-<p>IML is an umbrella term for ML problems where the agent's decision is an <b>action</b> that affects which data/feedback s/he gets to receive as opposed to <b>prediction</b> that does not.
+<p>Interactive machine learning (IML) is an umbrella term for ML problems where the agent's decision is an <b>action</b> that affects which data/feedback s/he gets to receive as opposed to <b>prediction</b> that does not.
 For example, recommending a product is an <b>action</b> since we get click feedback for the recommended product, not for the unrecommended products (and we don't know what would have happened if we recommended another item). 
 Forecasting tomorrow's weather is a <b>prediction</b> since the weather tomorrow is not affected by which forecast we have made.
-Basically, if you are getting feedback on GenAI models, then the right approach is to view the generated outputs as 'action&rsquo; and leverage tools from interactive machine learning!
+</p>
+<p>If you are getting feedback (i.e., correct/incorrect) on the output from GenAI models (e.g., a response from an LLM), then the right approach is to view the generated outputs as 'action&rsquo; and leverage tools from interactive machine learning!
 
-</p>
-<h2>Bandit problems</h2>
-<p>The multi-armed bandit problem is a <i>state-less</i> version of reinforcement learning (RL).
-Informally speaking, bandit algorithms learn to make better decisions over time in a feedback-loop.
-The decisions necessarily affect the feedback information, and the feedback data collected so far is no longer i.i.d.; most traditional learning guarantees do not apply.
-But why study an easier version of RL while RL seems to be solving all the problems these day?
-</p>
-<ul>
-<li><p>Being a very simple problem, you can develop algorithms with precise theoretical guarantees and superior performance compared to RL algorithms applied to bandit problems. These guarantees include precise instance-dependent guarantees (as opposed to the worst-case or minimax guarantees) where some algorithms even achieve optimal rates with exact numerical constants!
-</p>
-</li>
-<li><p>Bayesian optimization's convergence guarantees are analyzed in the bandit setup.
-</p>
-</li>
-<li><p>Developments in bandits are being transferred to propose new RL algorithms with strong guarantees.
-</p>
-</li>
-<li><p>Monte Carlo tree search (MCTS) algorithm used in AlphaGo was originated from the paper <a href="https://dl.acm.org/doi/10.1007/11871842_29" target=&ldquo;blank&rdquo;>&ldquo;bandit based Monte-Carlo planning&rdquo;</a>, and MCTS made a revolutionary performance improvement in solving Go since its appearance. UCT was extended to PUCT and used in AlphaGo and numerous other successful RL applications from DeepMind and other applications (e.g., <a href="https://www.nature.com/articles/nature25978" target=&ldquo;blank&rdquo;>chemical synthesis</a>).
-</p>
-</li>
-<li><p>Bandit algorithms were used to improve the computational complexity of k-medoids problem (similar to k-Means) dramatically; e.g., <a href="https://proceedings.neurips.cc/paper/2019/file/c4de8ced6214345614d33fb0b16a8acd-Paper.pdf" target=&ldquo;blank&rdquo;>this paper</a>.
-</p>
-</li>
-</ul>
-<p>Bandits are actively being studied in both <a href="https://tor-lattimore.com/downloads/book/book.pdf" target=&ldquo;blank&rdquo;>theory</a> and <a href="http://rob.schapire.net/papers/www10.pdf" target=&ldquo;blank&rdquo;>applications</a> including <a href="https://mwtds.azurewebsites.net/" target=&ldquo;blank&rdquo;>deployable web service</a> and <a href="https://arxiv.org/abs/1603.06560" target=&ldquo;blank&rdquo;>hyperparameter optimization</a> (check <a href="https://docs.ray.io/en/master/tune/api_docs/schedulers.html#tune-scheduler-hyperband" target=&ldquo;blank&rdquo;>ray implementation</a>).
-Also, the cartoon caption contest of New Yorker is using bandit algorithms to efficiently crowdsource caption evaluations (<a href="http://nextml.org/2015/12/04/new-yorker.html" target=&ldquo;blank&rdquo;>this article</a>)!
 </p>
 <h2>Service</h2>
 <ul>
@@ -133,7 +128,7 @@ Also, the cartoon caption contest of New Yorker is using bandit algorithms to ef
 </ul>
 <div id="footer">
 <div id="footer-text">
-Page generated 2026-07-05 22:41:54 KST, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+Page generated 2026-08-28 19:27:57 KST, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </td>
