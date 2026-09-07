@@ -41,12 +41,14 @@ I will identify a paper by (first author's last name) \+ (year) \+ (first word o
 
 #, +jun16graph+ (active learning)
 
-I've decided to put all the publications in my [iml.postech.ac.kr lab website]
+{{<font color=D95B43><b> ======== </br> I will not maintain this page anymore!</b></font>}}
+*Please see my [https://iml.postech.ac.kr lab website]'s [https://iml.postech.ac.kr/publications/ publications] page for more recent updates.* {{</br><font color=D95B43><b> ======== </b></font>}}
+
 
 == Preprints
 
   *Provably Efficient Regularized Online RLHF with Generalized Bilinear Preferences*{{</br>}}
-  Junghyun Lee, Minju Hong, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Chulhee Yun, Se-Young Yun{{</br>}}
+  Junghyun Lee, Minju Hong, {{<font color=a92b13>Kwang-Sung Jun</font>}}, Chulhee Yun, Se-Young Yun asdfasdf{{</br>}}
   [https://arxiv.org/abs/2602.23116 \[arxiv\]]
 
   *ε-Good Action Identification in Fixed-Budget Monte Carlo Tree Search*{{</br>}}
