@@ -35,22 +35,17 @@ RIST 4-dong 4410-ho, 67 Cheongam-ro, Pohang 37673 South Korea{{</br>}}
 # Background in ML theory is a plus. Your undergrad major does not matter, but minimal CS background is required (we can discuss it further). For this position, you should expect to spend a lot of time on mathematical research (e.g., algorithms with performance guarantees) as opposed to tuning hyperparameters on benchmark datasets. This, however, does not mean we will only stick to theories. We will develop performant algorithms and test them in real-world tasks. You can find my email from my webpage and send me an email if you are interested.
 # </font>}}
 
-
-{{<font color=D95B43><b>  
-I am currently actively recruiting self-motivated students for MS or PhD.
-I am also recruiting unpaid undergraduate interns, preferably onsite.
-</b></font>}}
-{{<font color=D95B43><b>  
-Shoot me an email if you are interested!</p>
-</b></font>}}
+*I am actively recruiting -- please see my [https://iml.postech.ac.kr/ lab page] for more.*
 
 == Intro
 
-Broadly, I am interested in interactive machine learning (IML), which includes reinforcement learning, bandits, Bayesian optimization, and active learning (see below for some introduction of these). I also develop novel and practical confidence bounds that often becomes key tools for constructing efficient IML algorithms. 
+I am mainly interested in interactive machine learning (IML) and key tools for it such as confidence bounds. I am also interested in IML problems arising from LLMs, including alignment, post-training, reasoning, and test-time scaling.
 
-Recently, I have been looking into IML problems arising from LLMs, including alignment, post-training, reasoning, and test-time scaling.
+I love theory, but I am interested in how theory provides new insight and algorithms for practitioners. As such, I also work closely with Krafton AI on various aspects of LLMs and with Meta Platforms on efficient A/B testing systems. 
 
-I also work closely with Krafton AI on post training of LLMs and with Meta Platforms on efficient A/B testing systems. Previously, I was an assistant professor at the University of Arizona.
+Previously, I spent several wonderful years as an assistant professor at the University of Arizona.
+
+I maintain most of my research/academic stuff in my [https://iml.postech.ac.kr/ lab page].
 
 
 # Before coming to UA, I did a postdoc with [http://francesco.orabona.com/ Francesco Orabona] (who I call the 'master of coin') at Boston University.
@@ -62,15 +57,15 @@ I also work closely with Krafton AI on post training of LLMs and with Meta Platf
   #My research is centered around sequential decision-making in feedback loops (i.e., the multi-armed bandit problem) and online (machine, not human) learning.
   #I also had some fun in the past with machine learning applied to psychology.  
 
-== News
-- Apr'26-Jul'26: I AISTATS, 1 ICLR, 2 ICML, 1 COLT, 1 TMLR
-- Jan'26: I have moved to POSTECH, which is one of the top research universities in South Korea!
-- Jul'25: 1 paper in ICML and 1 paper in COLT. 
-- Jan'25: 2 papers accepted to AISTATS! (i) Linear extension of the MED algorithm (or Maillard sampling) that is randomized, off-policy-friendly, and nearly optimal. (ii) Estimating the value of the maximum mean among K arms (rather than estimating who achieves it) that can surpass the performance of the oracle who knows the best arm and reports its sample mean! 
-- Nov'24: I gave a talk at UW-Madison SILO on 'Confidence Sequences via Online Learning' ([https://silo.wisc.edu/talk/09122024-2-2-2-2-2/ video link]). 
-- Oct'24: 2 papers accepted to NeurIPS: (i) led by Yao, bandit experiments with instrumental variables, so you can experiment when you can't experiment! (ii) led by Junghyun, unified confidence sets for generalized linear models and finally removing the norm dependence in logistic bandits with novel regret analysis!
-- May'24: 2 papers accepted to ICML: (i) adapting to the unknown noise level in linear bandits (ii) low-rank matrix recovery with better guarantees than the nuclear-norm regularization, how we can perform design of experiments for better subspace recovery, and how to solve low-rank bandits with them!
-- May'24: 1 paper accepted to COLT on PAC-Bayes bounds with a different divergence that is better than KL!
+# == News
+# - Apr'26-Jul'26: I AISTATS, 1 ICLR, 2 ICML, 1 COLT, 1 TMLR
+# - Jan'26: I have moved to POSTECH, which is one of the top research universities in South Korea!
+# - Jul'25: 1 paper in ICML and 1 paper in COLT. 
+# - Jan'25: 2 papers accepted to AISTATS! (i) Linear extension of the MED algorithm (or Maillard sampling) that is randomized, off-policy-friendly, and nearly optimal. (ii) Estimating the value of the maximum mean among K arms (rather than estimating who achieves it) that can surpass the performance of the oracle who knows the best arm and reports its sample mean! 
+# - Nov'24: I gave a talk at UW-Madison SILO on 'Confidence Sequences via Online Learning' ([https://silo.wisc.edu/talk/09122024-2-2-2-2-2/ video link]). 
+# - Oct'24: 2 papers accepted to NeurIPS: (i) led by Yao, bandit experiments with instrumental variables, so you can experiment when you can't experiment! (ii) led by Junghyun, unified confidence sets for generalized linear models and finally removing the norm dependence in logistic bandits with novel regret analysis!
+# - May'24: 2 papers accepted to ICML: (i) adapting to the unknown noise level in linear bandits (ii) low-rank matrix recovery with better guarantees than the nuclear-norm regularization, how we can perform design of experiments for better subspace recovery, and how to solve low-rank bandits with them!
+# - May'24: 1 paper accepted to COLT on PAC-Bayes bounds with a different divergence that is better than KL!
 # - Feb'24: I will serve as an action editor for the journal /Machine Learning/.
 # - Jan'24: 1 paper accepted to AISTATS on converting a regret bound into a tight confidence set. Congrats Junghyun!
 # - Dec'23: 1 paper accepted to NeurIPS. Congrats Hao Qin!
@@ -89,14 +84,14 @@ I also work closely with Krafton AI on post training of LLMs and with Meta Platf
 # - Oct'19: Our paper on parameter-free SGD with local differential privacy is accepted to PriML'19 (worshop at NeurIPS).
 
 
-== Interactive machine learning
-
-Interactive machine learning (IML) is an umbrella term for ML problems where the agent's decision is an *action* that affects which data\/feedback s\/he gets to receive as opposed to *prediction* that does not.
-For example, recommending a product is an *action* since we get click feedback for the recommended product, not for the unrecommended products (and we don't know what would have happened if we recommended another item). 
-Forecasting tomorrow's weather is a *prediction* since the weather tomorrow is not affected by which forecast we have made.
-
-If you are getting feedback (i.e., correct/incorrect) on the output from GenAI models (e.g., a response from an LLM), then the right approach is to view the generated outputs as 'action' and leverage tools from interactive machine learning!
-# I tend to revolve around simple problems.
+# == Interactive machine learning
+# 
+# Interactive machine learning (IML) is an umbrella term for ML problems where the agent's decision is an *action* that affects which data\/feedback s\/he gets to receive as opposed to *prediction* that does not.
+# For example, recommending a product is an *action* since we get click feedback for the recommended product, not for the unrecommended products (and we don't know what would have happened if we recommended another item). 
+# Forecasting tomorrow's weather is a *prediction* since the weather tomorrow is not affected by which forecast we have made.
+# 
+# If you are getting feedback (i.e., correct/incorrect) on the output from GenAI models (e.g., a response from an LLM), then the right approach is to view the generated outputs as 'action' and leverage tools from interactive machine learning!
+# # I tend to revolve around simple problems.
 
 # == Bandit problems
 # 
@@ -116,56 +111,5 @@ If you are getting feedback (i.e., correct/incorrect) on the output from GenAI m
 
 == Service
 
-- Senior Area Chair: ICML, AAAI
-- Area chair: COLT, ALT, NeurIPS
-- Program committee: AISTATS
-
-# # jemdoc: menu{MENU}{index.html}, showsource
-# = jemdoc -- light markup
-# [https://jemnz.com/ Jacob Mattingley] ([www@jemnz.com])
-# 
-# jemdoc is a light text-based markup language designed for creating 
-# websites. It takes a text file written with [example.html jemdoc markup], an
-# optional configuration file and an optional menu file, and makes static websites
-# that look something like this one, [https://jemnz.com that one] or
-# [http://www.stanford.edu/class/ee364a/ another one].
-# 
-# jemdoc was inspired by [http://www.methods.co.nz/asciidoc/ AsciiDoc], which is a
-# text document format. AsciiDoc is great, and lots of the ideas from AsciiDoc are
-# copied in jemdoc. The main differences are that jemdoc is simpler (you could say
-# deliberately feature poor) and has more consistent syntax.
-# 
-# [download.html Download jemdoc.]
-# 
-# ~~~
-# Version +0.7.3+ was released on 2012-11-27 with some small bug fixes.
-# See the [revision.html release notes].
-# ~~~
-# 
-# [https://github.com/jem/jemdoc Contribute to jemdoc on github.]
-# 
-# == Goals
-# - Simple, consistent syntax.
-# - $\mbox{\LaTeX}$ [latex.html equation support].
-# - [tables.html Table support].
-# - Portability. The (single) jemdoc [http://www.python.org/ Python] file \+
-#   single css file \+ your input file {{&rarr;}} html.
-# - Based on [http://www.w3.org/Style/CSS/ CSS] so formatting specifics are
-#   independent of jemdoc.
-# - Production of clean,
-#   [http://validator.w3.org/check/referer
-#   standards-compliant] [http://www.w3.org/TR/xhtml11/ XHTML 1.1].
-# - Minimal bells and whistles, but simple fallback to raw html if required.
-# 
-# == License
-# Copyright \C 2007--2012 Jacob Mattingley.
-# 
-# jemdoc is free software; you can redistribute it and\/or modify it under the
-# terms of the [http://www.gnu.org/licenses/gpl-3.0.html GNU General Public
-# License] as published by the Free Software Foundation; either version 3 of the
-# License, or (at your option) any later version.
-# 
-# jemdoc is distributed in the hope that it will be useful, but WITHOUT ANY
-# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
-# PARTICULAR PURPOSE. See the [http://www.gnu.org/licenses/gpl-3.0.html GNU
-# General Public License] for more details.
+- Senior Area Chair: ICML
+- Area chair: COLT, ALT, NeurIPS, AISTATS, ICLR
